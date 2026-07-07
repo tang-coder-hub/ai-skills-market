@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T17:05:26Z",
+  "updated": "2026-07-07T17:16:16Z",
   "since": "daily",
   "count": 50,
   "repos": [
@@ -44,7 +44,7 @@
       "owner": "Muqeet-Salam",
       "description": "",
       "language": "",
-      "total_stars": 37,
+      "total_stars": 38,
       "period_stars": 0,
       "url": "https://github.com/Muqeet-Salam/cosc-hackweek-day2-challenge",
       "category": "productivity",
@@ -76,6 +76,18 @@
       "price": "free"
     },
     {
+      "name": "autoremesher-blender-bridge",
+      "owner": "adriflex",
+      "description": "Blender bridge for AutoRemesher",
+      "language": "Python",
+      "total_stars": 29,
+      "period_stars": 0,
+      "url": "https://github.com/adriflex/autoremesher-blender-bridge",
+      "category": "productivity",
+      "rank": 7,
+      "price": "free"
+    },
+    {
       "name": "china-heritage-3d",
       "owner": "Sac-Y",
       "description": "这是我用 Fable 5 设计的中国古建筑网站",
@@ -84,18 +96,6 @@
       "period_stars": 0,
       "url": "https://github.com/Sac-Y/china-heritage-3d",
       "category": "data",
-      "rank": 7,
-      "price": "free"
-    },
-    {
-      "name": "autoremesher-blender-bridge",
-      "owner": "adriflex",
-      "description": "Blender bridge for AutoRemesher",
-      "language": "Python",
-      "total_stars": 28,
-      "period_stars": 0,
-      "url": "https://github.com/adriflex/autoremesher-blender-bridge",
-      "category": "productivity",
       "rank": 8,
       "price": "free"
     },
@@ -208,6 +208,18 @@
       "price": "free"
     },
     {
+      "name": "monolith-terrain",
+      "owner": "kaolti",
+      "description": "Interactive 3D topographic map — real-world elevation data rendered as a vintage USGS topo sheet with a sci-fi HUD. Three.js.",
+      "language": "JavaScript",
+      "total_stars": 10,
+      "period_stars": 0,
+      "url": "https://github.com/kaolti/monolith-terrain",
+      "category": "data",
+      "rank": 18,
+      "price": "free"
+    },
+    {
       "name": "funstat",
       "owner": "funstatbot",
       "description": "Funstat / Фанстат — Telegram-бот для анализа публичной активности, поиска упоминаний, групп, чатов и открытых данных пользователей в Telegram. OSINT-инструмент для проверки цифрового следа, Telegram-аналитики и быстрого поиска информации по открытым источникам",
@@ -216,7 +228,19 @@
       "period_stars": 0,
       "url": "https://github.com/funstatbot/funstat",
       "category": "productivity",
-      "rank": 18,
+      "rank": 19,
+      "price": "free"
+    },
+    {
+      "name": "riskguard",
+      "owner": "SilentFleetKK",
+      "description": "券商无关的开源交易风控层:仓位上限 · 回撤熔断 · 动态仓位(Kelly/波动率) · 防篡改审计 · 实时监控守护。补上量化五层积木唯一缺的一层,核心零依赖。",
+      "language": "Python",
+      "total_stars": 10,
+      "period_stars": 0,
+      "url": "https://github.com/SilentFleetKK/riskguard",
+      "category": "productivity",
+      "rank": 20,
       "price": "free"
     },
     {
@@ -228,19 +252,7 @@
       "period_stars": 0,
       "url": "https://github.com/thenativeweb/esdm",
       "category": "productivity",
-      "rank": 19,
-      "price": "free"
-    },
-    {
-      "name": "global-workspace-paper-zh",
-      "owner": "alchaincyf",
-      "description": "Anthropic「语言模型中的全局工作空间」论文中文全译 | Chinese translation of Anthropic's Global Workspace paper (2026)",
-      "language": "",
-      "total_stars": 10,
-      "period_stars": 0,
-      "url": "https://github.com/alchaincyf/global-workspace-paper-zh",
-      "category": "productivity",
-      "rank": 20,
+      "rank": 21,
       "price": "free"
     },
     {
@@ -252,7 +264,19 @@
       "period_stars": 0,
       "url": "https://github.com/bagtele/telegram-reporting-bot",
       "category": "design",
-      "rank": 21,
+      "rank": 22,
+      "price": "free"
+    },
+    {
+      "name": "global-workspace-paper-zh",
+      "owner": "alchaincyf",
+      "description": "Anthropic「语言模型中的全局工作空间」论文中文全译 | Chinese translation of Anthropic's Global Workspace paper (2026)",
+      "language": "",
+      "total_stars": 10,
+      "period_stars": 0,
+      "url": "https://github.com/alchaincyf/global-workspace-paper-zh",
+      "category": "productivity",
+      "rank": 23,
       "price": "free"
     },
     {
@@ -264,19 +288,7 @@
       "period_stars": 0,
       "url": "https://github.com/NEFORCEO/djo",
       "category": "productivity",
-      "rank": 22,
-      "price": "free"
-    },
-    {
-      "name": "monolith-terrain",
-      "owner": "kaolti",
-      "description": "Interactive 3D topographic map — real-world elevation data rendered as a vintage USGS topo sheet with a sci-fi HUD. Three.js.",
-      "language": "JavaScript",
-      "total_stars": 9,
-      "period_stars": 0,
-      "url": "https://github.com/kaolti/monolith-terrain",
-      "category": "data",
-      "rank": 23,
+      "rank": 24,
       "price": "free"
     },
     {
@@ -288,7 +300,19 @@
       "period_stars": 0,
       "url": "https://github.com/chaodeng060-source/period-tracker",
       "category": "productivity",
-      "rank": 24,
+      "rank": 25,
+      "price": "free"
+    },
+    {
+      "name": "claude-skills-fable-opus",
+      "owner": "NUX-Design",
+      "description": "",
+      "language": "Shell",
+      "total_stars": 9,
+      "period_stars": 0,
+      "url": "https://github.com/NUX-Design/claude-skills-fable-opus",
+      "category": "productivity",
+      "rank": 26,
       "price": "free"
     },
     {
@@ -300,7 +324,7 @@
       "period_stars": 0,
       "url": "https://github.com/tonyd2wild/Hy3-295B-NVFP4-MTP-2x-DGX-Spark",
       "category": "productivity",
-      "rank": 25,
+      "rank": 27,
       "price": "free"
     },
     {
@@ -312,19 +336,7 @@
       "period_stars": 0,
       "url": "https://github.com/astrizhachuk/yaxunit-test-writer",
       "category": "productivity",
-      "rank": 26,
-      "price": "free"
-    },
-    {
-      "name": "riskguard",
-      "owner": "SilentFleetKK",
-      "description": "券商无关的开源交易风控层:仓位上限 · 回撤熔断 · 动态仓位(Kelly/波动率) · 防篡改审计 · 实时监控守护。补上量化五层积木唯一缺的一层,核心零依赖。",
-      "language": "Python",
-      "total_stars": 9,
-      "period_stars": 0,
-      "url": "https://github.com/SilentFleetKK/riskguard",
-      "category": "productivity",
-      "rank": 27,
+      "rank": 28,
       "price": "free"
     },
     {
@@ -336,7 +348,7 @@
       "period_stars": 0,
       "url": "https://github.com/philngt/afc-toolkit",
       "category": "productivity",
-      "rank": 28,
+      "rank": 29,
       "price": "free"
     },
     {
@@ -348,7 +360,7 @@
       "period_stars": 0,
       "url": "https://github.com/Deterous/Redumper-GUI",
       "category": "design",
-      "rank": 29,
+      "rank": 30,
       "price": "free"
     },
     {
@@ -360,7 +372,7 @@
       "period_stars": 0,
       "url": "https://github.com/octra-labs/hfhe-challenge",
       "category": "productivity",
-      "rank": 30,
+      "rank": 31,
       "price": "free"
     },
     {
@@ -372,7 +384,7 @@
       "period_stars": 0,
       "url": "https://github.com/Gheat1/ltui",
       "category": "design",
-      "rank": 31,
+      "rank": 32,
       "price": "free"
     },
     {
@@ -384,7 +396,19 @@
       "period_stars": 0,
       "url": "https://github.com/BioTender-max/ai-bio-conference-papers",
       "category": "productivity",
-      "rank": 32,
+      "rank": 33,
+      "price": "free"
+    },
+    {
+      "name": "lingbot-vla-v2",
+      "owner": "Robbyant",
+      "description": "From Foundation to Application",
+      "language": "Python",
+      "total_stars": 9,
+      "period_stars": 0,
+      "url": "https://github.com/Robbyant/lingbot-vla-v2",
+      "category": "productivity",
+      "rank": 34,
       "price": "free"
     },
     {
@@ -396,19 +420,7 @@
       "period_stars": 0,
       "url": "https://github.com/chengyansen-ai/cys-migration-skill",
       "category": "productivity",
-      "rank": 33,
-      "price": "free"
-    },
-    {
-      "name": "claude-skills-fable-opus",
-      "owner": "NUX-Design",
-      "description": "",
-      "language": "Shell",
-      "total_stars": 7,
-      "period_stars": 0,
-      "url": "https://github.com/NUX-Design/claude-skills-fable-opus",
-      "category": "productivity",
-      "rank": 34,
+      "rank": 35,
       "price": "free"
     },
     {
@@ -420,7 +432,7 @@
       "period_stars": 0,
       "url": "https://github.com/ZangXuanyi/fai-for-dbd",
       "category": "productivity",
-      "rank": 35,
+      "rank": 36,
       "price": "free"
     },
     {
@@ -431,18 +443,6 @@
       "total_stars": 7,
       "period_stars": 0,
       "url": "https://github.com/steipete/Nameplate",
-      "category": "productivity",
-      "rank": 36,
-      "price": "free"
-    },
-    {
-      "name": "RoboDojo",
-      "owner": "QiangyuChen1",
-      "description": "",
-      "language": "",
-      "total_stars": 7,
-      "period_stars": 0,
-      "url": "https://github.com/QiangyuChen1/RoboDojo",
       "category": "productivity",
       "rank": 37,
       "price": "free"
@@ -460,6 +460,18 @@
       "price": "free"
     },
     {
+      "name": "RoboDojo",
+      "owner": "QiangyuChen1",
+      "description": "",
+      "language": "",
+      "total_stars": 7,
+      "period_stars": 0,
+      "url": "https://github.com/QiangyuChen1/RoboDojo",
+      "category": "productivity",
+      "rank": 39,
+      "price": "free"
+    },
+    {
       "name": "ai-accelerator-C8",
       "owner": "eng-accelerator",
       "description": "",
@@ -467,18 +479,6 @@
       "total_stars": 6,
       "period_stars": 0,
       "url": "https://github.com/eng-accelerator/ai-accelerator-C8",
-      "category": "productivity",
-      "rank": 39,
-      "price": "free"
-    },
-    {
-      "name": "mdx-tsc",
-      "owner": "hipstersmoothie",
-      "description": "",
-      "language": "TypeScript",
-      "total_stars": 6,
-      "period_stars": 0,
-      "url": "https://github.com/hipstersmoothie/mdx-tsc",
       "category": "productivity",
       "rank": 40,
       "price": "free"
@@ -496,6 +496,18 @@
       "price": "free"
     },
     {
+      "name": "mdx-tsc",
+      "owner": "hipstersmoothie",
+      "description": "",
+      "language": "TypeScript",
+      "total_stars": 6,
+      "period_stars": 0,
+      "url": "https://github.com/hipstersmoothie/mdx-tsc",
+      "category": "productivity",
+      "rank": 42,
+      "price": "free"
+    },
+    {
       "name": "openwiki-for-claude-code",
       "owner": "jatinmayekar",
       "description": "Generate & maintain OpenWiki-format repo docs from inside Claude Code — keyless, using Claude Code's own inference. Interoperable with the OpenWiki CLI.",
@@ -504,7 +516,7 @@
       "period_stars": 0,
       "url": "https://github.com/jatinmayekar/openwiki-for-claude-code",
       "category": "productivity",
-      "rank": 42,
+      "rank": 43,
       "price": "free"
     },
     {
@@ -516,7 +528,7 @@
       "period_stars": 0,
       "url": "https://github.com/gnomeria/usbtree",
       "category": "productivity",
-      "rank": 43,
+      "rank": 44,
       "price": "free"
     },
     {
@@ -528,7 +540,7 @@
       "period_stars": 0,
       "url": "https://github.com/revfactory/font-harness",
       "category": "data",
-      "rank": 44,
+      "rank": 45,
       "price": "free"
     },
     {
@@ -540,7 +552,7 @@
       "period_stars": 0,
       "url": "https://github.com/RoRvzzz/RoRvzzz-Account-Manager",
       "category": "productivity",
-      "rank": 45,
+      "rank": 46,
       "price": "free"
     },
     {
@@ -552,7 +564,7 @@
       "period_stars": 0,
       "url": "https://github.com/zjp1997720/wechat-styler",
       "category": "data",
-      "rank": 46,
+      "rank": 47,
       "price": "free"
     },
     {
@@ -564,7 +576,7 @@
       "period_stars": 0,
       "url": "https://github.com/joeynyc/Hy3-295B-NVFP4-2x-DGX-Spark",
       "category": "productivity",
-      "rank": 47,
+      "rank": 48,
       "price": "free"
     },
     {
@@ -576,7 +588,7 @@
       "period_stars": 0,
       "url": "https://github.com/cxkggxhz/auto-html",
       "category": "engineering",
-      "rank": 48,
+      "rank": 49,
       "price": "free"
     },
     {
@@ -587,18 +599,6 @@
       "total_stars": 6,
       "period_stars": 0,
       "url": "https://github.com/fardinlab/mail",
-      "category": "productivity",
-      "rank": 49,
-      "price": "free"
-    },
-    {
-      "name": "manseryeok",
-      "owner": "wj94128871",
-      "description": "",
-      "language": "TypeScript",
-      "total_stars": 6,
-      "period_stars": 0,
-      "url": "https://github.com/wj94128871/manseryeok",
       "category": "productivity",
       "rank": 50,
       "price": "free"
