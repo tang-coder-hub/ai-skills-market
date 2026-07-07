@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 """
 refresh_trending.py
-Pull GitHub Trending for daily / weekly / monthly and generate hot (weekly
-re-sorted by total stars). Writes data/{daily,weekly,monthly,hot}.json.
+Pull real GitHub trending via OSS Insight API (GitHub official partner) for
+daily / weekly / monthly, and generate hot (weekly re-sorted by total stars).
+Writes data/{daily,weekly,monthly,hot}.json.
 
 On fetch failure for a given period, the existing file is left untouched
 (graceful degradation). Designed to run from GitHub Actions on a cron schedule.
@@ -13,22 +14,17 @@ import os
 import sys
 import urllib.request
 import urllib.error
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
 HOT_COUNT = 25
 
-# Multiple public GitHub Trending mirrors for resilience.
-TRENDING_SOURCES = [
-    "https://github-trending-api.de.a9sapp.eu/repositories?language=&since={since}",
-    "https://api.gitterapp.com/repositories?language=&since={since}",
-    "https://github-trending-api.now.sh/repositories?language=&since={since}",
-]
-
-PERIOD_MAP = {
-    "daily": "daily",
-    "weekly": "weekly",
-    "monthly": "monthly",
+# OSS Insight: open-source alternative to GitHub Trending (GitHub official partner).
+# period param: past_24_hours / past_week / past_month
+OSS_PERIOD = {
+    "daily": "past_24_hours",
+    "weekly": "past_week",
+    "monthly": "past_month",
 }
 
 CATEGORY_KEYWORDS = {
@@ -65,82 +61,81 @@ def guess_category(repo):
     return "productivity"
 
 
-def fetch_period_api_fallback(since):
-    """Fallback: GitHub Search API, recent repos sorted by stars.
-    Not true 'trending', but guarantees data when mirrors are down."""
-    days = {"daily": 1, "weekly": 7, "monthly": 30}.get(since, 1)
-    from datetime import timedelta
+def fetch_oss(since):
+    """Primary source: OSS Insight real trending."""
+    period = OSS_PERIOD[since]
+    url = f"https://api.ossinsight.io/v1/trends/repos/?period={period}&language=All"
+    try:
+        req = urllib.request.Request(url, headers={
+            "Accept": "application/json",
+            "User-Agent": "ai-skills-market-bot",
+        })
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        rows = data.get("data", {}).get("rows", [])
+        if not rows:
+            print(f"  [warn] OSS Insight empty for since={since}", file=sys.stderr)
+            return None
+        out = []
+        for r in rows:
+            owner, _, name = r.get("repo_name", "/").partition("/")
+            out.append({
+                "name": name,
+                "owner": owner,
+                "description": r.get("description") or "",
+                "language": r.get("primary_language") or "",
+                "total_stars": int(r.get("stars") or 0),
+                "period_stars": int(r.get("stars") or 0),
+                "url": f"https://github.com/{r.get('repo_name', '')}",
+                "category": guess_category(r),
+            })
+        print(f"  [ok] OSS Insight returned {len(out)} repos for since={since}")
+        return out
+    except (urllib.error.URLError, urllib.error.HTTPError, ValueError, TimeoutError) as e:
+        print(f"  [warn] OSS Insight failed for since={since}: {e}", file=sys.stderr)
+        return None
+
+
+def fetch_search_fallback(since):
+    """Fallback: GitHub Search API, recently pushed + high stars."""
+    days = {"daily": 2, "weekly": 9, "monthly": 35}.get(since, 2)
     since_date = (datetime.now(timezone.utc) - timedelta(days=days)).strftime("%Y-%m-%d")
     url = (
         "https://api.github.com/search/repositories"
-        f"?q=created:%3E{since_date}&sort=stars&order=desc&per_page=50"
+        f"?q=pushed:%3E{since_date}+stars:%3E200&sort=stars&order=desc&per_page=50"
     )
     try:
         req = urllib.request.Request(url, headers={
             "User-Agent": "ai-skills-market-bot",
             "Accept": "application/vnd.github+json",
         })
-        with urllib.request.urlopen(req, timeout=20) as resp:
+        with urllib.request.urlopen(req, timeout=25) as resp:
             data = json.loads(resp.read().decode("utf-8"))
         items = data.get("items", [])
         if not items:
             return None
-        mapped = []
+        out = []
         for it in items:
-            mapped.append({
+            out.append({
                 "name": it.get("name", ""),
-                "author": it.get("owner", {}).get("login", ""),
+                "owner": it.get("owner", {}).get("login", ""),
                 "description": it.get("description") or "",
                 "language": it.get("language") or "",
-                "stars": it.get("stargazers_count", 0),
-                "currentPeriodStars": 0,
+                "total_stars": it.get("stargazers_count", 0),
+                "period_stars": it.get("stargazers_count", 0),
                 "url": it.get("html_url", ""),
+                "category": guess_category(it),
             })
-        print(f"  [info] used GitHub API fallback for since={since}")
-        return mapped
+        print(f"  [info] used GitHub Search fallback for since={since}")
+        return out
     except Exception as e:
-        print(f"  [warn] API fallback failed for since={since}: {e}", file=sys.stderr)
+        print(f"  [warn] Search fallback failed for since={since}: {e}", file=sys.stderr)
         return None
 
 
 def fetch_period(since):
-    """Try each mirror source, then GitHub API fallback."""
-    last_err = None
-    for tmpl in TRENDING_SOURCES:
-        url = tmpl.format(since=since)
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "ai-skills-market-bot"})
-            with urllib.request.urlopen(req, timeout=20) as resp:
-                raw = resp.read().decode("utf-8")
-            data = json.loads(raw)
-            if isinstance(data, list) and data:
-                return data
-        except (urllib.error.URLError, urllib.error.HTTPError, ValueError, TimeoutError) as e:
-            last_err = e
-            continue
-    if last_err:
-        print(f"  [warn] all mirrors failed for since={since}: {last_err}", file=sys.stderr)
-    # last resort: GitHub Search API
-    return fetch_period_api_fallback(since)
-
-
-def normalize(repos, since):
-    out = []
-    for i, r in enumerate(repos):
-        desc = r.get("description") or ""
-        out.append({
-            "name": r.get("name", ""),
-            "owner": r.get("author") or r.get("owner", ""),
-            "description": desc,
-            "language": r.get("language") or "",
-            "total_stars": int(r.get("stars", 0) or r.get("total_stars", 0) or 0),
-            "period_stars": int(r.get("currentPeriodStars", 0) or r.get("period_stars", 0) or 0),
-            "url": r.get("url") or f"https://github.com/{r.get('author', '')}/{r.get('name', '')}",
-            "category": guess_category(r),
-            "rank": i + 1,
-            "price": "free",
-        })
-    return out
+    """OSS Insight first, then GitHub Search fallback."""
+    return fetch_oss(since) or fetch_search_fallback(since)
 
 
 def write_json(period, repos):
@@ -161,14 +156,16 @@ def main():
     print(f"Refresh started at {datetime.now(timezone.utc).isoformat()}")
 
     weekly_repos = None
-    for period, since in PERIOD_MAP.items():
-        raw = fetch_period(since)
-        if raw is None:
-            print(f"  [skip] {period}: keep existing file (fetch failed)")
+    for period in ["daily", "weekly", "monthly"]:
+        repos = fetch_period(period)
+        if repos is None:
+            print(f"  [skip] {period}: keep existing file (all sources failed)")
             if period == "weekly":
                 weekly_repos = None
             continue
-        repos = normalize(raw, since)
+        for i, r in enumerate(repos):
+            r["rank"] = i + 1
+            r["price"] = "free"
         write_json(period, repos)
         if period == "weekly":
             weekly_repos = repos
