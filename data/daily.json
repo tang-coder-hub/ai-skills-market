@@ -1,0 +1,150 @@
+{
+  "updated": "2026-07-07T07:26:39Z",
+  "since": "daily",
+  "count": 13,
+  "repos": [
+    {
+      "name": "system_prompts_leaks",
+      "owner": "asgeirtj",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. ",
+      "language": "JavaScript",
+      "total_stars": 52062,
+      "period_stars": 1378,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "category": "design",
+      "rank": 1
+    },
+    {
+      "name": "agent-skills",
+      "owner": "addyosmani",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "language": "JavaScript",
+      "total_stars": 71233,
+      "period_stars": 1112,
+      "url": "https://github.com/addyosmani/agent-skills",
+      "category": "marketing",
+      "rank": 2
+    },
+    {
+      "name": "meetily",
+      "owner": "Zackriya-Solutions",
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (",
+      "language": "Rust",
+      "total_stars": 19808,
+      "period_stars": 2494,
+      "url": "https://github.com/Zackriya-Solutions/meetily",
+      "category": "design",
+      "rank": 3
+    },
+    {
+      "name": "taste-skill",
+      "owner": "Leonxlnx",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "language": "JavaScript",
+      "total_stars": 59450,
+      "period_stars": 1458,
+      "url": "https://github.com/Leonxlnx/taste-skill",
+      "category": "productivity",
+      "rank": 4
+    },
+    {
+      "name": "claude-skills",
+      "owner": "alirezarezvani",
+      "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — e",
+      "language": "Python",
+      "total_stars": 21340,
+      "period_stars": 610,
+      "url": "https://github.com/alirezarezvani/claude-skills",
+      "category": "productivity",
+      "rank": 5
+    },
+    {
+      "name": "codex-plugin-cc",
+      "owner": "openai",
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "language": "JavaScript",
+      "total_stars": 26428,
+      "period_stars": 906,
+      "url": "https://github.com/openai/codex-plugin-cc",
+      "category": "engineering",
+      "rank": 6
+    },
+    {
+      "name": "last30days-skill",
+      "owner": "mvanhorn",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "total_stars": 49995,
+      "period_stars": 458,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "category": "productivity",
+      "rank": 7
+    },
+    {
+      "name": "herdr",
+      "owner": "ogulcancelik",
+      "description": "agent multiplexer that lives in your terminal.",
+      "language": "Rust",
+      "total_stars": 13062,
+      "period_stars": 779,
+      "url": "https://github.com/ogulcancelik/herdr",
+      "category": "productivity",
+      "rank": 8
+    },
+    {
+      "name": "claude-video",
+      "owner": "bradautomates",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "total_stars": 4540,
+      "period_stars": 427,
+      "url": "https://github.com/bradautomates/claude-video",
+      "category": "marketing",
+      "rank": 9
+    },
+    {
+      "name": "karakeep",
+      "owner": "karakeep-app",
+      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+      "language": "TypeScript",
+      "total_stars": 27029,
+      "period_stars": 199,
+      "url": "https://github.com/karakeep-app/karakeep",
+      "category": "engineering",
+      "rank": 10
+    },
+    {
+      "name": "CodexBar",
+      "owner": "steipete",
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "language": "Swift",
+      "total_stars": 16845,
+      "period_stars": 598,
+      "url": "https://github.com/steipete/CodexBar",
+      "category": "engineering",
+      "rank": 11
+    },
+    {
+      "name": "zvec",
+      "owner": "alibaba",
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "language": "C++",
+      "total_stars": 13668,
+      "period_stars": 382,
+      "url": "https://github.com/alibaba/zvec",
+      "category": "data",
+      "rank": 12
+    },
+    {
+      "name": "gastown",
+      "owner": "gastownhall",
+      "description": "Gas Town - multi-agent workspace manager",
+      "language": "Go",
+      "total_stars": 16783,
+      "period_stars": 291,
+      "url": "https://github.com/gastownhall/gastown",
+      "category": "engineering",
+      "rank": 13
+    }
+  ]
+}

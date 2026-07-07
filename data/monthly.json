@@ -1,0 +1,117 @@
+{
+  "updated": "2026-07-07T07:26:50Z",
+  "since": "monthly",
+  "count": 10,
+  "repos": [
+    {
+      "name": "container",
+      "owner": "apple",
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "language": "Swift",
+      "total_stars": 46867,
+      "period_stars": 20137,
+      "url": "https://github.com/apple/container",
+      "category": "productivity",
+      "rank": 1
+    },
+    {
+      "name": "codebase-memory-mcp",
+      "owner": "DeusData",
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary",
+      "language": "C",
+      "total_stars": 27582,
+      "period_stars": 24223,
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "category": "engineering",
+      "rank": 2
+    },
+    {
+      "name": "OpenMontage",
+      "owner": "calesthio",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "total_stars": 34587,
+      "period_stars": 29796,
+      "url": "https://github.com/calesthio/OpenMontage",
+      "category": "marketing",
+      "rank": 3
+    },
+    {
+      "name": "SkillSpector",
+      "owner": "NVIDIA",
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "language": "Python",
+      "total_stars": 12191,
+      "period_stars": 10867,
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "category": "security",
+      "rank": 4
+    },
+    {
+      "name": "Agent-Reach",
+      "owner": "Panniantong",
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "language": "Python",
+      "total_stars": 52279,
+      "period_stars": 30168,
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "category": "productivity",
+      "rank": 5
+    },
+    {
+      "name": "iptv",
+      "owner": "iptv-org",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "total_stars": 130841,
+      "period_stars": 14204,
+      "url": "https://github.com/iptv-org/iptv",
+      "category": "engineering",
+      "rank": 6
+    },
+    {
+      "name": "last30days-skill",
+      "owner": "mvanhorn",
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "language": "Python",
+      "total_stars": 49996,
+      "period_stars": 21391,
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "category": "productivity",
+      "rank": 7
+    },
+    {
+      "name": "system_prompts_leaks",
+      "owner": "asgeirtj",
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. ",
+      "language": "JavaScript",
+      "total_stars": 52062,
+      "period_stars": 9636,
+      "url": "https://github.com/asgeirtj/system_prompts_leaks",
+      "category": "design",
+      "rank": 8
+    },
+    {
+      "name": "hiring-agent",
+      "owner": "interviewstreet",
+      "description": "AI agent to evaluate and score resumes.",
+      "language": "Python",
+      "total_stars": 4999,
+      "period_stars": 4089,
+      "url": "https://github.com/interviewstreet/hiring-agent",
+      "category": "engineering",
+      "rank": 9
+    },
+    {
+      "name": "strix",
+      "owner": "usestrix",
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "language": "Python",
+      "total_stars": 38154,
+      "period_stars": 12018,
+      "url": "https://github.com/usestrix/strix",
+      "category": "security",
+      "rank": 10
+    }
+  ]
+}
