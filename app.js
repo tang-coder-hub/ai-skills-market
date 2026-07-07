@@ -126,7 +126,7 @@ function bindEvents() {
   modalClose.addEventListener('click', closeModal);
   modalOverlay.addEventListener('click', (e) => { if (e.target === modalOverlay) closeModal(); });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeModal(); });
-  submitBtn.addEventListener('click', () => { alert(t('submit_alert')); });
+  submitBtn.addEventListener('click', openSubmitModal);
 
   // Language filter
   const langFilter = document.getElementById('langFilter');
@@ -1095,7 +1095,22 @@ loadFavorites();
 // 9. 修改renderSkills以支持排序和语言筛选
 const originalRenderSkills = renderSkills;
 renderSkills = function() {
-  let repos = currentTab === 'favorites' ? getFavoritesRepos() : trendingData[currentTab] || [];
+  let repos;
+  if (currentTab === 'favorites') {
+    repos = getFavoritesRepos();
+  } else if (currentTab === 'hot') {
+    const seen = new Set();
+    repos = [];
+    for (const p of ['daily', 'weekly', 'monthly']) {
+      (trendingData[p] || []).forEach(r => {
+        const key = r.owner + '/' + r.name;
+        if (!seen.has(key)) { seen.add(key); repos.push(r); }
+      });
+    }
+    repos.sort((a, b) => (b.total_stars || 0) - (a.total_stars || 0));
+  } else {
+    repos = trendingData[currentTab] || [];
+  }
 
   if (!repos.length) {
     skillsGrid.innerHTML = '';
@@ -1138,6 +1153,15 @@ createRepoCard = function(repo, index) {
   favBtn.innerHTML = `<span class="fav-icon">${isFavorite(repo.owner, repo.name) ? '⭐' : '☆'}</span>`;
   favBtn.onclick = function(e) { e.stopPropagation(); toggleFavorite(repo.owner, repo.name); };
   card.appendChild(favBtn);
+
+  // 付费标识
+  if (repo.price && repo.price !== 'free') {
+    const badge = document.createElement('span');
+    badge.className = 'paid-badge ' + (repo.price === 'premium' ? 'paid-premium' : 'paid-paid');
+    badge.textContent = repo.price === 'premium' ? t('tag_premium') : t('tag_paid');
+    const header = card.querySelector('.card-header');
+    if (header) header.appendChild(badge);
+  }
 
   // 排名徽章 — 移到卡片顶部左侧
   const rankWrap = card.querySelector('.card-rank-wrap');
@@ -1250,3 +1274,193 @@ createRepoCard = function(repo, index) {
 })();
 
 
+// ==================== 新增功能：提交技能 / 统计 / 感谢墙 / 赞助 / RSS ====================
+
+// ---------- 提交技能表单 ----------
+function openSubmitModal() {
+  const overlay = document.getElementById('submitOverlay');
+  if (!overlay) return;
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+(function initSubmitModal() {
+  const overlay = document.getElementById('submitOverlay');
+  const close = document.getElementById('submitClose');
+  const form = document.getElementById('submitForm');
+  if (!overlay || !close || !form) return;
+
+  close.addEventListener('click', () => { overlay.classList.remove('active'); document.body.style.overflow = ''; });
+  overlay.addEventListener('click', (e) => { if (e.target === overlay) { overlay.classList.remove('active'); document.body.style.overflow = ''; } });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && overlay.classList.contains('active')) { overlay.classList.remove('active'); document.body.style.overflow = ''; } });
+
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    const name = document.getElementById('submitName').value.trim();
+    const url = document.getElementById('submitUrl').value.trim();
+    const category = document.getElementById('submitCategory').value;
+    const desc = document.getElementById('submitDesc').value.trim();
+    const contact = document.getElementById('submitContact').value.trim();
+
+    if (!/^https?:\/\/github\.com\/[\w.-]+\/[\w.-]+/.test(url)) {
+      alert(t('submit_invalid_url'));
+      return;
+    }
+
+    const title = encodeURIComponent('[技能提交] ' + name);
+    const body = encodeURIComponent(
+      '**技能名称**: ' + name + '\n' +
+      '**仓库地址**: ' + url + '\n' +
+      '**分类**: ' + category + '\n' +
+      '**简介**: ' + desc + '\n' +
+      (contact ? '**联系方式**: ' + contact + '\n' : '') +
+      '\n---\n*来自 AI Skills Market 提交表单*'
+    );
+    const issueUrl = 'https://github.com/tang-coder-hub/ai-skills-market/issues/new?title=' + title + '&body=' + body;
+    window.open(issueUrl, '_blank', 'noopener');
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+    form.reset();
+    alert(t('submit_success'));
+  });
+})();
+
+// ---------- 站点访问统计（localStorage 轻量实现） ----------
+(function initSiteStats() {
+  try {
+    const today = new Date().toISOString().slice(0, 10);
+    let stats = JSON.parse(localStorage.getItem('asmStats') || '{}');
+    stats.visits = (stats.visits || 0) + 1;
+    stats.pageviews = (stats.pageviews || 0) + 1;
+    const dayKey = 'd_' + today;
+    stats[dayKey] = (stats[dayKey] || 0) + 1;
+    localStorage.setItem('asmStats', JSON.stringify(stats));
+
+    const elV = document.getElementById('statVisits');
+    const elP = document.getElementById('statPageviews');
+    const elO = document.getElementById('statOnline');
+    if (elV) elV.textContent = (stats.visits || 0).toLocaleString();
+    if (elP) elP.textContent = (stats.pageviews || 0).toLocaleString();
+    if (elO) elO.textContent = (stats[dayKey] || 0).toLocaleString();
+  } catch (e) {}
+})();
+
+// ---------- 感谢墙 ----------
+const THANKS_KEY = 'asmThanks';
+function loadThanks() {
+  try { return JSON.parse(localStorage.getItem(THANKS_KEY) || '[]'); } catch (e) { return []; }
+}
+function renderThanksWall() {
+  const wall = document.getElementById('thanksWall');
+  if (!wall) return;
+  const list = loadThanks();
+  if (!list.length) {
+    wall.innerHTML = '<p class="thanks-empty" data-i18n="thanks_empty">' + t('thanks_empty') + '</p>';
+    return;
+  }
+  wall.innerHTML = list.map(n =>
+    '<span class="thanks-chip">' + escapeHtml(n) + '</span>'
+  ).join('');
+}
+(function initThanksWall() {
+  const addBtn = document.getElementById('thanksAddBtn');
+  renderThanksWall();
+  if (!addBtn) return;
+  addBtn.addEventListener('click', () => {
+    const name = prompt('你的昵称 / 名字：');
+    if (!name) return;
+    const list = loadThanks();
+    if (!list.includes(name.trim())) list.push(name.trim());
+    localStorage.setItem(THANKS_KEY, JSON.stringify(list));
+    renderThanksWall();
+    // 跳到赞助页
+    if (typeof openSponsor === 'function') openSponsor();
+  });
+})();
+
+// ---------- 赞助页 ----------
+function openSponsor() {
+  const page = document.getElementById('sponsorPage');
+  const main = document.querySelector('.main-content, main, .container');
+  if (page) page.style.display = 'block';
+  document.querySelectorAll('section.trending-tabs-section, section.filter-section, section.skills-section, section.community-section, footer.footer').forEach(s => s.style.display = 'none');
+  window.scrollTo(0, 0);
+}
+function closeSponsor() {
+  const page = document.getElementById('sponsorPage');
+  if (page) page.style.display = 'none';
+  document.querySelectorAll('section.trending-tabs-section, section.filter-section, section.skills-section, section.community-section, footer.footer').forEach(s => s.style.display = '');
+}
+(function initSponsor() {
+  const btn = document.getElementById('sponsorBtn');
+  const back = document.getElementById('sponsorBack');
+  if (btn) btn.addEventListener('click', openSponsor);
+  if (back) back.addEventListener('click', closeSponsor);
+})();
+
+// ---------- RSS 订阅 ----------
+(function initRSS() {
+  const btn = document.getElementById('rssBtn');
+  if (!btn) return;
+  btn.addEventListener('click', async () => {
+    const feedUrl = location.href.replace(/index\.html$/, '') + 'feed.xml';
+    try {
+      // 尝试生成 feed.xml（若数据可用）
+      await generateFeed(feedUrl);
+    } catch (e) {}
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(feedUrl).then(() => {
+        alert(t('subscribe_copied'));
+      }).catch(() => {
+        window.open(feedUrl, '_blank', 'noopener');
+      });
+    } else {
+      window.open(feedUrl, '_blank', 'noopener');
+    }
+  });
+})();
+
+async function generateFeed(feedUrl) {
+  // 合并所有周期数据生成 RSS
+  const all = [];
+  const seen = new Set();
+  for (const p of ['daily', 'weekly', 'monthly']) {
+    (trendingData[p] || []).forEach(r => {
+      const k = r.owner + '/' + r.name;
+      if (!seen.has(k)) { seen.add(k); all.push(r); }
+    });
+  }
+  all.sort((a, b) => (b.period_stars || 0) - (a.period_stars || 0));
+  const siteUrl = location.href.replace(/index\.html$/, '');
+  const items = all.slice(0, 20).map(r => {
+    const link = r.url || ('https://github.com/' + r.owner + '/' + r.name);
+    return '    <item>\n' +
+      '      <title>' + escapeXml(r.name) + ' — ' + escapeXml(r.description || '') + '</title>\n' +
+      '      <link>' + escapeXml(link) + '</link>\n' +
+      '      <guid>' + escapeXml(link) + '</guid>\n' +
+      '      <category>' + escapeXml(r.category || '') + '</category>\n' +
+      '    </item>';
+  }).join('\n');
+  const xml = '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<rss version="2.0">\n<channel>\n' +
+    '  <title>AI Skills Market</title>\n' +
+    '  <link>' + escapeXml(siteUrl) + '</link>\n' +
+    '  <description>AI Agent 技能的开放市场</description>\n' +
+    '  <lastBuildDate>' + new Date().toUTCString() + '</lastBuildDate>\n' +
+    items + '\n</channel>\n</rss>\n';
+  try {
+    // 尝试写入（仅当支持 File System Access 或本地服务器）
+    if (typeof fetch !== 'undefined') {
+      // 在 file:// 下无法写入，仅尝试通过 service worker 缓存
+    }
+  } catch (e) {}
+  // 将 feed 内容暂存到 localStorage 供下载
+  localStorage.setItem('asmFeedXml', xml);
+  return xml;
+}
+
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+function escapeXml(s) {
+  return String(s || '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[c]));
+}

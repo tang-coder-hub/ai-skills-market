@@ -12,7 +12,8 @@
       "period_stars": 1378,
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "category": "design",
-      "rank": 1
+      "rank": 1,
+      "price": "free"
     },
     {
       "name": "agent-skills",
@@ -23,7 +24,8 @@
       "period_stars": 1112,
       "url": "https://github.com/addyosmani/agent-skills",
       "category": "marketing",
-      "rank": 2
+      "rank": 2,
+      "price": "free"
     },
     {
       "name": "meetily",
@@ -34,7 +36,8 @@
       "period_stars": 2494,
       "url": "https://github.com/Zackriya-Solutions/meetily",
       "category": "design",
-      "rank": 3
+      "rank": 3,
+      "price": "premium"
     },
     {
       "name": "taste-skill",
@@ -45,7 +48,8 @@
       "period_stars": 1458,
       "url": "https://github.com/Leonxlnx/taste-skill",
       "category": "productivity",
-      "rank": 4
+      "rank": 4,
+      "price": "free"
     },
     {
       "name": "claude-skills",
@@ -56,7 +60,8 @@
       "period_stars": 610,
       "url": "https://github.com/alirezarezvani/claude-skills",
       "category": "productivity",
-      "rank": 5
+      "rank": 5,
+      "price": "free"
     },
     {
       "name": "codex-plugin-cc",
@@ -67,7 +72,8 @@
       "period_stars": 906,
       "url": "https://github.com/openai/codex-plugin-cc",
       "category": "engineering",
-      "rank": 6
+      "rank": 6,
+      "price": "free"
     },
     {
       "name": "last30days-skill",
@@ -78,7 +84,8 @@
       "period_stars": 458,
       "url": "https://github.com/mvanhorn/last30days-skill",
       "category": "productivity",
-      "rank": 7
+      "rank": 7,
+      "price": "free"
     },
     {
       "name": "herdr",
@@ -89,7 +96,8 @@
       "period_stars": 779,
       "url": "https://github.com/ogulcancelik/herdr",
       "category": "productivity",
-      "rank": 8
+      "rank": 8,
+      "price": "free"
     },
     {
       "name": "claude-video",
@@ -100,7 +108,8 @@
       "period_stars": 427,
       "url": "https://github.com/bradautomates/claude-video",
       "category": "marketing",
-      "rank": 9
+      "rank": 9,
+      "price": "free"
     },
     {
       "name": "karakeep",
@@ -111,7 +120,8 @@
       "period_stars": 199,
       "url": "https://github.com/karakeep-app/karakeep",
       "category": "engineering",
-      "rank": 10
+      "rank": 10,
+      "price": "free"
     },
     {
       "name": "CodexBar",
@@ -122,7 +132,8 @@
       "period_stars": 598,
       "url": "https://github.com/steipete/CodexBar",
       "category": "engineering",
-      "rank": 11
+      "rank": 11,
+      "price": "free"
     },
     {
       "name": "zvec",
@@ -133,7 +144,8 @@
       "period_stars": 382,
       "url": "https://github.com/alibaba/zvec",
       "category": "data",
-      "rank": 12
+      "rank": 12,
+      "price": "free"
     },
     {
       "name": "gastown",
@@ -144,7 +156,8 @@
       "period_stars": 291,
       "url": "https://github.com/gastownhall/gastown",
       "category": "engineering",
-      "rank": 13
+      "rank": 13,
+      "price": "free"
     }
   ]
 }

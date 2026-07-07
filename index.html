@@ -6,7 +6,7 @@
   <meta name="description" content="AI Skills Market - Discover, download, and share AI Agent skills packages for Claude Code, Cursor, Codex, Gemini CLI and more.">
   <meta name="theme-color" content="#7c5cfc">
   <title>AI Skills Market</title>
-  <link rel="stylesheet" href="style.css?v=18">
+  <link rel="stylesheet" href="style.css?v=19">
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -41,6 +41,16 @@
             <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
           </svg>
           <span data-i18n="donate_btn">打赏支持</span>
+        </button>
+        <button class="btn btn-icon" id="sponsorBtn" aria-label="赞助" title="赞助">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+          </svg>
+        </button>
+        <button class="btn btn-icon" id="rssBtn" aria-label="RSS" title="RSS">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+            <path d="M4 11a9 9 0 0 1 9 9M4 4a16 16 0 0 1 16 16M5 19a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg>
         </button>
         <button class="btn btn-icon" id="langToggle" aria-label="切换到英文">中</button>
         <button class="btn btn-icon" id="themeToggle" aria-label="Toggle theme">
@@ -102,6 +112,7 @@
     <div class="trending-tabs-container">
       <button class="trending-tab" data-period="daily" data-i18n="tab_daily">日榜</button>
       <button class="trending-tab active" data-period="weekly" data-i18n="tab_weekly">周榜</button>
+      <button class="trending-tab" data-period="hot" data-i18n="tab_hot">热门榜</button>
       <button class="trending-tab" data-period="monthly" data-i18n="tab_monthly">月榜</button>
         <button class="trending-tab" data-period="favorites" data-i18n="tab_favorites">收藏</button>
     </div>
@@ -238,6 +249,87 @@
     <div class="footer-bottom">
       <p data-i18n="footer_bottom">© 2026 AI Skills Market。基于 MIT 许可证发布。由开源社区热情打造。</p>
     </div>
+
+  <!-- Thank You Wall + Site Stats -->
+  <section class="community-section">
+    <div class="community-container">
+      <div class="stats-card">
+        <h2 class="section-title" data-i18n="stat_title">站点数据</h2>
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-num" id="statVisits">0</div>
+            <div class="stat-label" data-i18n="stat_visits">累计访问</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" id="statPageviews">0</div>
+            <div class="stat-label" data-i18n="stat_pageviews">页面浏览</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num" id="statOnline">0</div>
+            <div class="stat-label" data-i18n="stat_online">今日访客</div>
+          </div>
+        </div>
+      </div>
+      <div class="thanks-card">
+        <h2 class="section-title" data-i18n="thanks_title">感谢墙</h2>
+        <p class="section-sub" data-i18n="thanks_desc">感谢这些朋友的支持，让开源持续发光</p>
+        <div class="thanks-wall" id="thanksWall"></div>
+        <button class="btn btn-secondary thanks-add-btn" id="thanksAddBtn" data-i18n="thanks_add">我也要支持</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Submit Skill Modal -->
+  <div class="modal-overlay" id="submitOverlay">
+    <div class="modal submit-modal">
+      <button class="modal-close" id="submitClose" aria-label="关闭">&times;</button>
+      <h2 class="modal-title" data-i18n="submit_title">提交技能</h2>
+      <p class="modal-sub" data-i18n="submit_desc">填写下方表单提交你的技能，我们将审核后上架。</p>
+      <form id="submitForm" class="submit-form">
+        <label class="form-label" data-i18n="submit_field_name">技能名称</label>
+        <input type="text" class="form-input" id="submitName" data-i18n-ph="submit_field_name_ph" placeholder="例如：Awesome Cursor Rules" required>
+        <label class="form-label" data-i18n="submit_field_owner">GitHub 仓库地址</label>
+        <input type="url" class="form-input" id="submitUrl" data-i18n-ph="submit_field_owner_ph" placeholder="https://github.com/owner/repo" required>
+        <label class="form-label" data-i18n="submit_field_category">分类</label>
+        <select class="form-input" id="submitCategory">
+          <option value="engineering" data-i18n="cat_engineering">工程开发</option>
+          <option value="productivity" data-i18n="cat_productivity">效率工具</option>
+          <option value="design" data-i18n="cat_design">设计与创意</option>
+          <option value="data" data-i18n="cat_data">数据分析</option>
+          <option value="security" data-i18n="cat_security">安全测试</option>
+          <option value="marketing" data-i18n="cat_marketing">营销运营</option>
+        </select>
+        <label class="form-label" data-i18n="submit_field_desc">简介</label>
+        <textarea class="form-input" id="submitDesc" rows="3" data-i18n-ph="submit_field_desc_ph" placeholder="用一句话描述这个技能..." required></textarea>
+        <label class="form-label" data-i18n="submit_field_contact">联系方式（可选）</label>
+        <input type="text" class="form-input" id="submitContact" data-i18n-ph="submit_field_contact_ph" placeholder="邮箱或微信，方便我们联系你">
+        <button type="submit" class="btn btn-primary submit-send-btn" data-i18n="submit_btn_send">提交审核</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Sponsor Page (standalone, hidden by default) -->
+  <section class="sponsor-page" id="sponsorPage" style="display:none;">
+    <div class="sponsor-container">
+      <button class="btn btn-secondary sponsor-back" id="sponsorBack" data-i18n="sponsor_back">返回首页</button>
+      <h1 class="sponsor-title" data-i18n="sponsor_title">支持 AI Skills Market</h1>
+      <p class="sponsor-desc" data-i18n="sponsor_desc">你的每一份支持，都是开源社区前进的动力</p>
+      <div class="sponsor-grid">
+        <div class="sponsor-card">
+          <h3 data-i18n="sponsor_wechat">微信赞赏</h3>
+          <img src="images/wechat-qr.png" alt="WeChat" class="sponsor-qr">
+        </div>
+        <div class="sponsor-card">
+          <h3 data-i18n="sponsor_alipay">支付宝赞赏</h3>
+          <img src="images/alipay-qr.png" alt="Alipay" class="sponsor-qr">
+        </div>
+        <div class="sponsor-card">
+          <h3 data-i18n="sponsor_coffee">Buy Me a Coffee</h3>
+          <a href="https://buymeacoffee.com" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="sponsor_coffee">Buy Me a Coffee</a>
+        </div>
+      </div>
+    </div>
+  </section>
   </footer>
 
   <!-- Feedback Floating Button -->
@@ -340,7 +432,7 @@
     });
     console.log('[DIAG] Diagnostic script loaded, waiting for app.js...');
   </script>
-  <script src="app.js?v=18"></script>
+  <script src="app.js?v=19"></script>
   <script>
     console.log('[DIAG] app.js finished loading. Errors caught:', window._errors.length);
     if (window._errors.length === 0) {

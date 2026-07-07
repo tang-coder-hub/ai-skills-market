@@ -275,7 +275,60 @@ const i18n = {
     donate_coffee_desc: '请我们喝杯咖啡',
     donate_wechat_title: '微信赞赏',
     donate_alipay_title: '支付宝赞赏',
-    donate_qr_placeholder: '赞赏码图片'
+    donate_qr_placeholder: '赞赏码图片',
+    // Submit Skill Form
+    submit_title: '提交技能',
+    submit_desc: '填写下方表单提交你的技能，我们将审核后上架。',
+    submit_field_name: '技能名称',
+    submit_field_name_ph: '例如：Awesome Cursor Rules',
+    submit_field_owner: 'GitHub 仓库地址',
+    submit_field_owner_ph: 'https://github.com/owner/repo',
+    submit_field_category: '分类',
+    submit_field_desc: '简介',
+    submit_field_desc_ph: '用一句话描述这个技能...',
+    submit_field_contact: '联系方式（可选）',
+    submit_field_contact_ph: '邮箱或微信，方便我们联系你',
+    submit_btn_send: '提交审核',
+    submit_success: '已提交！我们会尽快审核，感谢你的贡献 🎉',
+    submit_invalid_url: '请填写有效的 GitHub 仓库地址',
+
+    // Hot / Popular
+    tab_hot: '热门榜',
+    hot_subtitle: '按总星标数排序的常青项目',
+
+    // RSS / Subscribe
+    subscribe_title: '订阅更新',
+    subscribe_desc: '获取新技能上架与每周热门通知',
+    subscribe_rss: 'RSS 订阅',
+    subscribe_rss_desc: '用 RSS 阅读器订阅本站更新',
+    subscribe_copy: '复制 RSS 链接',
+    subscribe_copied: '已复制 RSS 链接',
+
+    // Site Stats
+    stat_title: '站点数据',
+    stat_visits: '累计访问',
+    stat_pageviews: '页面浏览',
+    stat_online: '今日访客',
+
+    // Thank Wall
+    thanks_title: '感谢墙',
+    thanks_desc: '感谢这些朋友的支持，让开源持续发光',
+    thanks_empty: '成为第一个支持者吧 ☕',
+    thanks_add: '我也要支持',
+
+    // Sponsor Page
+    sponsor_title: '支持 AI Skills Market',
+    sponsor_desc: '你的每一份支持，都是开源社区前进的动力',
+    sponsor_wechat: '微信赞赏',
+    sponsor_alipay: '支付宝赞赏',
+    sponsor_coffee: 'Buy Me a Coffee',
+    sponsor_back: '返回首页',
+
+    // Paid badge
+    tag_paid: '付费',
+    tag_premium: '精选',
+    card_unlock: '解锁',
+    card_locked: '付费内容',
   },
 
   en: {
@@ -550,7 +603,60 @@ const i18n = {
     donate_coffee_desc: 'Buy us a coffee',
     donate_wechat_title: 'WeChat Reward',
     donate_alipay_title: 'Alipay Reward',
-    donate_qr_placeholder: 'QR Code Image'
+    donate_qr_placeholder: 'QR Code Image',
+    // Submit Skill Form
+    submit_title: 'Submit Skill',
+    submit_desc: 'Fill in the form below to submit your skill. We will review and list it.',
+    submit_field_name: 'Skill Name',
+    submit_field_name_ph: 'e.g. Awesome Cursor Rules',
+    submit_field_owner: 'GitHub Repo URL',
+    submit_field_owner_ph: 'https://github.com/owner/repo',
+    submit_field_category: 'Category',
+    submit_field_desc: 'Description',
+    submit_field_desc_ph: 'Describe this skill in one sentence...',
+    submit_field_contact: 'Contact (optional)',
+    submit_field_contact_ph: 'Email or WeChat so we can reach you',
+    submit_btn_send: 'Submit for Review',
+    submit_success: 'Submitted! We will review it soon. Thanks for contributing 🎉',
+    submit_invalid_url: 'Please enter a valid GitHub repo URL',
+
+    // Hot / Popular
+    tab_hot: 'Hot',
+    hot_subtitle: 'Evergreen projects ranked by total stars',
+
+    // RSS / Subscribe
+    subscribe_title: 'Subscribe',
+    subscribe_desc: 'Get notified about new skills and weekly hot picks',
+    subscribe_rss: 'RSS Feed',
+    subscribe_rss_desc: 'Subscribe with your RSS reader',
+    subscribe_copy: 'Copy RSS Link',
+    subscribe_copied: 'RSS link copied',
+
+    // Site Stats
+    stat_title: 'Site Stats',
+    stat_visits: 'Total Visits',
+    stat_pageviews: 'Page Views',
+    stat_online: 'Today Visitors',
+
+    // Thank Wall
+    thanks_title: 'Thank You Wall',
+    thanks_desc: 'Thanks to these friends whose support keeps open source shining',
+    thanks_empty: 'Be the first supporter ☕',
+    thanks_add: 'Support Us Too',
+
+    // Sponsor Page
+    sponsor_title: 'Support AI Skills Market',
+    sponsor_desc: 'Every bit of your support drives the open-source community forward',
+    sponsor_wechat: 'WeChat Reward',
+    sponsor_alipay: 'Alipay Reward',
+    sponsor_coffee: 'Buy Me a Coffee',
+    sponsor_back: 'Back to Home',
+
+    // Paid badge
+    tag_paid: 'Paid',
+    tag_premium: 'Premium',
+    card_unlock: 'Unlock',
+    card_locked: 'Paid Content',
 
   }
 };

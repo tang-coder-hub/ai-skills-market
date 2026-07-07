@@ -12,7 +12,8 @@
       "period_stars": 20137,
       "url": "https://github.com/apple/container",
       "category": "productivity",
-      "rank": 1
+      "rank": 1,
+      "price": "free"
     },
     {
       "name": "codebase-memory-mcp",
@@ -23,7 +24,8 @@
       "period_stars": 24223,
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "category": "engineering",
-      "rank": 2
+      "rank": 2,
+      "price": "free"
     },
     {
       "name": "OpenMontage",
@@ -34,7 +36,8 @@
       "period_stars": 29796,
       "url": "https://github.com/calesthio/OpenMontage",
       "category": "marketing",
-      "rank": 3
+      "rank": 3,
+      "price": "free"
     },
     {
       "name": "SkillSpector",
@@ -45,7 +48,8 @@
       "period_stars": 10867,
       "url": "https://github.com/NVIDIA/SkillSpector",
       "category": "security",
-      "rank": 4
+      "rank": 4,
+      "price": "free"
     },
     {
       "name": "Agent-Reach",
@@ -56,7 +60,8 @@
       "period_stars": 30168,
       "url": "https://github.com/Panniantong/Agent-Reach",
       "category": "productivity",
-      "rank": 5
+      "rank": 5,
+      "price": "free"
     },
     {
       "name": "iptv",
@@ -67,7 +72,8 @@
       "period_stars": 14204,
       "url": "https://github.com/iptv-org/iptv",
       "category": "engineering",
-      "rank": 6
+      "rank": 6,
+      "price": "free"
     },
     {
       "name": "last30days-skill",
@@ -78,7 +84,8 @@
       "period_stars": 21391,
       "url": "https://github.com/mvanhorn/last30days-skill",
       "category": "productivity",
-      "rank": 7
+      "rank": 7,
+      "price": "free"
     },
     {
       "name": "system_prompts_leaks",
@@ -89,7 +96,8 @@
       "period_stars": 9636,
       "url": "https://github.com/asgeirtj/system_prompts_leaks",
       "category": "design",
-      "rank": 8
+      "rank": 8,
+      "price": "free"
     },
     {
       "name": "hiring-agent",
@@ -100,7 +108,8 @@
       "period_stars": 4089,
       "url": "https://github.com/interviewstreet/hiring-agent",
       "category": "engineering",
-      "rank": 9
+      "rank": 9,
+      "price": "free"
     },
     {
       "name": "strix",
@@ -111,7 +120,8 @@
       "period_stars": 12018,
       "url": "https://github.com/usestrix/strix",
       "category": "security",
-      "rank": 10
+      "rank": 10,
+      "price": "premium"
     }
   ]
 }

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>AI Skills Market</title>
+  <link>https://tang-coder-hub.github.io/ai-skills-market/</link>
+  <description>AI Agent 技能的开放市场。社区驱动，MIT 协议。</description>
+  <lastBuildDate>Tue, 07 Jul 2026 14:38:00 +0000</lastBuildDate>
+    <item>
+      <title>Agent-Reach — Give your AI agent eyes to see the entire internet. Read &amp; search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.</title>
+      <link>https://github.com/Panniantong/Agent-Reach</link>
+      <guid>https://github.com/Panniantong/Agent-Reach</guid>
+      <category>productivity</category>
+    </item>
+    <item>
+      <title>OpenMontage — World&apos;s first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.</title>
+      <link>https://github.com/calesthio/OpenMontage</link>
+      <guid>https://github.com/calesthio/OpenMontage</guid>
+      <category>marketing</category>
+    </item>
+    <item>
+      <title>container — A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.</title>
+      <link>https://github.com/apple/container</link>
+      <guid>https://github.com/apple/container</guid>
+      <category>productivity</category>
+    </item>
+    <item>
+      <title>iptv — Collection of publicly available IPTV channels from all over the world</title>
+      <link>https://github.com/iptv-org/iptv</link>
+      <guid>https://github.com/iptv-org/iptv</guid>
+      <category>engineering</category>
+    </item>
+    <item>
+      <title>SkillSpector — Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.</title>
+      <link>https://github.com/NVIDIA/SkillSpector</link>
+      <guid>https://github.com/NVIDIA/SkillSpector</guid>
+      <category>security</category>
+    </item>
+    <item>
+      <title>strix — Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.</title>
+      <link>https://github.com/usestrix/strix</link>
+      <guid>https://github.com/usestrix/strix</guid>
+      <category>security</category>
+    </item>
+    <item>
+      <title>agency-agents — A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, a</title>
+      <link>https://github.com/msitarzewski/agency-agents</link>
+      <guid>https://github.com/msitarzewski/agency-agents</guid>
+      <category>engineering</category>
+    </item>
+    <item>
+      <title>caveman — 🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman</title>
+      <link>https://github.com/JuliusBrussee/caveman</link>
+      <guid>https://github.com/JuliusBrussee/caveman</guid>
+      <category>productivity</category>
+    </item>
+    <item>
+      <title>codebase-memory-mcp — High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary</title>
+      <link>https://github.com/DeusData/codebase-memory-mcp</link>
+      <guid>https://github.com/DeusData/codebase-memory-mcp</guid>
+      <category>engineering</category>
+    </item>
+    <item>
+      <title>exercises-dataset — A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.</title>
+      <link>https://github.com/hasaneyldrm/exercises-dataset</link>
+      <guid>https://github.com/hasaneyldrm/exercises-dataset</guid>
+      <category>design</category>
+    </item>
+    <item>
+      <title>ai-berkshire — AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters&apos; methodologies + multi-ag</title>
+      <link>https://github.com/xbtlin/ai-berkshire</link>
+      <guid>https://github.com/xbtlin/ai-berkshire</guid>
+      <category>design</category>
+    </item>
+    <item>
+      <title>OmniRoute — Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline &amp; Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95%</title>
+      <link>https://github.com/diegosouzapw/OmniRoute</link>
+      <guid>https://github.com/diegosouzapw/OmniRoute</guid>
+      <category>productivity</category>
+    </item>
+    <item>
+      <title>hiring-agent — AI agent to evaluate and score resumes.</title>
+      <link>https://github.com/interviewstreet/hiring-agent</link>
+      <guid>https://github.com/interviewstreet/hiring-agent</guid>
+      <category>engineering</category>
+    </item>
+    <item>
+      <title>page-agent — JavaScript in-page GUI agent. Control web interfaces with natural language.</title>
+      <link>https://github.com/alibaba/page-agent</link>
+      <guid>https://github.com/alibaba/page-agent</guid>
+      <category>design</category>
+    </item>
+    <item>
+      <title>orca — Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.</title>
+      <link>https://github.com/stablyai/orca</link>
+      <guid>https://github.com/stablyai/orca</guid>
+      <category>engineering</category>
+    </item>
+    <item>
+      <title>video-use — Edit videos with coding agents</title>
+      <link>https://github.com/browser-use/video-use</link>
+      <guid>https://github.com/browser-use/video-use</guid>
+      <category>marketing</category>
+    </item>
+    <item>
+      <title>ai-website-cloner-template — Clone any website with one command using AI coding agents</title>
+      <link>https://github.com/JCodesMore/ai-website-cloner-template</link>
+      <guid>https://github.com/JCodesMore/ai-website-cloner-template</guid>
+      <category>engineering</category>
+    </item>
+    <item>
+      <title>meetily — Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (</title>
+      <link>https://github.com/Zackriya-Solutions/meetily</link>
+      <guid>https://github.com/Zackriya-Solutions/meetily</guid>
+      <category>design</category>
+    </item>
+    <item>
+      <title>FluidVoice — Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows &amp; iOS waitlist open. Linux soon.</title>
+      <link>https://github.com/altic-dev/FluidVoice</link>
+      <guid>https://github.com/altic-dev/FluidVoice</guid>
+      <category>design</category>
+    </item>
+    <item>
+      <title>immich — High performance self-hosted photo and video management solution.</title>
+      <link>https://github.com/immich-app/immich</link>
+      <guid>https://github.com/immich-app/immich</guid>
+      <category>marketing</category>
+    </item>
+</channel>
+</rss>
