@@ -105,7 +105,7 @@ function bindEvents() {
       trendingTabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       currentTab = tab.dataset.period;
-      // 刷新数据
+      // refresh data
       if (currentTab !== 'favorites') await fetchAllData();
       renderSkills();
       updateStats();
@@ -798,7 +798,7 @@ function registerSW() {
 }
 
 
-// ==================== 6个新功能 ====================
+// ==================== 6 new features ====================
 
 function loadFavorites() {
   try {
@@ -835,7 +835,7 @@ function toggleFavorite(owner, name) {
   }
 }
 
-// 2. 对比功能
+// 2. compare feature
 function toggleCompare(owner, name) {
   const idx = compareList.findIndex(f => f.owner === owner && f.name === name);
   if (idx >= 0) {
@@ -932,7 +932,7 @@ function renderCompare() {
   document.getElementById('compareOverlay').classList.add('active');
 }
 
-// 3. 排序功能
+// 3. sort feature
 
 function sortRepos(repos) {
   const sorted = [...repos];
@@ -958,7 +958,7 @@ function sortRepos(repos) {
   return sorted;
 }
 
-// 4. 语言筛选
+// 4. language filter
 function populateLanguageFilter() {
   if (!trendingData) return;
   const datasource = currentTab === 'favorites' ? getFavoritesRepos() : trendingData[currentTab] || [];
@@ -995,7 +995,7 @@ function getFavoritesRepos() {
   return allRepos;
 }
 
-// 5. README预览
+// 5. README preview
 async function fetchReadme(owner, name) {
   const container = document.getElementById('readmeContent');
   if (!container) return;
@@ -1041,7 +1041,7 @@ async function fetchReadme(owner, name) {
   }
 }
 
-// 6. 星标历史
+// 6. star history
 function showStarHistory(owner, name) {
   const chartContainer = document.getElementById('starChartContainer');
   if (!chartContainer) return;
@@ -1067,7 +1067,7 @@ function showStarHistory(owner, name) {
   }
 }
 
-// 7. 模态框标签切换
+// 7. modal tab switching
 function switchModalSection(section, owner, name) {
   document.querySelectorAll('.section-tab').forEach(t => t.classList.remove('active'));
   const tab = document.querySelector(`.section-tab[data-section="${section}"]`);
@@ -1089,10 +1089,10 @@ function switchModalSection(section, owner, name) {
   }
 }
 
-// 8. 初始化收藏夹
+// 8. init favorites
 loadFavorites();
 
-// 9. 修改renderSkills以支持排序和语言筛选
+// 9. renderSkills with sort & language filter
 const originalRenderSkills = renderSkills;
 renderSkills = function() {
   let repos;
@@ -1140,13 +1140,13 @@ renderSkills = function() {
   populateLanguageFilter();
 };
 
-// 10. 修改createRepoCard添加收藏和对比按钮
+// 10. createRepoCard with favorite & compare buttons
 const originalCreateRepoCard = createRepoCard;
 createRepoCard = function(repo, index) {
   const card = originalCreateRepoCard(repo, index);
   card.dataset.repo = `${repo.owner}/${repo.name}`;
 
-  // 收藏按钮 — 卡片右上角
+  // favorite button — top-right of card
   const favBtn = document.createElement('button');
   favBtn.className = 'fav-btn fav-btn-topright';
   favBtn.title = isFavorite(repo.owner, repo.name) ? t('fav_remove') : t('fav_add');
@@ -1154,7 +1154,7 @@ createRepoCard = function(repo, index) {
   favBtn.onclick = function(e) { e.stopPropagation(); toggleFavorite(repo.owner, repo.name); };
   card.appendChild(favBtn);
 
-  // 付费标识
+  // paid badge
   if (repo.price && repo.price !== 'free') {
     const badge = document.createElement('span');
     badge.className = 'paid-badge ' + (repo.price === 'premium' ? 'paid-premium' : 'paid-paid');
@@ -1163,7 +1163,7 @@ createRepoCard = function(repo, index) {
     if (header) header.appendChild(badge);
   }
 
-  // 排名徽章 — 移到卡片顶部左侧
+  // rank badge — top-left of card
   const rankWrap = card.querySelector('.card-rank-wrap');
   const cardHeader = card.querySelector('.card-header');
   if (rankWrap && cardHeader) {
@@ -1171,7 +1171,7 @@ createRepoCard = function(repo, index) {
     rankWrap.classList.add('rank-top-left');
   }
 
-  // 对比勾选 — 放在卡片底部
+  // compare checkbox — at card bottom
   const actionsDiv = document.createElement('div');
   actionsDiv.className = 'card-actions-right';
   actionsDiv.innerHTML = `
@@ -1188,7 +1188,7 @@ createRepoCard = function(repo, index) {
 };
 
 
-// ==================== 捐赠 & 反馈功能 ====================
+// ==================== donate & feedback ====================
 
 // ---------- Donate Modal ----------
 (function initDonateModal() {
@@ -1246,37 +1246,55 @@ createRepoCard = function(repo, index) {
     if (e.key === 'Escape' && feedbackOverlay.classList.contains('active')) closeFeedback();
   });
 
-  // Submit → generate GitHub Issue URL
-  feedbackSubmit.addEventListener('click', function() {
-    const type = document.querySelector('input[name="feedbackType"]:checked');
-    const typeVal = type ? type.value : 'bug';
-    const typeLabel = t('feedback_type_' + typeVal) || typeVal;
-    const desc = document.getElementById('feedbackDesc').value.trim();
+  // Submit → Web3Forms (no backend, delivers to your email)
+  const feedbackForm = document.getElementById('feedbackForm');
+  const feedbackStatus = document.getElementById('feedbackStatus');
+  const feedbackDesc = document.getElementById('feedbackDesc');
 
+  feedbackForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const desc = feedbackDesc.value.trim();
     if (!desc) {
       alert(t('feedback_empty_warning'));
       return;
     }
+    const btn = feedbackSubmit;
+    btn.disabled = true;
+    btn.textContent = t('feedback_sending') || '提交中...';
 
-    const typeLabelMap = { bug: 'Bug 反馈', feature: '功能建议', other: '其他' };
-    const title = encodeURIComponent('[' + typeLabelMap[typeVal] + '] ' + desc.slice(0, 60));
-    const body = encodeURIComponent(
-      '**反馈类型**: ' + typeLabel + '\n\n' +
-      '**描述**:\n' + desc + '\n\n' +
-      '---\n*来自 AI Skills Market 反馈表单*'
-    );
-    const issueUrl = 'https://github.com/tang-coder-hub/ai-skills-market/issues/new?title=' + title + '&body=' + body;
-
-    window.open(issueUrl, '_blank', 'noopener');
-    closeFeedback();
-    document.getElementById('feedbackDesc').value = '';
+    const formData = new FormData(feedbackForm);
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formData
+    })
+      .then(r => r.json())
+      .then(d => {
+        if (d.success) {
+          feedbackStatus.style.display = 'block';
+          feedbackStatus.style.color = '#34d399';
+          feedbackStatus.textContent = t('feedback_sent') || '已收到，感谢你的反馈 ❤';
+          feedbackDesc.value = '';
+          setTimeout(closeFeedback, 1500);
+        } else {
+          throw new Error('fail');
+        }
+      })
+      .catch(() => {
+        feedbackStatus.style.display = 'block';
+        feedbackStatus.style.color = '#f87171';
+        feedbackStatus.textContent = t('feedback_error') || '提交失败，请稍后再试';
+      })
+      .finally(() => {
+        btn.disabled = false;
+        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg><span>' + (t('feedback_submit') || '提交反馈') + '</span>';
+      });
   });
 })();
 
 
-// ==================== 新增功能：提交技能 / 统计 / 感谢墙 / 赞助 / RSS ====================
+// ==================== submit skill / stats / thanks wall / RSS ====================
 
-// ---------- 提交技能表单 ----------
+// ---------- submit skill form ----------
 function openSubmitModal() {
   const overlay = document.getElementById('submitOverlay');
   if (!overlay) return;
@@ -1324,36 +1342,63 @@ function openSubmitModal() {
   });
 })();
 
-// ---------- 站点访问统计（localStorage 轻量实现） ----------
+// ---------- site stats (GitHub public API real data + local fallback) ----------
+const REPO_API = 'https://api.github.com/repos/tang-coder-hub/ai-skills-market';
 (function initSiteStats() {
-  try {
-    const today = new Date().toISOString().slice(0, 10);
-    let stats = JSON.parse(localStorage.getItem('asmStats') || '{}');
-    stats.visits = (stats.visits || 0) + 1;
-    stats.pageviews = (stats.pageviews || 0) + 1;
-    const dayKey = 'd_' + today;
-    stats[dayKey] = (stats[dayKey] || 0) + 1;
-    localStorage.setItem('asmStats', JSON.stringify(stats));
+  const elV = document.getElementById('statVisits');
+  const elP = document.getElementById('statPageviews');
+  const elO = document.getElementById('statOnline');
 
-    const elV = document.getElementById('statVisits');
-    const elP = document.getElementById('statPageviews');
-    const elO = document.getElementById('statOnline');
-    if (elV) elV.textContent = (stats.visits || 0).toLocaleString();
-    if (elP) elP.textContent = (stats.pageviews || 0).toLocaleString();
-    if (elO) elO.textContent = (stats[dayKey] || 0).toLocaleString();
-  } catch (e) {}
+  // local fallback: at least record local visit trend
+  let local = {};
+  try { local = JSON.parse(localStorage.getItem('asmStats') || '{}'); } catch (e) {}
+  local.visits = (local.visits || 0) + 1;
+  local.pageviews = (local.pageviews || 0) + 1;
+  try { localStorage.setItem('asmStats', JSON.stringify(local)); } catch (e) {}
+
+  if (elV) elV.textContent = (local.visits || 0).toLocaleString();
+  if (elP) elP.textContent = (local.pageviews || 0).toLocaleString();
+  if (elO) elO.textContent = '—';
+
+  // try fetching real repo data (star/watch/fork as real "community size" metrics)
+  fetch(REPO_API, { headers: { 'Accept': 'application/vnd.github+json' } })
+    .then(r => { if (!r.ok) throw new Error('gh'); return r.json(); })
+    .then(d => {
+      if (elV && typeof d.stargazers_count === 'number') {
+        elV.textContent = d.stargazers_count.toLocaleString();
+        elV.title = 'GitHub Stars（真实数据）';
+      }
+      if (elP && typeof d.forks_count === 'number') {
+        elP.textContent = d.forks_count.toLocaleString();
+        elP.title = 'Forks（真实数据）';
+      }
+      if (elO && typeof d.subscribers_count === 'number') {
+        elO.textContent = d.subscribers_count.toLocaleString();
+        elO.title = 'Watchers（真实数据）';
+      }
+    })
+    .catch(() => { /* 网络不通时保留本地兜底值 */ });
 })();
 
-// ---------- 感谢墙 ----------
+// ---------- thanks wall (GitHub Issues shared + local fallback) ----------
 const THANKS_KEY = 'asmThanks';
-function loadThanks() {
+const THANKS_DONE_KEY = 'asmThanksDone';
+const THANKS_LABEL = 'thanks-wall';
+const THANKS_ISSUES_API = 'https://api.github.com/repos/tang-coder-hub/ai-skills-market/issues?labels=' + THANKS_LABEL + '&state=all&per_page=100';
+
+function loadLocalThanks() {
   try { return JSON.parse(localStorage.getItem(THANKS_KEY) || '[]'); } catch (e) { return []; }
 }
-function renderThanksWall() {
+function saveLocalThanks(list) {
+  try { localStorage.setItem(THANKS_KEY, JSON.stringify(list)); } catch (e) {}
+}
+function hasSupported() {
+  return localStorage.getItem(THANKS_DONE_KEY) === '1';
+}
+function renderThanksWall(list) {
   const wall = document.getElementById('thanksWall');
   if (!wall) return;
-  const list = loadThanks();
-  if (!list.length) {
+  if (!list || !list.length) {
     wall.innerHTML = '<p class="thanks-empty" data-i18n="thanks_empty">' + t('thanks_empty') + '</p>';
     return;
   }
@@ -1361,50 +1406,74 @@ function renderThanksWall() {
     '<span class="thanks-chip">' + escapeHtml(n) + '</span>'
   ).join('');
 }
+function syncThanksBtn() {
+  const addBtn = document.getElementById('thanksAddBtn');
+  if (!addBtn) return;
+  if (hasSupported()) {
+    addBtn.disabled = true;
+    addBtn.textContent = t('thanks_done') || '已支持，感谢你 ❤';
+  }
+}
+// extract name from issue title (convention: "Thanks: <name>")
+function extractName(title) {
+  return title.replace(/^Thanks:\s*/i, '').trim();
+}
 (function initThanksWall() {
   const addBtn = document.getElementById('thanksAddBtn');
-  renderThanksWall();
+  renderThanksWall(loadLocalThanks());
+  syncThanksBtn();
   if (!addBtn) return;
+
+  // fetch shared thanks wall (GitHub Issues)
+  fetch(THANKS_ISSUES_API, { headers: { 'Accept': 'application/vnd.github+json' } })
+    .then(r => { if (!r.ok) throw new Error('gh'); return r.json(); })
+    .then(issues => {
+      const names = issues
+        .filter(i => !i.pull_request)
+        .map(i => extractName(i.title))
+        .filter(Boolean);
+      if (names.length) {
+        renderThanksWall(names);
+        saveLocalThanks(names); // cache so it still shows offline
+      }
+    })
+    .catch(() => { /* 降级：保留本地缓存 */ });
+
   addBtn.addEventListener('click', () => {
+    if (hasSupported()) return;
     const name = prompt('你的昵称 / 名字：');
     if (!name) return;
-    const list = loadThanks();
-    if (!list.includes(name.trim())) list.push(name.trim());
-    localStorage.setItem(THANKS_KEY, JSON.stringify(list));
-    renderThanksWall();
-    // 跳到赞助页
-    if (typeof openSponsor === 'function') openSponsor();
+    const trimmed = name.trim();
+    if (!trimmed) return;
+
+    // instant local feedback (visible even offline)
+    const local = loadLocalThanks();
+    if (!local.includes(trimmed)) local.push(trimmed);
+    saveLocalThanks(local);
+    renderThanksWall(local);
+    localStorage.setItem(THANKS_DONE_KEY, '1');
+    syncThanksBtn();
+
+    // open GitHub new-issue page (prefilled title); after submit it appears on shared wall
+    // no token needed, safe and no secret exposed
+    const title = 'Thanks: ' + trimmed;
+    const body = '来自感谢墙的支持 ❤';
+    const url = 'https://github.com/tang-coder-hub/ai-skills-market/issues/new'
+      + '?title=' + encodeURIComponent(title)
+      + '&body=' + encodeURIComponent(body)
+      + '&labels=' + encodeURIComponent(THANKS_LABEL);
+    window.open(url, '_blank', 'noopener');
   });
 })();
 
-// ---------- 赞助页 ----------
-function openSponsor() {
-  const page = document.getElementById('sponsorPage');
-  const main = document.querySelector('.main-content, main, .container');
-  if (page) page.style.display = 'block';
-  document.querySelectorAll('section.trending-tabs-section, section.filter-section, section.skills-section, section.community-section, footer.footer').forEach(s => s.style.display = 'none');
-  window.scrollTo(0, 0);
-}
-function closeSponsor() {
-  const page = document.getElementById('sponsorPage');
-  if (page) page.style.display = 'none';
-  document.querySelectorAll('section.trending-tabs-section, section.filter-section, section.skills-section, section.community-section, footer.footer').forEach(s => s.style.display = '');
-}
-(function initSponsor() {
-  const btn = document.getElementById('sponsorBtn');
-  const back = document.getElementById('sponsorBack');
-  if (btn) btn.addEventListener('click', openSponsor);
-  if (back) back.addEventListener('click', closeSponsor);
-})();
-
-// ---------- RSS 订阅 ----------
+// ---------- RSS feed ----------
 (function initRSS() {
   const btn = document.getElementById('rssBtn');
   if (!btn) return;
   btn.addEventListener('click', async () => {
     const feedUrl = location.href.replace(/index\.html$/, '') + 'feed.xml';
     try {
-      // 尝试生成 feed.xml（若数据可用）
+      // try generating feed.xml (if data available)
       await generateFeed(feedUrl);
     } catch (e) {}
     if (navigator.clipboard) {
@@ -1420,7 +1489,7 @@ function closeSponsor() {
 })();
 
 async function generateFeed(feedUrl) {
-  // 合并所有周期数据生成 RSS
+  // merge all period data into RSS
   const all = [];
   const seen = new Set();
   for (const p of ['daily', 'weekly', 'monthly']) {
@@ -1448,12 +1517,12 @@ async function generateFeed(feedUrl) {
     '  <lastBuildDate>' + new Date().toUTCString() + '</lastBuildDate>\n' +
     items + '\n</channel>\n</rss>\n';
   try {
-    // 尝试写入（仅当支持 File System Access 或本地服务器）
+    // try writing (only if File System Access or local server is supported)
     if (typeof fetch !== 'undefined') {
-      // 在 file:// 下无法写入，仅尝试通过 service worker 缓存
+      // cannot write under file://, only try service worker cache
     }
   } catch (e) {}
-  // 将 feed 内容暂存到 localStorage 供下载
+  // stash feed content in localStorage for download
   localStorage.setItem('asmFeedXml', xml);
   return xml;
 }

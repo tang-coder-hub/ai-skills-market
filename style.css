@@ -1131,6 +1131,13 @@ a:hover { text-decoration: underline; }
   gap: 8px;
 }
 
+.feedback-status {
+  margin: 12px 0 0;
+  font-size: 0.85rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
 /* ============================================
    DONATE MODAL
    ============================================ */
@@ -2070,9 +2077,9 @@ a:hover { text-decoration: underline; }
 }
 
 
-/* ==================== 新增功能样式 ==================== */
+/* ==================== new features styles ==================== */
 
-/* 付费标识 */
+/* paid badge */
 .paid-badge {
   display: inline-block;
   margin-left: auto;
@@ -2085,7 +2092,7 @@ a:hover { text-decoration: underline; }
 .paid-paid { background: rgba(245, 158, 11, 0.15); color: #f59e0b; border: 1px solid rgba(245, 158, 11, 0.3); }
 .paid-premium { background: linear-gradient(135deg, rgba(139, 92, 246, 0.18), rgba(236, 72, 153, 0.18)); color: #c084fc; border: 1px solid rgba(192, 132, 252, 0.35); }
 
-/* 社区区块：统计 + 感谢墙 */
+/* community section: stats + thanks wall */
 .community-section { padding: 40px 20px; }
 .community-container { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1.4fr; gap: 24px; }
 .section-title { font-size: 1.3rem; font-weight: 700; margin-bottom: 16px; color: var(--text-color); }
@@ -2099,8 +2106,10 @@ a:hover { text-decoration: underline; }
 .thanks-chip { display: inline-flex; align-items: center; padding: 6px 14px; background: linear-gradient(135deg, rgba(139,92,246,0.12), rgba(236,72,153,0.12)); border: 1px solid rgba(192,132,252,0.25); border-radius: 20px; font-size: 0.82rem; color: var(--text-color); }
 .thanks-empty { color: var(--text-secondary); font-size: 0.85rem; font-style: italic; }
 .thanks-add-btn { width: 100%; }
+.thanks-add-btn:disabled { opacity: 0.55; cursor: not-allowed; }
+.stats-source { margin-top: 14px; font-size: 0.72rem; color: var(--text-secondary); opacity: 0.8; }
 
-/* 提交技能表单 */
+/* submit skill form */
 .submit-modal { max-width: 480px; }
 .submit-form { display: flex; flex-direction: column; gap: 6px; margin-top: 16px; }
 .form-label { font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); margin-top: 10px; }
@@ -2108,22 +2117,10 @@ a:hover { text-decoration: underline; }
 .form-input:focus { outline: none; border-color: var(--accent-color); }
 .submit-send-btn { margin-top: 18px; width: 100%; justify-content: center; }
 
-/* 赞助页 */
-.sponsor-page { padding: 60px 20px; min-height: 70vh; }
-.sponsor-container { max-width: 800px; margin: 0 auto; text-align: center; }
-.sponsor-back { margin-bottom: 24px; }
-.sponsor-title { font-size: 2rem; font-weight: 800; margin-bottom: 12px; background: linear-gradient(135deg, #8b5cf6, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-.sponsor-desc { color: var(--text-secondary); margin-bottom: 36px; }
-.sponsor-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
-.sponsor-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 24px; display: flex; flex-direction: column; align-items: center; gap: 16px; }
-.sponsor-card h3 { font-size: 1rem; font-weight: 700; }
-.sponsor-qr { width: 140px; height: 140px; border-radius: 12px; object-fit: cover; border: 1px solid var(--border-color); }
+/* RSS button already styled in nav-actions, no extra styles needed */
 
-/* RSS 按钮已在 nav-actions 中，无需额外样式 */
-
-/* 响应式 */
+/* responsive */
 @media (max-width: 768px) {
   .community-container { grid-template-columns: 1fr; }
-  .sponsor-grid { grid-template-columns: 1fr; }
   .stats-grid { grid-template-columns: repeat(3, 1fr); }
 }

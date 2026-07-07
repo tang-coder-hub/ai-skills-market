@@ -267,6 +267,9 @@ const i18n = {
     feedback_desc_placeholder: '请描述你的问题或建议...',
     feedback_submit: '提交反馈',
     feedback_empty_warning: '请填写反馈描述',
+    feedback_sending: '提交中...',
+    feedback_sent: '已收到，感谢你的反馈 ❤',
+    feedback_error: '提交失败，请稍后再试',
 
     // Donate
     donate_btn: '打赏支持',
@@ -306,23 +309,17 @@ const i18n = {
 
     // Site Stats
     stat_title: '站点数据',
-    stat_visits: '累计访问',
-    stat_pageviews: '页面浏览',
-    stat_online: '今日访客',
+    stat_visits: 'GitHub Stars',
+    stat_pageviews: 'Forks',
+    stat_online: 'Watchers',
+    stat_source: '实时数据来自 GitHub API · 访问统计由 Cloudflare 提供',
 
     // Thank Wall
     thanks_title: '感谢墙',
     thanks_desc: '感谢这些朋友的支持，让开源持续发光',
     thanks_empty: '成为第一个支持者吧 ☕',
     thanks_add: '我也要支持',
-
-    // Sponsor Page
-    sponsor_title: '支持 AI Skills Market',
-    sponsor_desc: '你的每一份支持，都是开源社区前进的动力',
-    sponsor_wechat: '微信赞赏',
-    sponsor_alipay: '支付宝赞赏',
-    sponsor_coffee: 'Buy Me a Coffee',
-    sponsor_back: '返回首页',
+    thanks_done: '已支持，感谢你 ❤',
 
     // Paid badge
     tag_paid: '付费',
@@ -595,6 +592,9 @@ const i18n = {
     feedback_desc_placeholder: 'Please describe your issue or suggestion...',
     feedback_submit: 'Submit Feedback',
     feedback_empty_warning: 'Please fill in the feedback description',
+    feedback_sending: 'Sending...',
+    feedback_sent: 'Received, thank you for your feedback ❤',
+    feedback_error: 'Submission failed, please try again',
 
     // Donate
     donate_btn: 'Support Us',
@@ -634,23 +634,17 @@ const i18n = {
 
     // Site Stats
     stat_title: 'Site Stats',
-    stat_visits: 'Total Visits',
-    stat_pageviews: 'Page Views',
-    stat_online: 'Today Visitors',
+    stat_visits: 'GitHub Stars',
+    stat_pageviews: 'Forks',
+    stat_online: 'Watchers',
+    stat_source: 'Live data from GitHub API · Analytics by Cloudflare',
 
     // Thank Wall
     thanks_title: 'Thank You Wall',
     thanks_desc: 'Thanks to these friends whose support keeps open source shining',
     thanks_empty: 'Be the first supporter ☕',
     thanks_add: 'Support Us Too',
-
-    // Sponsor Page
-    sponsor_title: 'Support AI Skills Market',
-    sponsor_desc: 'Every bit of your support drives the open-source community forward',
-    sponsor_wechat: 'WeChat Reward',
-    sponsor_alipay: 'Alipay Reward',
-    sponsor_coffee: 'Buy Me a Coffee',
-    sponsor_back: 'Back to Home',
+    thanks_done: 'Supported, thank you ❤',
 
     // Paid badge
     tag_paid: 'Paid',
