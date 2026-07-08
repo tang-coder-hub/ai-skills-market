@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T09:43:54Z",
+  "updated": "2026-07-08T10:58:42Z",
   "since": "hot",
   "count": 25,
   "repos": [
@@ -13,7 +13,8 @@
       "url": "https://github.com/usestrix/strix",
       "category": "productivity",
       "rank": 1,
-      "price": "free"
+      "price": "free",
+      "description_zh": "开源AI黑客来查找和修复您的应用程序的漏洞。"
     },
     {
       "name": "openwiki",
@@ -25,7 +26,8 @@
       "url": "https://github.com/langchain-ai/openwiki",
       "category": "productivity",
       "rank": 2,
-      "price": "free"
+      "price": "free",
+      "description_zh": "Openiki是一个CLI，可以为您的代码库编写和维护代理文档。"
     },
     {
       "name": "box3d",
@@ -37,7 +39,8 @@
       "url": "https://github.com/erincatto/box3d",
       "category": "productivity",
       "rank": 3,
-      "price": "free"
+      "price": "free",
+      "description_zh": "Box 3D是一款游戏3D物理引擎"
     },
     {
       "name": "meetily",
@@ -49,7 +52,8 @@
       "url": "https://github.com/Zackriya-Solutions/meetily",
       "category": "productivity",
       "rank": 4,
-      "price": "free"
+      "price": "free",
+      "description_zh": "隐私第一，人工智能会议助理，具有4倍速度的Parakeet/Whisper实时转录、扬声器日记化和基于Rust的Ollama总结。100%本地加工。不需要云。Meetly（Meetly AI -https://meetily.ai）是macOS和Windows上排名第一的自托管、开源AI会议笔记员。"
     },
     {
       "name": "codex-plugin-cc",
@@ -61,7 +65,8 @@
       "url": "https://github.com/openai/codex-plugin-cc",
       "category": "productivity",
       "rank": 5,
-      "price": "free"
+      "price": "free",
+      "description_zh": "使用Claude Code的Codex来审查代码或委托任务。"
     },
     {
       "name": "astryx",
@@ -73,7 +78,8 @@
       "url": "https://github.com/facebook/astryx",
       "category": "productivity",
       "rank": 6,
-      "price": "free"
+      "price": "free",
+      "description_zh": "一个完全可定制且可代理的开源设计系统"
     },
     {
       "name": "OpenMontage",
@@ -85,7 +91,8 @@
       "url": "https://github.com/calesthio/OpenMontage",
       "category": "productivity",
       "rank": 7,
-      "price": "free"
+      "price": "free",
+      "description_zh": "世界上第一个开源、代理视频制作系统。12条管道、52种工具、500+名代理技能。将您的人工智能编码助理变成完整的视频制作工作室。"
     },
     {
       "name": "ai-job-search",
@@ -97,7 +104,8 @@
       "url": "https://github.com/MadsLorentzen/ai-job-search",
       "category": "productivity",
       "rank": 8,
-      "price": "free"
+      "price": "free",
+      "description_zh": "基于Claude Code构建的人工智能驱动的职位申请框架。分叉它，填写您的个人资料，让Claude评估工作、定制简历、撰写求职信并为您做好面试准备。"
     },
     {
       "name": "codebase-memory-mcp",
@@ -109,7 +117,8 @@
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "category": "productivity",
       "rank": 9,
-      "price": "free"
+      "price": "free",
+      "description_zh": "高性能代码智能MCP服务器。将代码库索引到持久知识图中-平均回购以毫秒为单位。158种语言，亚ms查询，令牌减少99%。单一静态二进制，零依赖关系。"
     },
     {
       "name": "page-agent",
@@ -121,7 +130,8 @@
       "url": "https://github.com/alibaba/page-agent",
       "category": "productivity",
       "rank": 10,
-      "price": "free"
+      "price": "free",
+      "description_zh": "JavaScript页面内图形用户界面代理。使用自然语言控制网络界面。"
     },
     {
       "name": "herdr",
@@ -133,7 +143,8 @@
       "url": "https://github.com/ogulcancelik/herdr",
       "category": "productivity",
       "rank": 11,
-      "price": "free"
+      "price": "free",
+      "description_zh": "位于您的终端中的代理多路转换器。"
     },
     {
       "name": "pxpipe",
@@ -145,7 +156,8 @@
       "url": "https://github.com/teamchong/pxpipe",
       "category": "productivity",
       "rank": 12,
-      "price": "free"
+      "price": "free",
+      "description_zh": "通过将文本上下文渲染为图像来减少Fable 5代币的使用"
     },
     {
       "name": "OmniRoute",
@@ -157,7 +169,8 @@
       "url": "https://github.com/diegosouzapw/OmniRoute",
       "category": "productivity",
       "rank": 13,
-      "price": "free"
+      "price": "free",
+      "description_zh": "永远不要停止编码。免费人工智能门户：一个端点、160+个提供商（50+个免费），将Claude Code、Codex、Cursor、Cline & Copilot连接到FREE Claude/GPT/Gemini。TEK +Caveman堆叠压缩可节省15-95%的令牌、智能自动回撤、HCP/A2 A、多模式API、桌面/PWA。"
     },
     {
       "name": "orca",
@@ -169,7 +182,8 @@
       "url": "https://github.com/stablyai/orca",
       "category": "productivity",
       "rank": 14,
-      "price": "free"
+      "price": "free",
+      "description_zh": "Orca是与平行代理舰队合作的ADE。使用您自己的订阅运行任何编码代理。可在台式机和移动设备上提供。"
     },
     {
       "name": "Vibe-Trading",
@@ -181,7 +195,8 @@
       "url": "https://github.com/HKUDS/Vibe-Trading",
       "category": "productivity",
       "rank": 15,
-      "price": "free"
+      "price": "free",
+      "description_zh": "“Vibe-Trading：您的个人交易代理”"
     },
     {
       "name": "daily_stock_analysis",
@@ -193,7 +208,8 @@
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "category": "productivity",
       "rank": 16,
-      "price": "free"
+      "price": "free",
+      "description_zh": "LLM 驱动的多市场股票智能分析系统：多源动态，实时新闻，决策浏览与自动推送，支持零收益定期运行。  LLM支持的多市场股票分析系统，具有多源市场数据、实时新闻、决策仪表板、自动通知和免费预定运行。"
     },
     {
       "name": "exercises-dataset",
@@ -205,7 +221,8 @@
       "url": "https://github.com/hasaneyldrm/exercises-dataset",
       "category": "productivity",
       "rank": 17,
-      "price": "free"
+      "price": "free",
+      "description_zh": "包含433项健身练习的综合数据集。每个条目包括名称、类别、目标肌肉群、设备、说明、缩略图和动画视频。"
     },
     {
       "name": "voicebox",
@@ -217,7 +234,8 @@
       "url": "https://github.com/jamiepine/voicebox",
       "category": "productivity",
       "rank": 18,
-      "price": "free"
+      "price": "free",
+      "description_zh": "开源人工智能语音工作室。克隆、口述、创建。"
     },
     {
       "name": "video-use",
@@ -229,7 +247,8 @@
       "url": "https://github.com/browser-use/video-use",
       "category": "productivity",
       "rank": 19,
-      "price": "free"
+      "price": "free",
+      "description_zh": "使用编码代理编辑视频"
     },
     {
       "name": "Wand-Enhancer",
@@ -241,7 +260,8 @@
       "url": "https://github.com/k1tbyte/Wand-Enhancer",
       "category": "productivity",
       "rank": 20,
-      "price": "free"
+      "price": "free",
+      "description_zh": "Wand（WeMod）应用程序的高级用户体验和互操作性扩展"
     },
     {
       "name": "ai-berkshire",
@@ -253,7 +273,8 @@
       "url": "https://github.com/xbtlin/ai-berkshire",
       "category": "productivity",
       "rank": 21,
-      "price": "free"
+      "price": "free",
+      "description_zh": "AI 时代的迈克尔：基于 Claude Code 的价值投资研究框架。巴特·芒格·段永平·录四大师方法论 + 多Agent并行研究。|人工智能时代的伯克希尔：价值投资研究框架   建立在克劳德代码之上。4个硕士方法论+多主体对抗分析。"
     },
     {
       "name": "T3MP3ST",
@@ -265,7 +286,8 @@
       "url": "https://github.com/elder-plinius/T3MP3ST",
       "category": "productivity",
       "rank": 22,
-      "price": "free"
+      "price": "free",
+      "description_zh": "自主红色团队平台;多代理进攻安全元利用"
     },
     {
       "name": "ai-website-cloner-template",
@@ -277,7 +299,8 @@
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "category": "productivity",
       "rank": 23,
-      "price": "free"
+      "price": "free",
+      "description_zh": "使用人工智能编码代理只需一个命令即可克隆任何网站"
     },
     {
       "name": "ppt-master",
@@ -289,7 +312,8 @@
       "url": "https://github.com/hugohe3/ppt-master",
       "category": "productivity",
       "rank": 24,
-      "price": "free"
+      "price": "free",
+      "description_zh": "人工智能从任何文档生成真实的、可编辑的PowerPoint-原生形状和动画、可更改数据的可编辑图表和表格、语音为音频旁白的发言者笔记，以及遵循您自己的. ppyx模板（而不是幻灯片图像）的选项·作者：Hugo He"
     },
     {
       "name": "oomwoo",
@@ -301,7 +325,8 @@
       "url": "https://github.com/makerspet/oomwoo",
       "category": "productivity",
       "rank": 25,
-      "price": "free"
+      "price": "free",
+      "description_zh": "开源真空机器人吸尘器"
     }
   ]
 }
