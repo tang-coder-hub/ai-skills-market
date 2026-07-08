@@ -277,7 +277,17 @@ function renderSkills() {
   if (filtered.length === 0) { noResults.style.display = 'block'; return; }
   noResults.style.display = 'none';
   const frag = document.createDocumentFragment();
-  filtered.forEach((repo, index) => frag.appendChild(createRepoCard(repo, index)));
+  let renderedCount = 0;
+  filtered.forEach((repo, index) => {
+    try {
+      const card = createRepoCard(repo, index);
+      frag.appendChild(card);
+      renderedCount++;
+    } catch (e) {
+      console.error('CARD_RENDER_ERR idx=' + index + ' owner=' + (repo && repo.owner) + ' name=' + (repo && repo.name) + ' msg=' + e.message + ' stack=' + e.stack.split('\n').slice(0,5).join(' || '));
+    }
+  });
+  console.log('RENDER_DEBUG filtered=' + filtered.length + ' rendered=' + renderedCount);
   skillsGrid.appendChild(frag);
 }
 
@@ -1149,6 +1159,8 @@ renderSkills = function() {
       });
     }
     repos.sort((a, b) => (b.total_stars || 0) - (a.total_stars || 0));
+  } else if (currentTab === 'community') {
+    repos = submissionsData;
   } else {
     repos = trendingData[currentTab] || [];
   }
