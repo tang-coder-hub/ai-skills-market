@@ -1153,8 +1153,8 @@ async function translateReadme(owner, name) {
     if (!translated) throw new Error('empty');
     // Render translated markdown if available, else plain text
     container.innerHTML = window.marked ? window.marked.parse(translated) : translated;
-    btn.innerHTML = t('modal_readme_zh_only');
-    btn.disabled = true;
+    // Translation done — hide the toolbar since it has served its purpose
+    updateReadmeToolbar(false);
   } catch(e) {
     btn.disabled = false;
     btn.innerHTML = orig;
