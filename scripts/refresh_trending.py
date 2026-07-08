@@ -138,6 +138,18 @@ def fetch_period(since):
     return fetch_oss(since) or fetch_search_fallback(since)
 
 
+def translate_repos(repos):
+    """Best-effort Chinese translation of descriptions (no-op if no creds)."""
+    try:
+        from translate import translate_descriptions
+        return translate_descriptions(repos)
+    except Exception as e:
+        print(f"  [warn] translation module error: {e}", file=sys.stderr)
+        for r in repos:
+            r.setdefault("description_zh", r.get("description", ""))
+        return repos
+
+
 def write_json(period, repos):
     payload = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -166,6 +178,7 @@ def main():
         for i, r in enumerate(repos):
             r["rank"] = i + 1
             r["price"] = "free"
+        repos = translate_repos(repos)
         write_json(period, repos)
         if period == "weekly":
             weekly_repos = repos
