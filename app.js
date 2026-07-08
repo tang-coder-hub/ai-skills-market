@@ -1062,16 +1062,22 @@ async function fetchReadme(owner, name) {
   container.innerHTML = '<div class="readme-loading">' + t('modal_readme_loading') + '</div>';
   try {
     // A: prefer Chinese README (README.zh.md / README.zh-CN.md) before English
-    const candidates = ['readme.zh.md', 'readme.zh-cn.md', 'readme.md', 'readme'];
+    // Try Chinese variants via /contents/ API first
+    const zhCandidates = ['readme.zh.md', 'readme.zh-cn.md'];
     let data = null;
     let isChinese = false;
-    for (const cand of candidates) {
+    for (const cand of zhCandidates) {
       const resp = await fetch(`https://api.github.com/repos/${owner}/${name}/contents/${cand}`);
       if (resp.ok) {
         data = await resp.json();
-        isChinese = cand.startsWith('readme.zh');
+        isChinese = true;
         break;
       }
+    }
+    // Fall back to default README API (auto-discovers README.md / readme.md / etc.)
+    if (!data) {
+      const resp = await fetch(`https://api.github.com/repos/${owner}/${name}/readme`);
+      if (resp.ok) data = await resp.json();
     }
     if (!data) throw new Error('Not found');
     let content = atob(data.content);
