@@ -2110,12 +2110,14 @@ a:hover { text-decoration: underline; }
 .stats-source { margin-top: 14px; font-size: 0.72rem; color: var(--text-secondary); opacity: 0.8; }
 
 /* submit skill form */
-.submit-modal { max-width: 480px; }
-.submit-form { display: flex; flex-direction: column; gap: 6px; margin-top: 16px; }
-.form-label { font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); margin-top: 10px; }
-.form-input { width: 100%; padding: 10px 12px; border: 1px solid var(--border-color); border-radius: 10px; background: var(--bg-secondary); color: var(--text-color); font-size: 0.9rem; font-family: inherit; }
-.form-input:focus { outline: none; border-color: var(--accent-color); }
-.submit-send-btn { margin-top: 18px; width: 100%; justify-content: center; }
+.submit-modal { max-width: 480px; padding: 32px 32px 36px; }
+.submit-modal .modal-title { margin: 0; padding-right: 40px; }
+.submit-modal .modal-sub { margin: 8px 0 0; padding-right: 40px; font-size: 0.85rem; color: var(--text-secondary); }
+.submit-form { display: flex; flex-direction: column; gap: 14px; margin-top: 22px; }
+.form-label { font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); margin: 0; }
+.form-input { width: 100%; padding: 11px 14px; border: 1px solid var(--border-color); border-radius: 10px; background: var(--bg-secondary); color: var(--text-color); font-size: 0.9rem; font-family: inherit; transition: border-color 0.2s ease, box-shadow 0.2s ease; }
+.form-input:focus { outline: none; border-color: var(--accent-color); box-shadow: 0 0 0 3px rgba(124, 92, 255, 0.15); }
+.submit-send-btn { margin-top: 8px; width: 100%; justify-content: center; padding: 13px; border-radius: 10px; font-size: 0.95rem; font-weight: 600; }
 
 /* RSS button already styled in nav-actions, no extra styles needed */
 

@@ -82,6 +82,9 @@ const i18n = {
     card_no_license: '无许可证',
     // Favorites & Compare & Sort & Language Filter
     tab_favorites: '收藏',
+    tab_community: '社区提交',
+    submit_sending: '提交中...',
+    submit_error: '提交失败，请稍后再试',
     fav_empty: '还没有收藏任何项目，浏览榜单时点击星标即可收藏',
     fav_add: '收藏',
     fav_remove: '取消收藏',
@@ -407,6 +410,9 @@ const i18n = {
     card_no_license: 'No License',
     // Favorites & Compare & Sort & Language Filter
     tab_favorites: 'Favorites',
+    tab_community: 'Community',
+    submit_sending: 'Submitting...',
+    submit_error: 'Submission failed, please try again',
     fav_empty: 'No favorites yet. Star repos from the trending lists to save them here.',
     fav_add: 'Favorite',
     fav_remove: 'Unfavorite',

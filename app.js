@@ -79,6 +79,43 @@ async function fetchAllData() {
   }
 }
 
+// ---------- Community Submissions ----------
+let submissionsData = [];
+async function loadSubmissions() {
+  try {
+    const res = await fetch('data/submissions.json?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const json = await res.json();
+    // normalize submission -> repo card shape
+    submissionsData = (json.submissions || [])
+      .filter(s => s.status === 'approved')
+      .map(s => {
+        const m = (s.repo_url || '').match(/github\.com\/([\w.-]+)\/([\w.-]+)/);
+        const owner = m ? m[1] : (s.owner || 'community');
+        const name = m ? m[2] : (s.name || s.id);
+        return {
+          id: s.id,
+          owner,
+          name,
+          category: s.category || 'engineering',
+          description: s.description || '',
+          description_zh: s.description || '',
+          language: s.language || '',
+          topics: s.topics || [],
+          total_stars: s.total_stars || 0,
+          period_stars: 0,
+          forks: s.forks || 0,
+          open_issues: 0,
+          pushed_at: s.approved_at || s.submitted_at || '',
+          homepage: s.repo_url || '',
+          isCommunity: true
+        };
+      });
+  } catch (e) {
+    submissionsData = [];
+  }
+}
+
 // ---------- Events ----------
 function debounce(fn, ms) {
   let timer;
@@ -106,7 +143,11 @@ function bindEvents() {
       tab.classList.add('active');
       currentTab = tab.dataset.period;
       // refresh data
-      if (currentTab !== 'favorites') await fetchAllData();
+      if (currentTab === 'community') {
+        await loadSubmissions();
+      } else if (currentTab !== 'favorites') {
+        await fetchAllData();
+      }
       renderSkills();
       updateStats();
     });
@@ -191,7 +232,7 @@ function copyToClipboard(text, btn) {
 
 // ---------- Filtering ----------
 function getFilteredRepos() {
-  const repos = trendingData[currentTab] || [];
+  const repos = (currentTab === 'community' ? submissionsData : (trendingData[currentTab] || []));
   return repos.filter(r => {
     const desc = (r.description || '').toLowerCase();
     const name = (r.name || '').toLowerCase();
@@ -204,7 +245,7 @@ function getFilteredRepos() {
 
 // ---------- Stats ----------
 function updateStats() {
-  const repos = trendingData[currentTab] || [];
+  const repos = (currentTab === 'community' ? submissionsData : (trendingData[currentTab] || []));
   const unique = new Set(repos.map(r => r.owner));
   document.getElementById('statSkills').textContent = repos.length || 0;
   const totalPeriodStars = repos.reduce((sum, r) => sum + (r.period_stars || 0), 0);
@@ -1311,7 +1352,7 @@ function openSubmitModal() {
   overlay.addEventListener('click', (e) => { if (e.target === overlay) { overlay.classList.remove('active'); document.body.style.overflow = ''; } });
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && overlay.classList.contains('active')) { overlay.classList.remove('active'); document.body.style.overflow = ''; } });
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const name = document.getElementById('submitName').value.trim();
     const url = document.getElementById('submitUrl').value.trim();
@@ -1324,21 +1365,54 @@ function openSubmitModal() {
       return;
     }
 
-    const title = encodeURIComponent('[技能提交] ' + name);
-    const body = encodeURIComponent(
+    const btn = form.querySelector('.submit-send-btn');
+    btn.disabled = true;
+    btn.textContent = t('submit_sending') || '提交中...';
+
+    // generate a unique submission id
+    const id = 'sub_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+
+    // build a prefilled GitHub Issue link (admin clicks -> Submit to create the issue)
+    const issueTitle = encodeURIComponent('[技能提交] ' + name);
+    const issueBody = encodeURIComponent(
+      '**Submission ID**: ' + id + '\n' +
       '**技能名称**: ' + name + '\n' +
       '**仓库地址**: ' + url + '\n' +
       '**分类**: ' + category + '\n' +
       '**简介**: ' + desc + '\n' +
       (contact ? '**联系方式**: ' + contact + '\n' : '') +
-      '\n---\n*来自 AI Skills Market 提交表单*'
+      '\n---\n审核通过：在评论中输入「同意」即可自动上架。'
     );
-    const issueUrl = 'https://github.com/tang-coder-hub/ai-skills-market/issues/new?title=' + title + '&body=' + body;
-    window.open(issueUrl, '_blank', 'noopener');
-    overlay.classList.remove('active');
-    document.body.style.overflow = '';
-    form.reset();
-    alert(t('submit_success'));
+    const issueUrl = 'https://github.com/tang-coder-hub/ai-skills-market/issues/new?title=' + issueTitle + '&body=' + issueBody;
+
+    // carry the prefilled issue link inside the email (hidden field)
+    let issueField = form.querySelector('input[name="审核Issue链接"]');
+    if (!issueField) {
+      issueField = document.createElement('input');
+      issueField.type = 'hidden';
+      issueField.name = '审核Issue链接';
+      form.appendChild(issueField);
+    }
+    issueField.value = issueUrl;
+
+    try {
+      const formData = new FormData(form);
+      const resp = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      });
+      const data = await resp.json();
+      if (!data.success) throw new Error('submit failed');
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+      form.reset();
+      alert(t('submit_success'));
+    } catch (err) {
+      alert(t('submit_error') || '提交失败，请稍后再试');
+    } finally {
+      btn.disabled = false;
+      btn.textContent = t('submit_btn_send');
+    }
   });
 })();
 

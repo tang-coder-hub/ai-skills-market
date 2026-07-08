@@ -112,6 +112,7 @@
       <button class="trending-tab" data-period="hot" data-i18n="tab_hot">热门榜</button>
       <button class="trending-tab" data-period="monthly" data-i18n="tab_monthly">月榜</button>
         <button class="trending-tab" data-period="favorites" data-i18n="tab_favorites">收藏</button>
+        <button class="trending-tab" data-period="community" data-i18n="tab_community">社区提交</button>
     </div>
   </section>
 
@@ -282,8 +283,11 @@
     <div class="modal submit-modal">
       <button class="modal-close" id="submitClose" aria-label="关闭">&times;</button>
       <h2 class="modal-title" data-i18n="submit_title">提交技能</h2>
-      <p class="modal-sub" data-i18n="submit_desc">填写下方表单提交你的技能，我们将审核后上架。</p>
+      <p class="modal-sub" data-i18n="submit_desc">填写下方表单提交你的技能，管理员审核通过后会自动上架到「社区提交」标签页。</p>
       <form id="submitForm" class="submit-form">
+        <input type="hidden" name="access_key" value="987c3462-7045-4557-bc48-0939aaa3a75f">
+        <input type="hidden" name="subject" value="AI Skills Market - 新技能提交待审核">
+        <input type="hidden" name="from_name" value="AI Skills Market">
         <label class="form-label" data-i18n="submit_field_name">技能名称</label>
         <input type="text" class="form-input" id="submitName" data-i18n-ph="submit_field_name_ph" placeholder="例如：Awesome Cursor Rules" required>
         <label class="form-label" data-i18n="submit_field_owner">GitHub 仓库地址</label>

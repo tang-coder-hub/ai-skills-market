@@ -1,0 +1,82 @@
+name: Approve Submission
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  approve:
+    if: contains(github.event.comment.body, '同意') || contains(github.event.comment.body, 'approve') || contains(github.event.comment.body, 'Approve') || contains(github.event.comment.body, 'APPROVE')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Find and approve submission
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          python3 - <<'PY'
+          import json, os, datetime, re
+
+          body = os.environ.get("ISSUE_BODY", "")
+
+          def field(label):
+              m = re.search(r"\*\*" + re.escape(label) + r"\*\*:\s*(.+)", body)
+              return m.group(1).strip() if m else ""
+
+          sid = field("Submission ID")
+          if not sid:
+              print("No submission id found in issue body, aborting.")
+              raise SystemExit(1)
+          print("Target submission id:", sid)
+
+          sub_path = "data/submissions.json"
+          if os.path.exists(sub_path):
+              with open(sub_path, encoding="utf-8") as f:
+                  subs = json.load(f)
+          else:
+              subs = {"submissions": []}
+          subs.setdefault("submissions", [])
+
+          # avoid duplicate
+          if any(s.get("id") == sid for s in subs["submissions"]):
+              print("Already approved:", sid)
+              raise SystemExit(0)
+
+          subs["submissions"].append({
+              "id": sid,
+              "name": field("技能名称"),
+              "repo_url": field("仓库地址"),
+              "category": field("分类") or "engineering",
+              "description": field("简介"),
+              "contact": field("联系方式"),
+              "status": "approved",
+              "submitted_at": "",
+              "approved_at": datetime.datetime.utcnow().isoformat() + "Z"
+          })
+          with open(sub_path, "w", encoding="utf-8") as f:
+              json.dump(subs, f, ensure_ascii=False, indent=2)
+          print("Approved and merged:", sid)
+          PY
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/submissions.json
+          git commit -m "feat: approve submission from issue comment" || echo "nothing to commit"
+          git push
+
+      - name: Close issue
+        uses: actions-cool/issues-helper@v3
+        with:
+          actions: 'close-issue'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
