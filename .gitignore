@@ -43,3 +43,6 @@ temp/
 __pycache__/
 *.pyc
 *.pyo
+
+# Translation cache (local, regenerated)
+data/.translate_cache.json
