@@ -1,3 +1,15 @@
 {
-  "submissions": []
+  "submissions": [
+    {
+      "id": "sub_test_yourrepo",
+      "name": "AI Skills Market",
+      "repo_url": "https://github.com/tang-coder-hub/ai-skills-market",
+      "category": "效率工具",
+      "description": "AI Agent 技能的开放市场，社区驱动，MIT 协议，支持发现、下载、分享技能包。",
+      "contact": "tang-coder-hub",
+      "status": "approved",
+      "submitted_at": "",
+      "approved_at": "2026-07-08T06:04:02.368986Z"
+    }
+  ]
 }
