@@ -10,6 +10,17 @@
       "status": "approved",
       "submitted_at": "",
       "approved_at": "2026-07-08T06:04:02.368986Z"
+    },
+    {
+      "id": "sub_e2e_20260708174437",
+      "name": "E2E Test Skill",
+      "repo_url": "https://github.com/tang-coder-hub/ai-skills-market",
+      "category": "效率工具",
+      "description": "端到端流程自动化测试技能，用于验证提交-审批-上架全链路。",
+      "contact": "tang-coder-hub",
+      "status": "approved",
+      "submitted_at": "",
+      "approved_at": "2026-07-08T09:44:57.458473Z"
     }
   ]
 }
