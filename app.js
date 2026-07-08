@@ -571,7 +571,7 @@ async function fetchRepoSkills(repo) {
   const panel = modalContent.querySelector('[data-panel="skills"]');
   if (!panel) return;
   try {
-    const treeUrl = `https://api.github.com/repos/${repo.owner}/${repo.name}/git/trees/HEAD?recursive=1`;
+    const treeUrl = `https://ai-skills-translate.pages.dev/github/repos/${repo.owner}/${repo.name}/git/trees/HEAD?recursive=1`;
     const data = await cachedFetch(treeUrl, 600000);
     const tree = data.tree || [];
 
@@ -653,7 +653,7 @@ async function fetchInstallCommands(repo) {
   const panel = modalContent.querySelector('[data-panel="install"]');
   if (!panel) return;
   try {
-    const readmeUrl = `https://api.github.com/repos/${repo.owner}/${repo.name}/readme`;
+    const readmeUrl = `https://ai-skills-translate.pages.dev/github/repos/${repo.owner}/${repo.name}/readme`;
     const data = await cachedFetch(readmeUrl, 600000);
     let content = atob(data.content);
     const bytes = new Uint8Array(content.length);
@@ -1067,7 +1067,7 @@ async function fetchReadme(owner, name) {
     let data = null;
     let isChinese = false;
     for (const cand of zhCandidates) {
-      const resp = await fetch(`https://api.github.com/repos/${owner}/${name}/contents/${cand}`);
+      const resp = await fetch(`https://ai-skills-translate.pages.dev/github/repos/${owner}/${name}/contents/${cand}`);
       if (resp.ok) {
         data = await resp.json();
         isChinese = true;
@@ -1076,7 +1076,7 @@ async function fetchReadme(owner, name) {
     }
     // Fall back to default README API (auto-discovers README.md / readme.md / etc.)
     if (!data) {
-      const resp = await fetch(`https://api.github.com/repos/${owner}/${name}/readme`);
+      const resp = await fetch(`https://ai-skills-translate.pages.dev/github/repos/${owner}/${name}/readme`);
       if (resp.ok) data = await resp.json();
     }
     if (!data) throw new Error('Not found');
@@ -1499,7 +1499,7 @@ function openSubmitModal() {
 })();
 
 // ---------- site stats (GitHub public API real data + local fallback) ----------
-const REPO_API = 'https://api.github.com/repos/tang-coder-hub/ai-skills-market';
+const REPO_API = 'https://ai-skills-translate.pages.dev/github/repos/tang-coder-hub/ai-skills-market';
 (function initSiteStats() {
   const elV = document.getElementById('statVisits');
   const elP = document.getElementById('statPageviews');
@@ -1540,7 +1540,7 @@ const REPO_API = 'https://api.github.com/repos/tang-coder-hub/ai-skills-market';
 const THANKS_KEY = 'asmThanks';
 const THANKS_DONE_KEY = 'asmThanksDone';
 const THANKS_LABEL = 'thanks-wall';
-const THANKS_ISSUES_API = 'https://api.github.com/repos/tang-coder-hub/ai-skills-market/issues?labels=' + THANKS_LABEL + '&state=all&per_page=100';
+const THANKS_ISSUES_API = 'https://ai-skills-translate.pages.dev/github/repos/tang-coder-hub/ai-skills-market/issues?labels=' + THANKS_LABEL + '&state=all&per_page=100';
 
 function loadLocalThanks() {
   try { return JSON.parse(localStorage.getItem(THANKS_KEY) || '[]'); } catch (e) { return []; }
