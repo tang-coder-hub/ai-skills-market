@@ -728,9 +728,10 @@ a:hover { text-decoration: underline; }
 }
 
 .modal-close {
-  position: absolute;
+  position: sticky;
   top: 16px;
-  right: 16px;
+  float: right;
+  margin: 16px 16px -36px 0;
   z-index: 20;
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -1482,6 +1483,30 @@ a:hover { text-decoration: underline; }
 .readme-container {
   font-size: 0.9rem;
   line-height: 1.6;
+}
+.readme-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  margin: 12px 0 4px;
+}
+.btn-translate {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  padding: 6px 14px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.btn-translate:hover:not(:disabled) {
+  background: var(--bg-card-hover);
+  color: var(--text-primary);
+  border-color: var(--border-hover);
+}
+.btn-translate:disabled {
+  opacity: 0.6;
+  cursor: default;
 }
 .readme-container h1,
 .readme-container h2,

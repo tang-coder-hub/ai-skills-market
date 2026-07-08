@@ -108,6 +108,10 @@ const i18n = {
     modal_readme: 'README 预览',
     modal_readme_loading: '加载中...',
     modal_readme_error: '无法加载 README',
+    modal_readme_translate: '翻译成中文',
+    modal_readme_translating: '翻译中...',
+    modal_readme_translate_err: '翻译失败，请稍后重试',
+    modal_readme_zh_only: '已显示中文 README',
     modal_star_history: '星标增长趋势',
     starhistory_fallback: '在 Star History 查看 →',
     // Modal V2 tabs
@@ -436,6 +440,10 @@ const i18n = {
     modal_readme: 'README Preview',
     modal_readme_loading: 'Loading...',
     modal_readme_error: 'Failed to load README',
+    modal_readme_translate: 'Translate to Chinese',
+    modal_readme_translating: 'Translating...',
+    modal_readme_translate_err: 'Translation failed, please retry',
+    modal_readme_zh_only: 'Chinese README shown',
     modal_star_history: 'Star History',
     starhistory_fallback: 'View on Star History →',
     // Modal V2 tabs

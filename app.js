@@ -5,6 +5,10 @@
 
 // ---------- Embedded Data (lazy-loaded fallback for file:// protocol) ----------
 let EMBEDDED_DATA = null;
+
+// Translate proxy (Cloudflare Worker). Leave empty to hide the "Translate" button.
+// Deploy worker/translate.js and set this to its URL, e.g. 'https://translate.xxx.workers.dev'
+const TRANSLATE_WORKER_URL = '';
 function loadScript(url) {
   return new Promise((resolve, reject) => {
     const s = document.createElement('script');
@@ -499,6 +503,9 @@ function openModal(repo) {
 
     <!-- README Panel -->
     <div class="modal-tab-panel" data-panel="readme">
+      <div class="readme-toolbar" id="readmeToolbar" style="display:none;">
+        <button class="btn btn-translate" id="readmeTranslateBtn" onclick="translateReadme('${repo.owner}','${repo.name}')">${t('modal_readme_translate')}</button>
+      </div>
       <div class="readme-container" id="readmeContent">
         <div class="readme-loading">${t('modal_readme_loading')}</div>
       </div>
@@ -1051,12 +1058,22 @@ async function fetchReadme(owner, name) {
   const container = document.getElementById('readmeContent');
   if (!container) return;
   const key = `${owner}/${name}`;
-  if (readmeCache.has(key)) { container.innerHTML = readmeCache.get(key); return; }
+  if (readmeCache.has(key)) { container.innerHTML = readmeCache.get(key); updateReadmeToolbar(false); return; }
   container.innerHTML = '<div class="readme-loading">' + t('modal_readme_loading') + '</div>';
   try {
-    const resp = await fetch(`https://api.github.com/repos/${owner}/${name}/readme`);
-    if (!resp.ok) throw new Error('Not found');
-    const data = await resp.json();
+    // A: prefer Chinese README (README.zh.md / README.zh-CN.md) before English
+    const candidates = ['readme.zh.md', 'readme.zh-cn.md', 'readme.md', 'readme'];
+    let data = null;
+    let isChinese = false;
+    for (const cand of candidates) {
+      const resp = await fetch(`https://api.github.com/repos/${owner}/${name}/contents/${cand}`);
+      if (resp.ok) {
+        data = await resp.json();
+        isChinese = cand.startsWith('readme.zh');
+        break;
+      }
+    }
+    if (!data) throw new Error('Not found');
     let content = atob(data.content);
     const bytes = new Uint8Array(content.length);
     for (let i = 0; i < content.length; i++) bytes[i] = content.charCodeAt(i);
@@ -1087,8 +1104,55 @@ async function fetchReadme(owner, name) {
         img.addEventListener('error', function() { this.style.display = 'none'; });
       }
     });
+    // Show translate button only when README is English (Chinese already shown)
+    updateReadmeToolbar(!isChinese);
   } catch(e) {
     container.innerHTML = '<div class="readme-error">' + t('modal_readme_error') + '</div>';
+    updateReadmeToolbar(false);
+  }
+}
+
+// Toggle the translate toolbar; only show when translation is meaningful (English README)
+function updateReadmeToolbar(showTranslate) {
+  const toolbar = document.getElementById('readmeToolbar');
+  if (!toolbar) return;
+  // Only show the button if a translate worker URL is configured
+  const hasWorker = typeof TRANSLATE_WORKER_URL !== 'undefined' && TRANSLATE_WORKER_URL;
+  toolbar.style.display = (showTranslate && hasWorker) ? 'flex' : 'none';
+}
+
+// C: translate the currently displayed English README via the Cloudflare Worker proxy
+async function translateReadme(owner, name) {
+  const container = document.getElementById('readmeContent');
+  const btn = document.getElementById('readmeTranslateBtn');
+  if (!container || !btn) return;
+  if (typeof TRANSLATE_WORKER_URL === 'undefined' || !TRANSLATE_WORKER_URL) {
+    alert(t('modal_readme_translate_err'));
+    return;
+  }
+  const rawText = container.innerText || container.textContent || '';
+  if (!rawText.trim()) return;
+  const orig = btn.innerHTML;
+  btn.disabled = true;
+  btn.innerHTML = t('modal_readme_translating');
+  try {
+    const resp = await fetch(TRANSLATE_WORKER_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text: rawText, source: 'en', target: 'zh' })
+    });
+    if (!resp.ok) throw new Error('translate failed');
+    const result = await resp.json();
+    const translated = result.translated || result.text || '';
+    if (!translated) throw new Error('empty');
+    // Render translated markdown if available, else plain text
+    container.innerHTML = window.marked ? window.marked.parse(translated) : translated;
+    btn.innerHTML = t('modal_readme_zh_only');
+    btn.disabled = true;
+  } catch(e) {
+    btn.disabled = false;
+    btn.innerHTML = orig;
+    alert(t('modal_readme_translate_err'));
   }
 }
 

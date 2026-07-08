@@ -1,0 +1,16 @@
+name = "ai-skills-translate"
+main = "translate.js"
+compatibility_date = "2024-09-23"
+
+# Secrets (set via `wrangler secret put`, never commit):
+#   TENCENT_SECRET_ID
+#   TENCENT_SECRET_KEY
+#
+# Usage:
+#   wrangler login
+#   wrangler secret put TENCENT_SECRET_ID
+#   wrangler secret put TENCENT_SECRET_KEY
+#   wrangler deploy
+#
+# Then copy the deployed URL (https://ai-skills-translate.<subdomain>.workers.dev)
+# into app.js:  const TRANSLATE_WORKER_URL = '<that url>';
