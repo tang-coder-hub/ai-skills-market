@@ -8,7 +8,7 @@ let EMBEDDED_DATA = null;
 
 // Translate proxy (Cloudflare Worker). Leave empty to hide the "Translate" button.
 // Deploy worker/translate.js and set this to its URL, e.g. 'https://translate.xxx.workers.dev'
-const TRANSLATE_WORKER_URL = '';
+const TRANSLATE_WORKER_URL = 'https://ai-skills-translate.general-candytuft.workers.dev';
 function loadScript(url) {
   return new Promise((resolve, reject) => {
     const s = document.createElement('script');
