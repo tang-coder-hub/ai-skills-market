@@ -1149,7 +1149,7 @@ async function translateReadme(owner, name) {
     });
     if (!resp.ok) throw new Error('translate failed');
     const result = await resp.json();
-    const translated = result.translated || result.text || '';
+    const translated = (result.Response && result.Response.TargetText) || '';
     if (!translated) throw new Error('empty');
     // Render translated markdown if available, else plain text
     container.innerHTML = window.marked ? window.marked.parse(translated) : translated;
