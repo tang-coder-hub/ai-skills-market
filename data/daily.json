@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T11:32:53Z",
+  "updated": "2026-07-10T11:37:14Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1031,19 +1031,6 @@
       "description_zh": "LaoWang Sub-converter - 一款开源的代理订购转换工具，支持多项协商分析和 10+ 主流客户端格式输出，提供 Docker 容器化部门和 Vercel一个关键部门。"
     },
     {
-      "name": "code-review-skill",
-      "owner": "awesome-skills",
-      "description": "A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeScript, TanStack Query v5, and more.",
-      "language": "HTML",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/awesome-skills/code-review-skill",
-      "category": "productivity",
-      "rank": 80,
-      "price": "free",
-      "description_zh": "Claude Code的全面代码审查技能，涵盖React 19、Vue 3、Rust、TypScript、TanStack Query v5等。"
-    },
-    {
       "name": "ai-goofish-monitor",
       "owner": "Usagi-org",
       "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
@@ -1052,9 +1039,22 @@
       "period_stars": 1,
       "url": "https://github.com/Usagi-org/ai-goofish-monitor",
       "category": "productivity",
-      "rank": 81,
+      "rank": 80,
       "price": "free",
       "description_zh": "基于 Playwright 和AI实现的鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。"
+    },
+    {
+      "name": "code-review-skill",
+      "owner": "awesome-skills",
+      "description": "A comprehensive code review skill for Claude Code, covering React 19, Vue 3, Rust, TypeScript, TanStack Query v5, and more.",
+      "language": "HTML",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/awesome-skills/code-review-skill",
+      "category": "productivity",
+      "rank": 81,
+      "price": "free",
+      "description_zh": "Claude Code的全面代码审查技能，涵盖React 19、Vue 3、Rust、TypScript、TanStack Query v5等。"
     },
     {
       "name": "codex-provider-sync",
