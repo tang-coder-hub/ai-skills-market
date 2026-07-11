@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T18:10:47Z",
+  "updated": "2026-07-11T07:25:56Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -214,7 +214,7 @@
     {
       "name": "ai-berkshire",
       "owner": "xbtlin",
-      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework   built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
       "language": "Python",
       "total_stars": 193,
       "period_stars": 193,
@@ -222,7 +222,7 @@
       "category": "productivity",
       "rank": 17,
       "price": "free",
-      "description_zh": "AI 时代的迈克尔：基于 Claude Code 的价值投资研究框架。巴特·芒格·段永平·录四大师方法论 + 多Agent并行研究。|人工智能时代的伯克希尔：价值投资研究框架   建立在克劳德代码之上。4个硕士方法论+多主体对抗分析。"
+      "description_zh": "AI 时代的迈克尔：基于 Claude Code / Codex 的价值投资研究框架。巴特·芒格·段永平·录四大师方法论 + 多Agent并行研究。|人工智能时代的伯克希尔：为Claude Code / Codex构建的价值投资研究框架。4个硕士方法论+多主体对抗分析。"
     },
     {
       "name": "openwiki",
