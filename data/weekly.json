@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T08:55:48Z",
+  "updated": "2026-07-12T15:43:50Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -384,7 +384,7 @@
       "name": "3x-ui-Upgrade",
       "owner": "x4gKing",
       "description": "",
-      "language": "Dockerfile",
+      "language": "HTML",
       "total_stars": 2,
       "period_stars": 2,
       "url": "https://github.com/x4gKing/3x-ui-Upgrade",
