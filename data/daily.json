@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T11:45:59Z",
+  "updated": "2026-07-13T12:18:29Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -667,19 +667,6 @@
       "description_zh": "[ACL 2026]迈向高效的大型语言模型服务：系统感知KV缓存优化调查"
     },
     {
-      "name": "road-to-machine-learning",
-      "owner": "NabidAlam",
-      "description": "A comprehensive, step-by-step guide to learning Machine Learning from absolute basics to advanced topics",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/NabidAlam/road-to-machine-learning",
-      "category": "design",
-      "rank": 52,
-      "price": "free",
-      "description_zh": "从绝对基础知识到高级主题的全面、分步学习指南"
-    },
-    {
       "name": "folio",
       "owner": "carlos7ags",
       "description": "PDF library for Go: layout engine, HTML to PDF, forms, signatures, barcodes, and PDF/A. Apache 2.0.",
@@ -688,9 +675,22 @@
       "period_stars": 1,
       "url": "https://github.com/carlos7ags/folio",
       "category": "data",
-      "rank": 53,
+      "rank": 52,
       "price": "free",
       "description_zh": "Go的PDF库：布局引擎、HTML到PDF、表格、签名、条形码和PDF/A。阿帕奇2.0。"
+    },
+    {
+      "name": "road-to-machine-learning",
+      "owner": "NabidAlam",
+      "description": "A comprehensive, step-by-step guide to learning Machine Learning from absolute basics to advanced topics",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/NabidAlam/road-to-machine-learning",
+      "category": "design",
+      "rank": 53,
+      "price": "free",
+      "description_zh": "从绝对基础知识到高级主题的全面、分步学习指南"
     },
     {
       "name": "NextLat",
