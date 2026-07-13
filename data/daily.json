@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T12:18:29Z",
+  "updated": "2026-07-13T12:21:29Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1122,19 +1122,6 @@
       "description_zh": "Xalgorix -自主人工智能冥想代理"
     },
     {
-      "name": "Solar-Wanderer",
-      "owner": "hyqzz",
-      "description": "Solar Wanderer / 遨游太阳系 - 1:1 Real-Time Solar System Explorer in the Browser. NASA JPL ephemeris, WebGL2, Three.js. From solar surface to 100,000 AU Oort Cloud.",
-      "language": "JavaScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/hyqzz/Solar-Wanderer",
-      "category": "productivity",
-      "rank": 87,
-      "price": "free",
-      "description_zh": "Solar Wanderer /游太阳系 -浏览器中的1：1实时太阳系探索者。NASA JPL星历表、WebGL 2、Three.js。从太阳表面到100，000 AU的奥尔特云。"
-    },
-    {
       "name": "agent-skills",
       "owner": "vercel-labs",
       "description": "Vercel's official collection of agent skills",
@@ -1143,9 +1130,22 @@
       "period_stars": 1,
       "url": "https://github.com/vercel-labs/agent-skills",
       "category": "productivity",
-      "rank": 88,
+      "rank": 87,
       "price": "free",
       "description_zh": "Vercel官方特工技能合集"
+    },
+    {
+      "name": "Solar-Wanderer",
+      "owner": "hyqzz",
+      "description": "Solar Wanderer / 遨游太阳系 - 1:1 Real-Time Solar System Explorer in the Browser. NASA JPL ephemeris, WebGL2, Three.js. From solar surface to 100,000 AU Oort Cloud.",
+      "language": "JavaScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/hyqzz/Solar-Wanderer",
+      "category": "productivity",
+      "rank": 88,
+      "price": "free",
+      "description_zh": "Solar Wanderer /游太阳系 -浏览器中的1：1实时太阳系探索者。NASA JPL星历表、WebGL 2、Three.js。从太阳表面到100，000 AU的奥尔特云。"
     },
     {
       "name": "darwin-skill",
