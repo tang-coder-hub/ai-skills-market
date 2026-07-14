@@ -488,5 +488,6 @@
   "Bot that bridges Feishu/Lark messenger with a local Claude Code or Codex CLI. Streaming cards, per-chat sessions, multiple workspaces": "将Feishu/Lark Messenger与本地Claude Code或Codex CLI连接起来的机器人。流媒体卡、每次聊天会话、多个收件箱",
   "python版本请参考:https://github.com/anYuJia/better-douyin": "Python版本请参考：https://github.com/anYuJia/better-douyin",
   "Your Agent's Integration Layer": "您的代理的集成层",
-  "Instatic is a modern self-hosted visual CMS - get it running in 1 minute": "Instatic是一个现代化的自托管视觉CMS -1分钟即可运行"
+  "Instatic is a modern self-hosted visual CMS - get it running in 1 minute": "Instatic是一个现代化的自托管视觉CMS -1分钟即可运行",
+  "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.": "将任何人工智能代理变成人工智能科学家。排名第一的科学代理技能库，被全球160，000多名科学家使用。140种即用技能以及100多个涵盖生物学、化学、医学和药物发现的科学数据库。与Cursor、Claude Code、Codex、Pi、Antigravity和开放的Agent Skills标准兼容。"
 }

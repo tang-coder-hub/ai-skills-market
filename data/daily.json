@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T18:23:02Z",
+  "updated": "2026-07-14T07:27:00Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -667,19 +667,6 @@
       "description_zh": "[ACL 2026]迈向高效的大型语言模型服务：系统感知KV缓存优化调查"
     },
     {
-      "name": "folio",
-      "owner": "carlos7ags",
-      "description": "PDF library for Go: layout engine, HTML to PDF, forms, signatures, barcodes, and PDF/A. Apache 2.0.",
-      "language": "Go",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/carlos7ags/folio",
-      "category": "data",
-      "rank": 52,
-      "price": "free",
-      "description_zh": "Go的PDF库：布局引擎、HTML到PDF、表格、签名、条形码和PDF/A。阿帕奇2.0。"
-    },
-    {
       "name": "road-to-machine-learning",
       "owner": "NabidAlam",
       "description": "A comprehensive, step-by-step guide to learning Machine Learning from absolute basics to advanced topics",
@@ -688,9 +675,22 @@
       "period_stars": 1,
       "url": "https://github.com/NabidAlam/road-to-machine-learning",
       "category": "design",
-      "rank": 53,
+      "rank": 52,
       "price": "free",
       "description_zh": "从绝对基础知识到高级主题的全面、分步学习指南"
+    },
+    {
+      "name": "folio",
+      "owner": "carlos7ags",
+      "description": "PDF library for Go: layout engine, HTML to PDF, forms, signatures, barcodes, and PDF/A. Apache 2.0.",
+      "language": "Go",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/carlos7ags/folio",
+      "category": "data",
+      "rank": 53,
+      "price": "free",
+      "description_zh": "Go的PDF库：布局引擎、HTML到PDF、表格、签名、条形码和PDF/A。阿帕奇2.0。"
     },
     {
       "name": "NextLat",
@@ -799,7 +799,7 @@
     {
       "name": "scientific-agent-skills",
       "owner": "K-Dense-AI",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Antigravity, and the open Agent Skills standard.",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 160,000+ scientists worldwide. 140 ready-to-use skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "language": "Python",
       "total_stars": 1,
       "period_stars": 1,
@@ -807,7 +807,7 @@
       "category": "productivity",
       "rank": 62,
       "price": "free",
-      "description_zh": "将任何人工智能代理变成人工智能科学家。排名第一的科学代理技能库，被全球160，000多名科学家使用。140种即用技能以及100多个涵盖生物学、化学、医学和药物发现的科学数据库。与Cursor、Claude Code、Codex、Antigravity和开放Agent Skills标准兼容。"
+      "description_zh": "将任何人工智能代理变成人工智能科学家。排名第一的科学代理技能库，被全球160，000多名科学家使用。140种即用技能以及100多个涵盖生物学、化学、医学和药物发现的科学数据库。与Cursor、Claude Code、Codex、Pi、Antigravity和开放的Agent Skills标准兼容。"
     },
     {
       "name": "dbskill",
