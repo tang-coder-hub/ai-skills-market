@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T16:50:22Z",
+  "updated": "2026-07-15T07:31:50Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -969,7 +969,7 @@
       "name": "WeFlow",
       "owner": "hicccc77",
       "description": "WeFlow - 一个本地的微信聊天记录导出和年度报告应用",
-      "language": "TypeScript",
+      "language": "",
       "total_stars": 1,
       "period_stars": 1,
       "url": "https://github.com/hicccc77/WeFlow",
