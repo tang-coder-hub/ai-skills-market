@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T03:47:27Z",
+  "updated": "2026-07-16T03:54:19Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -615,19 +615,6 @@
       "description_zh": "为您运送的所有物品提供世界一流的文档。快速、AI就绪和零配置。"
     },
     {
-      "name": "Claude-Code-Game-Studios",
-      "owner": "Donchitos",
-      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-      "language": "Shell",
-      "total_stars": 2,
-      "period_stars": 2,
-      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "category": "productivity",
-      "rank": 48,
-      "price": "free",
-      "description_zh": "将Claude Code打造成一个完整的游戏开发工作室--49个人工智能代理、72个工作流程技能以及反映真实工作室层次结构的完整协调系统。"
-    },
-    {
       "name": "gentle-ai",
       "owner": "Gentleman-Programming",
       "description": "",
@@ -636,9 +623,22 @@
       "period_stars": 2,
       "url": "https://github.com/Gentleman-Programming/gentle-ai",
       "category": "productivity",
-      "rank": 49,
+      "rank": 48,
       "price": "free",
       "description_zh": ""
+    },
+    {
+      "name": "Claude-Code-Game-Studios",
+      "owner": "Donchitos",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "language": "Shell",
+      "total_stars": 2,
+      "period_stars": 2,
+      "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "category": "productivity",
+      "rank": 49,
+      "price": "free",
+      "description_zh": "将Claude Code打造成一个完整的游戏开发工作室--49个人工智能代理、72个工作流程技能以及反映真实工作室层次结构的完整协调系统。"
     },
     {
       "name": "anysearch-skill",
