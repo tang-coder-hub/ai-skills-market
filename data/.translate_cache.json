@@ -627,5 +627,6 @@
   "Cloudflare 域名邮箱系统 临时邮箱系统  支持API 调用 支持多渠道发件 支持用户管理 domain mail tempmail": "Cloudflare名称邮箱系统 临时邮箱系统 支持API调试支持多道发件 支持用户管理域名邮件临时邮件",
   "Open & Reproducible Research for Tracking VLAs": "用于跟踪VLA的开放且可复制的研究",
   "A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities": "使用Tauri、React和TypScript构建的现代视频编辑器。专注于构建高级capcut功能的免费功能",
-  "Intercept any app, then call it from Python like a library": "拦截任何应用程序，然后像库一样从Python中调用它"
+  "Intercept any app, then call it from Python like a library": "拦截任何应用程序，然后像库一样从Python中调用它",
+  "Open-source Reflect rewrite: A local-first AI agent-friendly Markdown note-taking app": "开源Reflect重写：一款本地优先、适合人工智能代理的Markdown笔记应用程序"
 }

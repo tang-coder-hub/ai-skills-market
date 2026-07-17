@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T14:33:51Z",
+  "updated": "2026-07-17T03:46:41Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -695,7 +695,7 @@
     {
       "name": "reflect-open",
       "owner": "team-reflect",
-      "description": "Open-source Reflect rewrite",
+      "description": "Open-source Reflect rewrite: A local-first AI agent-friendly Markdown note-taking app",
       "language": "TypeScript",
       "total_stars": 4,
       "period_stars": 4,
@@ -703,7 +703,7 @@
       "category": "productivity",
       "rank": 54,
       "price": "free",
-      "description_zh": "开源Reflect重写"
+      "description_zh": "开源Reflect重写：一款本地优先、适合人工智能代理的Markdown笔记应用程序"
     },
     {
       "name": "improve",
