@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T14:12:35Z",
+  "updated": "2026-07-18T03:41:28Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -123,7 +123,7 @@
     {
       "name": "exercises-dataset",
       "owner": "hasaneyldrm",
-      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
       "language": "HTML",
       "total_stars": 15,
       "period_stars": 15,
@@ -131,7 +131,7 @@
       "category": "productivity",
       "rank": 10,
       "price": "free",
-      "description_zh": "包含433项健身练习的综合数据集。每个条目包括名称、类别、目标肌肉群、设备、说明、缩略图和动画视频。"
+      "description_zh": "1，324-运动健身数据集-动画GIF、180 x 180缩略图、肌肉群和设备数据以及6种语言的分步说明。LogPress应用程序背后的锻炼数据层。"
     },
     {
       "name": "destructive_command_guard",
