@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T04:03:25Z",
+  "updated": "2026-07-19T04:15:58Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1044,19 +1044,6 @@
       "description_zh": "AI 时代的迈克尔：基于 Claude Code / Codex 的价值投资研究框架。巴特·芒格·段永平·录四大师方法论 + 多Agent并行研究。|人工智能时代的伯克希尔：为Claude Code / Codex构建的价值投资研究框架。4个硕士方法论+多主体对抗分析。"
     },
     {
-      "name": "free-claude-code",
-      "owner": "Alishahryar1",
-      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/Alishahryar1/free-claude-code",
-      "category": "productivity",
-      "rank": 81,
-      "price": "free",
-      "description_zh": "在终端中免费使用Claude代码和Codex、VSCode扩展以及OpenClaw等不和谐（支持语音）"
-    },
-    {
       "name": "shannon",
       "owner": "KeygraphHQ",
       "description": "Shannon is an autonomous, white-box AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
@@ -1065,9 +1052,22 @@
       "period_stars": 1,
       "url": "https://github.com/KeygraphHQ/shannon",
       "category": "productivity",
-      "rank": 82,
+      "rank": 81,
       "price": "free",
       "description_zh": "Shannon是一个自主的，白盒AI pentester，用于Web应用程序和API。它分析您的源代码，识别攻击向量，并执行实际的漏洞利用，以在漏洞到达生产之前证明它们。"
+    },
+    {
+      "name": "free-claude-code",
+      "owner": "Alishahryar1",
+      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "category": "productivity",
+      "rank": 82,
+      "price": "free",
+      "description_zh": "在终端中免费使用Claude代码和Codex、VSCode扩展以及OpenClaw等不和谐（支持语音）"
     },
     {
       "name": "gsd-2",
@@ -1174,19 +1174,6 @@
       "description_zh": "审查-第一终端差异查看器代理编码器"
     },
     {
-      "name": "chatto",
-      "owner": "chattocorp",
-      "description": "A fully-featured team and group chat application that you can easily selfhost.",
-      "language": "Go",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/chattocorp/chatto",
-      "category": "productivity",
-      "rank": 91,
-      "price": "free",
-      "description_zh": "一个功能齐全的团队和群聊应用程序，您可以轻松自托管。"
-    },
-    {
       "name": "OctoC2",
       "owner": "dstours",
       "description": "GitHub-native command-and-control framework for authorized security research, with encrypted multi-channel transport and resilient failover.",
@@ -1195,9 +1182,22 @@
       "period_stars": 1,
       "url": "https://github.com/dstours/OctoC2",
       "category": "productivity",
-      "rank": 92,
+      "rank": 91,
       "price": "free",
       "description_zh": "GitHub原生命令和控制框架，用于授权安全研究，具有加密多通道传输和弹性故障转移。"
+    },
+    {
+      "name": "chatto",
+      "owner": "chattocorp",
+      "description": "A fully-featured team and group chat application that you can easily selfhost.",
+      "language": "Go",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/chattocorp/chatto",
+      "category": "productivity",
+      "rank": 92,
+      "price": "free",
+      "description_zh": "一个功能齐全的团队和群聊应用程序，您可以轻松自托管。"
     },
     {
       "name": "xiaohongshu-skills",
