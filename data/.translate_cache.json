@@ -720,5 +720,6 @@
   "Self-hosted personal nutrition tracker — single Docker container, AGPL-3.0, no telemetry, no cloud sync.": "自托管个人营养追踪器-单个Docker容器，AAPL-3.0，无遥感，无云同步。",
   "OpenCode plugin that gives coding agents persistent memory using local vector database": "OpenCode插件，使用本地载体数据库为编码代理提供持久内存",
   "The personal finance app for everyone (by everyone)": "适合每个人（由每个人）的个人理财应用程序",
-  "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.": "DeepSeek为您的终端提供原生AI编码代理。围绕前置缓存稳定性而设计-让其运行。"
+  "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.": "DeepSeek为您的终端提供原生AI编码代理。围绕前置缓存稳定性而设计-让其运行。",
+  "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.": "在工具输出、日志、文件和RAG块到达LLM之前压缩它们。编码代理的令牌减少20%，杨森的令牌减少60-95%，答案相同。库、代理、MCC服务器。"
 }

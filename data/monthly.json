@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T13:57:41Z",
+  "updated": "2026-07-19T04:03:27Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -32,7 +32,7 @@
     {
       "name": "headroom",
       "owner": "headroomlabs-ai",
-      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
       "language": "Python",
       "total_stars": 587,
       "period_stars": 587,
@@ -40,7 +40,7 @@
       "category": "productivity",
       "rank": 3,
       "price": "free",
-      "description_zh": "在工具输出、日志、文件和RAG块到达LLM之前压缩它们。代币减少60-95%，答案相同。库、代理、MCC服务器。"
+      "description_zh": "在工具输出、日志、文件和RAG块到达LLM之前压缩它们。编码代理的令牌减少20%，杨森的令牌减少60-95%，答案相同。库、代理、MCC服务器。"
     },
     {
       "name": "codebase-memory-mcp",
