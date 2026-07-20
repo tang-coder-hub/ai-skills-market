@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T04:13:50Z",
+  "updated": "2026-07-20T04:29:40Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -498,19 +498,6 @@
       "description_zh": "JavaScript页面内图形用户界面代理。使用自然语言控制网络界面。"
     },
     {
-      "name": "kimi-code",
-      "owner": "MoonshotAI",
-      "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
-      "language": "TypeScript",
-      "total_stars": 2,
-      "period_stars": 2,
-      "url": "https://github.com/MoonshotAI/kimi-code",
-      "category": "productivity",
-      "rank": 39,
-      "price": "free",
-      "description_zh": "Kimi Code CLI -下一代代理的起点"
-    },
-    {
       "name": "Codex-Orchestration",
       "owner": "Cjbuilds",
       "description": "Bring any model to Codex, assign them any role, use them in /goal or any workflow.",
@@ -519,9 +506,22 @@
       "period_stars": 2,
       "url": "https://github.com/Cjbuilds/Codex-Orchestration",
       "category": "productivity",
-      "rank": 40,
+      "rank": 39,
       "price": "free",
       "description_zh": "将任何模型带到Codex，为它们分配任何角色，在/目标或任何工作流程中使用它们。"
+    },
+    {
+      "name": "kimi-code",
+      "owner": "MoonshotAI",
+      "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
+      "language": "TypeScript",
+      "total_stars": 2,
+      "period_stars": 2,
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "category": "productivity",
+      "rank": 40,
+      "price": "free",
+      "description_zh": "Kimi Code CLI -下一代代理的起点"
     },
     {
       "name": "codex-app-mirror",
@@ -1057,19 +1057,6 @@
       "description_zh": ""
     },
     {
-      "name": "cinematic-tea-with-claude",
-      "owner": "msadeghkarimi",
-      "description": "",
-      "language": "HTML",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/msadeghkarimi/cinematic-tea-with-claude",
-      "category": "productivity",
-      "rank": 82,
-      "price": "free",
-      "description_zh": ""
-    },
-    {
       "name": "ai-builders-curriculum",
       "owner": "ai-builders-foundation",
       "description": "Open, vendor-neutral curriculum and hackathon starter kits for learning to build full-stack AI applications end-to-end. MIT-licensed. A project of the AI Builders Foundation (501c3).",
@@ -1078,9 +1065,22 @@
       "period_stars": 1,
       "url": "https://github.com/ai-builders-foundation/ai-builders-curriculum",
       "category": "productivity",
-      "rank": 83,
+      "rank": 82,
       "price": "free",
       "description_zh": "开放的、供应商中立的课程和黑客入门套件，用于学习端到端构建全栈人工智能应用程序。麻省理工学院许可。人工智能构建者基金会（501 c3）的一个项目。"
+    },
+    {
+      "name": "cinematic-tea-with-claude",
+      "owner": "msadeghkarimi",
+      "description": "",
+      "language": "HTML",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/msadeghkarimi/cinematic-tea-with-claude",
+      "category": "productivity",
+      "rank": 83,
+      "price": "free",
+      "description_zh": ""
     },
     {
       "name": "localemu",
