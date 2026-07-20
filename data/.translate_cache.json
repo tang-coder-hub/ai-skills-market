@@ -769,5 +769,7 @@
   "A modern Android app for installing and managing APK packages with split APK support, silent install via Shizuku, and VirusTotal malware scanning.": "一款现代化的Android应用程序，用于安装和管理APK包，具有分离APK支持、通过Shizuku进行无声安装以及Virus Total恶意软件扫描。",
   "A Python library for building AI agents that leverage the full power of Google Antigravity.": "一个Python库，用于构建利用Google反重力的全部功能的人工智能代理。",
   "Yuedu is a native iOS reader that supports multiple book formats, RSS subscriptions, and user-provided book sources.": "悦度是一款原生iOS阅读器，支持多种图书格式、RSS订阅和用户提供的图书来源。",
-  "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.": "一种AI代理技能，从多个视觉主题生成浏览器可编辑的演示文稿，可导出为HTML，PDF和PPTX。"
+  "An AI-agent skill that generates browser-editable presentations from multiple visual themes, exportable to HTML, PDF, and PPTX.": "一种AI代理技能，从多个视觉主题生成浏览器可编辑的演示文稿，可导出为HTML，PDF和PPTX。",
+  "Opensource, on-device voice + vision layer for AI agents. Bring any model or coding agent; the whole speech loop (VAD, STT, TTS, barge-in) runs locally. An open alternative to ElevenLabs Agents, Gemini Live, and OpenAI Realtime.": "用于人工智能代理的开源设备上语音+视觉层。携带任何模型或编码代理;整个语音循环（VAR、STT、TTC、插入）在本地运行。ElevenLabs Agents、Gemini Live和OpenAI Realtime的开放替代方案。",
+  "Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)": "从终端、IDE或OpenClaw（支持语音）等手机上免费使用claude代码、Codex或pi"
 }

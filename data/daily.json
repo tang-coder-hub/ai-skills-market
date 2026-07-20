@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T14:02:04Z",
+  "updated": "2026-07-20T04:13:50Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -498,19 +498,6 @@
       "description_zh": "JavaScript页面内图形用户界面代理。使用自然语言控制网络界面。"
     },
     {
-      "name": "Codex-Orchestration",
-      "owner": "Cjbuilds",
-      "description": "Bring any model to Codex, assign them any role, use them in /goal or any workflow.",
-      "language": "Python",
-      "total_stars": 2,
-      "period_stars": 2,
-      "url": "https://github.com/Cjbuilds/Codex-Orchestration",
-      "category": "productivity",
-      "rank": 39,
-      "price": "free",
-      "description_zh": "将任何模型带到Codex，为它们分配任何角色，在/目标或任何工作流程中使用它们。"
-    },
-    {
       "name": "kimi-code",
       "owner": "MoonshotAI",
       "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
@@ -519,9 +506,22 @@
       "period_stars": 2,
       "url": "https://github.com/MoonshotAI/kimi-code",
       "category": "productivity",
-      "rank": 40,
+      "rank": 39,
       "price": "free",
       "description_zh": "Kimi Code CLI -下一代代理的起点"
+    },
+    {
+      "name": "Codex-Orchestration",
+      "owner": "Cjbuilds",
+      "description": "Bring any model to Codex, assign them any role, use them in /goal or any workflow.",
+      "language": "Python",
+      "total_stars": 2,
+      "period_stars": 2,
+      "url": "https://github.com/Cjbuilds/Codex-Orchestration",
+      "category": "productivity",
+      "rank": 40,
+      "price": "free",
+      "description_zh": "将任何模型带到Codex，为它们分配任何角色，在/目标或任何工作流程中使用它们。"
     },
     {
       "name": "codex-app-mirror",
@@ -981,7 +981,7 @@
     {
       "name": "openlive",
       "owner": "katipally",
-      "description": "Live voice + vision AI assistant — on-device voice pipeline, thin LLM proxy",
+      "description": "Opensource, on-device voice + vision layer for AI agents. Bring any model or coding agent; the whole speech loop (VAD, STT, TTS, barge-in) runs locally. An open alternative to ElevenLabs Agents, Gemini Live, and OpenAI Realtime.",
       "language": "TypeScript",
       "total_stars": 2,
       "period_stars": 2,
@@ -989,7 +989,7 @@
       "category": "productivity",
       "rank": 76,
       "price": "free",
-      "description_zh": "实时语音+视觉AI助手-设备上语音管道、精简LLM代理"
+      "description_zh": "用于人工智能代理的开源设备上语音+视觉层。携带任何模型或编码代理;整个语音循环（VAR、STT、TTC、插入）在本地运行。ElevenLabs Agents、Gemini Live和OpenAI Realtime的开放替代方案。"
     },
     {
       "name": "codex-desktop-linux",
@@ -1200,19 +1200,6 @@
       "description_zh": "Hermes代理的桌面伴侣"
     },
     {
-      "name": "ai4paper",
-      "owner": "wdcpclover",
-      "description": "内置知识库 · 2.4 亿文献源 · PDF 全文翻译零配置 · 无插件网页版 app.ai4paper.pro · AI 速搜文献 · AI 一键综述 · 小程序期刊订阅 · 原生支持 Zotero 7–10 | AI4Paper.pro",
-      "language": "HTML",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/wdcpclover/ai4paper",
-      "category": "productivity",
-      "rank": 93,
-      "price": "free",
-      "description_zh": "内部知识库 · 2.4 亿文献源 · PDF 全文翻译零配件· 无插件网页版app.ai4paper.pro· AI 速弗格森文献 · AI关键综合· 小程序期间订购·根源支持Zoopet 7-10|AI4Paper.pro"
-    },
-    {
       "name": "agent-session-resume",
       "owner": "hacktivist123",
       "description": "Cross-agent session resume skill for Claude Code, Codex, Antigravity, and OpenCode.",
@@ -1221,9 +1208,22 @@
       "period_stars": 1,
       "url": "https://github.com/hacktivist123/agent-session-resume",
       "category": "productivity",
-      "rank": 94,
+      "rank": 93,
       "price": "free",
       "description_zh": "Claude Code、Codex、Antigravity和OpenCode的跨代理会话恢复技能。"
+    },
+    {
+      "name": "ai4paper",
+      "owner": "wdcpclover",
+      "description": "内置知识库 · 2.4 亿文献源 · PDF 全文翻译零配置 · 无插件网页版 app.ai4paper.pro · AI 速搜文献 · AI 一键综述 · 小程序期刊订阅 · 原生支持 Zotero 7–10 | AI4Paper.pro",
+      "language": "HTML",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/wdcpclover/ai4paper",
+      "category": "productivity",
+      "rank": 94,
+      "price": "free",
+      "description_zh": "内部知识库 · 2.4 亿文献源 · PDF 全文翻译零配件· 无插件网页版app.ai4paper.pro· AI 速弗格森文献 · AI关键综合· 小程序期间订购·根源支持Zoopet 7-10|AI4Paper.pro"
     },
     {
       "name": "HolyClaude",

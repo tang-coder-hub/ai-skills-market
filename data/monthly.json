@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T14:02:05Z",
+  "updated": "2026-07-20T04:13:53Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -526,7 +526,7 @@
     {
       "name": "free-claude-code",
       "owner": "Alishahryar1",
-      "description": "Use claude code and codex for free in the terminal, VSCode extension, and discord like OpenClaw (voice supported)",
+      "description": "Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)",
       "language": "Python",
       "total_stars": 90,
       "period_stars": 90,
@@ -534,7 +534,7 @@
       "category": "productivity",
       "rank": 41,
       "price": "free",
-      "description_zh": "在终端中免费使用Claude代码和Codex、VSCode扩展以及OpenClaw等不和谐（支持语音）"
+      "description_zh": "从终端、IDE或OpenClaw（支持语音）等手机上免费使用claude代码、Codex或pi"
     },
     {
       "name": "no-mistakes",
