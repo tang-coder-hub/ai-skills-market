@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T03:56:05Z",
+  "updated": "2026-07-21T04:08:45Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -459,17 +459,17 @@
       "description_zh": "🩵一个免费的开源应用程序商店，面向GitHub、Codeberg和Forgejo上的开发人员发布版本-只需单击鼠标即可浏览、发现和安装应用程序。原名GitHub Store。"
     },
     {
-      "name": "pocketjs",
-      "owner": "pocket-stack",
-      "description": "High-performance JSX UI outside the browser, with hardware rendering, standard Vue Vapor and Solid support, a Tailwind style engine, and 60 FPS animation under an 8 MB memory budget.",
+      "name": "pierre",
+      "owner": "pierrecomputer",
+      "description": "pierre’s open source code",
       "language": "TypeScript",
       "total_stars": 1,
       "period_stars": 1,
-      "url": "https://github.com/pocket-stack/pocketjs",
+      "url": "https://github.com/pierrecomputer/pierre",
       "category": "productivity",
       "rank": 36,
       "price": "free",
-      "description_zh": "浏览器外部的高性能JCX UI，具有硬件渲染、标准Vue Vapor和Solid支持、Tailwind风格引擎以及8 MB内存预算下的60 FPS动画。"
+      "description_zh": "皮埃尔的开源代码"
     },
     {
       "name": "video-autopilot-kit",
@@ -485,19 +485,6 @@
       "description_zh": "用于YouTube /简短视频自动化的自行填充数据框架：CapCut JNON + ffmpeg工具+入职调查问卷。私人数据为零。"
     },
     {
-      "name": "pierre",
-      "owner": "pierrecomputer",
-      "description": "pierre’s open source code",
-      "language": "TypeScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/pierrecomputer/pierre",
-      "category": "productivity",
-      "rank": 38,
-      "price": "free",
-      "description_zh": "皮埃尔的开源代码"
-    },
-    {
       "name": "dbskill",
       "owner": "dontbesilent2025",
       "description": "dontbesilent 的商业诊断 Skills",
@@ -506,9 +493,22 @@
       "period_stars": 1,
       "url": "https://github.com/dontbesilent2025/dbskill",
       "category": "productivity",
-      "rank": 39,
+      "rank": 38,
       "price": "free",
       "description_zh": "dontbessilent的商业诊断技能"
+    },
+    {
+      "name": "pocketjs",
+      "owner": "pocket-stack",
+      "description": "High-performance JSX UI outside the browser, with hardware rendering, standard Vue Vapor and Solid support, a Tailwind style engine, and 60 FPS animation under an 8 MB memory budget.",
+      "language": "TypeScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/pocket-stack/pocketjs",
+      "category": "productivity",
+      "rank": 39,
+      "price": "free",
+      "description_zh": "浏览器外部的高性能JCX UI，具有硬件渲染、标准Vue Vapor和Solid支持、Tailwind风格引擎以及8 MB内存预算下的60 FPS动画。"
     },
     {
       "name": "Antigravity-Manager",
@@ -1135,17 +1135,17 @@
       "description_zh": "Stackryze域名：免费域名给每个人，今天就申请你的域名。"
     },
     {
-      "name": "ai-agents-from-zero",
-      "owner": "didilili",
-      "description": " 🚀 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径  + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 · 企业级部署与微调 · 从0到企业级落地 + 从学习到上线项目 + 面试准备一体化 ",
-      "language": "Python",
+      "name": "stemdeck",
+      "owner": "stemdeckapp",
+      "description": "Stemdeck is an modern stem extraction platform for musicians,producers and hobbyists, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface",
+      "language": "JavaScript",
       "total_stars": 1,
       "period_stars": 1,
-      "url": "https://github.com/didilili/ai-agents-from-zero",
-      "category": "productivity",
+      "url": "https://github.com/stemdeckapp/stemdeck",
+      "category": "design",
       "rank": 88,
       "price": "free",
-      "description_zh": "🚀 2026 最系统的 AI Agent加速指南|智能体实战教程 · 完整的学习路径 +实战项目+面试库· 对标大模型应用开发工程师职位· 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 ·企业级部署与微调 · 从0到企业级后台+从学习到上线项目+面试准备一体化"
+      "description_zh": "Stemdeck是一个适合音乐家、制作人和爱好者的现代词干提取平台，旨在通过现代化的交互式界面隔离人声、鼓、贝斯、钢琴和吉他，以进行练习、转录、混音和创意音频工作流程"
     },
     {
       "name": "suede-creator-skills",
@@ -1161,19 +1161,6 @@
       "description_zh": "Claude Code和Codex的25个开源代理技能：多代理编排、A-F代码审查、AI evals、CI发货、设计、复制、SEO、iOS发货、音乐版权和消费者恢复（亚马逊谈判代表追回了448.31美元）。"
     },
     {
-      "name": "stemdeck",
-      "owner": "stemdeckapp",
-      "description": "Stemdeck is an modern stem extraction platform for musicians,producers and hobbyists, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface",
-      "language": "JavaScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/stemdeckapp/stemdeck",
-      "category": "design",
-      "rank": 90,
-      "price": "free",
-      "description_zh": "Stemdeck是一个适合音乐家、制作人和爱好者的现代词干提取平台，旨在通过现代化的交互式界面隔离人声、鼓、贝斯、钢琴和吉他，以进行练习、转录、混音和创意音频工作流程"
-    },
-    {
       "name": "cassotis-ime",
       "owner": "shenmin",
       "description": "An experimental Delphi-based Chinese PinYin IME for Windows 10/11 on TSF.",
@@ -1182,7 +1169,7 @@
       "period_stars": 1,
       "url": "https://github.com/shenmin/cassotis-ime",
       "category": "productivity",
-      "rank": 91,
+      "rank": 90,
       "price": "free",
       "description_zh": "TSF上的Windows 10/11的实验性基于德尔菲的中文拼音IME。"
     },
@@ -1195,9 +1182,22 @@
       "period_stars": 1,
       "url": "https://github.com/jlcodes99/cockpit-tools",
       "category": "productivity",
-      "rank": 92,
+      "rank": 91,
       "price": "free",
       "description_zh": "🚀通用 AI IDE编号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor /Gemini-SYS/ CodeBuddy，多号切换，配额监控，自动按钮与多开实例管理。🚀适用于Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor /Gemini-Buttons/ CodeBuddy的Universal AI IDE客户经理，具有多帐户切换、配额监控、唤醒自动化和多insta"
+    },
+    {
+      "name": "ai-agents-from-zero",
+      "owner": "didilili",
+      "description": " 🚀 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径  + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 · 企业级部署与微调 · 从0到企业级落地 + 从学习到上线项目 + 面试准备一体化 ",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/didilili/ai-agents-from-zero",
+      "category": "productivity",
+      "rank": 92,
+      "price": "free",
+      "description_zh": "🚀 2026 最系统的 AI Agent加速指南|智能体实战教程 · 完整的学习路径 +实战项目+面试库· 对标大模型应用开发工程师职位· 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 ·企业级部署与微调 · 从0到企业级后台+从学习到上线项目+面试准备一体化"
     },
     {
       "name": "CodexPlusPlus",
@@ -1239,19 +1239,6 @@
       "description_zh": "基于预定基础模型构建通用机器人"
     },
     {
-      "name": "android-titanium-browser",
-      "owner": "jqssun",
-      "description": "Secure open-source Android browser with support for extensions",
-      "language": "Shell",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/jqssun/android-titanium-browser",
-      "category": "productivity",
-      "rank": 96,
-      "price": "free",
-      "description_zh": "安全的开源Android浏览器，支持扩展"
-    },
-    {
       "name": "iPolloWork",
       "owner": "Devin-AXIS",
       "description": "Next-gen, source-available alternative to Codex and Claude Code — one local-first, self-hostable agent workspace for code, office work, editable design, presentations, websites, and video. Build with AI, then edit text, images, colors, layouts, and scenes as easily as PowerPoint.",
@@ -1260,9 +1247,22 @@
       "period_stars": 1,
       "url": "https://github.com/Devin-AXIS/iPolloWork",
       "category": "productivity",
-      "rank": 97,
+      "rank": 96,
       "price": "free",
       "description_zh": "Codex和Claude Code的下一代源可用替代品-一个本地优先、可自我托管的代理工作空间，用于代码、办公室工作、可编辑设计、演示文稿、网站和视频。使用人工智能构建，然后像PowerPoint一样轻松编辑文本、图像、颜色、布局和场景。"
+    },
+    {
+      "name": "android-titanium-browser",
+      "owner": "jqssun",
+      "description": "Secure open-source Android browser with support for extensions",
+      "language": "Shell",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/jqssun/android-titanium-browser",
+      "category": "productivity",
+      "rank": 97,
+      "price": "free",
+      "description_zh": "安全的开源Android浏览器，支持扩展"
     },
     {
       "name": "sub2api",
