@@ -815,5 +815,6 @@
   "Next-gen, source-available alternative to Codex and Claude Code — one local-first, self-hostable agent workspace for code, office work, editable design, presentations, websites, and video. Build with AI, then edit text, images, colors, layouts, and scenes as easily as PowerPoint.": "Codex和Claude Code的下一代源可用替代品-一个本地优先、可自我托管的代理工作空间，用于代码、办公室工作、可编辑设计、演示文稿、网站和视频。使用人工智能构建，然后像PowerPoint一样轻松编辑文本、图像、颜色、布局和场景。",
   "A desktop app to prototype agent ideas, inspect every harness step, replay failures, and evaluate performance, all in one place. Local-first, cloud-ready for managed agents.": "一个桌面应用程序，可以在一个地方对代理想法进行原型设计、检查每个利用步骤、重播故障并评估性能。本地优先、云就绪，适合托管代理。",
   "Playwright's API on a Rust CDP engine — Chromium browser automation for Python & Node, no driver subprocess. (Alpha)": "Rust CPD引擎上的Playwright API-适合Python和节点的Chromium浏览器自动化，没有驱动程序子进程。（阿尔法）",
-  "Coding agent orgs: built for reviewability and multi-device collaboration. Built-in rust harness & 30+ CLIs.": "编码代理组织：为可审查性和多设备协作而构建。内置防锈线束和30+ CLI。"
+  "Coding agent orgs: built for reviewability and multi-device collaboration. Built-in rust harness & 30+ CLIs.": "编码代理组织：为可审查性和多设备协作而构建。内置防锈线束和30+ CLI。",
+  "Coding agent orgs: built for reviewability and team collaboration. Built-in rust harness & 20+ CLIs.": "编码代理组织：专为可审查性和团队协作而构建。内置防锈带和20+ CLI。"
 }

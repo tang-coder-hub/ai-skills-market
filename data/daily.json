@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T14:38:33Z",
+  "updated": "2026-07-21T03:56:05Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -459,6 +459,19 @@
       "description_zh": "🩵一个免费的开源应用程序商店，面向GitHub、Codeberg和Forgejo上的开发人员发布版本-只需单击鼠标即可浏览、发现和安装应用程序。原名GitHub Store。"
     },
     {
+      "name": "pocketjs",
+      "owner": "pocket-stack",
+      "description": "High-performance JSX UI outside the browser, with hardware rendering, standard Vue Vapor and Solid support, a Tailwind style engine, and 60 FPS animation under an 8 MB memory budget.",
+      "language": "TypeScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/pocket-stack/pocketjs",
+      "category": "productivity",
+      "rank": 36,
+      "price": "free",
+      "description_zh": "浏览器外部的高性能JCX UI，具有硬件渲染、标准Vue Vapor和Solid支持、Tailwind风格引擎以及8 MB内存预算下的60 FPS动画。"
+    },
+    {
       "name": "video-autopilot-kit",
       "owner": "Hao0321",
       "description": "Fill-in-your-own-data framework for YouTube / short-form video automation: CapCut JSON + ffmpeg tooling + an onboarding questionnaire. Ships with zero private data.",
@@ -467,7 +480,7 @@
       "period_stars": 1,
       "url": "https://github.com/Hao0321/video-autopilot-kit",
       "category": "productivity",
-      "rank": 36,
+      "rank": 37,
       "price": "free",
       "description_zh": "用于YouTube /简短视频自动化的自行填充数据框架：CapCut JNON + ffmpeg工具+入职调查问卷。私人数据为零。"
     },
@@ -480,22 +493,9 @@
       "period_stars": 1,
       "url": "https://github.com/pierrecomputer/pierre",
       "category": "productivity",
-      "rank": 37,
-      "price": "free",
-      "description_zh": "皮埃尔的开源代码"
-    },
-    {
-      "name": "pocketjs",
-      "owner": "pocket-stack",
-      "description": "High-performance JSX UI outside the browser, with hardware rendering, standard Vue Vapor and Solid support, a Tailwind style engine, and 60 FPS animation under an 8 MB memory budget.",
-      "language": "TypeScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/pocket-stack/pocketjs",
-      "category": "productivity",
       "rank": 38,
       "price": "free",
-      "description_zh": "浏览器外部的高性能JCX UI，具有硬件渲染、标准Vue Vapor和Solid支持、Tailwind风格引擎以及8 MB内存预算下的60 FPS动画。"
+      "description_zh": "皮埃尔的开源代码"
     },
     {
       "name": "dbskill",
@@ -1135,19 +1135,6 @@
       "description_zh": "Stackryze域名：免费域名给每个人，今天就申请你的域名。"
     },
     {
-      "name": "cockpit-tools",
-      "owner": "jlcodes99",
-      "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
-      "language": "Rust",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/jlcodes99/cockpit-tools",
-      "category": "productivity",
-      "rank": 88,
-      "price": "free",
-      "description_zh": "🚀通用 AI IDE编号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor /Gemini-SYS/ CodeBuddy，多号切换，配额监控，自动按钮与多开实例管理。🚀适用于Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor /Gemini-Buttons/ CodeBuddy的Universal AI IDE客户经理，具有多帐户切换、配额监控、唤醒自动化和多insta"
-    },
-    {
       "name": "ai-agents-from-zero",
       "owner": "didilili",
       "description": " 🚀 2026 最系统的 AI Agent 速成指南｜智能体实战教程 · 完整学习路径  + 实战项目 + 面试题库 · 对标大模型应用开发工程师岗位 · 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 · 企业级部署与微调 · 从0到企业级落地 + 从学习到上线项目 + 面试准备一体化 ",
@@ -1156,9 +1143,22 @@
       "period_stars": 1,
       "url": "https://github.com/didilili/ai-agents-from-zero",
       "category": "productivity",
-      "rank": 89,
+      "rank": 88,
       "price": "free",
       "description_zh": "🚀 2026 最系统的 AI Agent加速指南|智能体实战教程 · 完整的学习路径 +实战项目+面试库· 对标大模型应用开发工程师职位· 覆盖LangChain / LangGraph / Coze / Dify / MCP / skills / LLM / RAG / 提示词 ·企业级部署与微调 · 从0到企业级后台+从学习到上线项目+面试准备一体化"
+    },
+    {
+      "name": "suede-creator-skills",
+      "owner": "JasonColapietro",
+      "description": "25 open-source Agent Skills for Claude Code and Codex: multi-agent orchestration, A-F code review, AI evals, CI ship-gates, design, copy, SEO, iOS shipping, music rights, and consumer recovery (the Amazon negotiator that recovered $448.31).",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/JasonColapietro/suede-creator-skills",
+      "category": "productivity",
+      "rank": 89,
+      "price": "free",
+      "description_zh": "Claude Code和Codex的25个开源代理技能：多代理编排、A-F代码审查、AI evals、CI发货、设计、复制、SEO、iOS发货、音乐版权和消费者恢复（亚马逊谈判代表追回了448.31美元）。"
     },
     {
       "name": "stemdeck",
@@ -1187,17 +1187,17 @@
       "description_zh": "TSF上的Windows 10/11的实验性基于德尔菲的中文拼音IME。"
     },
     {
-      "name": "suede-creator-skills",
-      "owner": "JasonColapietro",
-      "description": "25 open-source Agent Skills for Claude Code and Codex: multi-agent orchestration, A-F code review, AI evals, CI ship-gates, design, copy, SEO, iOS shipping, music rights, and consumer recovery (the Amazon negotiator that recovered $448.31).",
-      "language": "Python",
+      "name": "cockpit-tools",
+      "owner": "jlcodes99",
+      "description": " 🚀 通用 AI IDE 账号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy，多账号切换、配额监控、自动唤醒与多开实例管理。 🚀 Universal AI IDE account manager for Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor / Gemini-cli / CodeBuddy, with multi-account switching, quota monitoring, wake-up automation, and multi-insta",
+      "language": "Rust",
       "total_stars": 1,
       "period_stars": 1,
-      "url": "https://github.com/JasonColapietro/suede-creator-skills",
+      "url": "https://github.com/jlcodes99/cockpit-tools",
       "category": "productivity",
       "rank": 92,
       "price": "free",
-      "description_zh": "Claude Code和Codex的25个开源代理技能：多代理编排、A-F代码审查、AI evals、CI发货、设计、复制、SEO、iOS发货、音乐版权和消费者恢复（亚马逊谈判代表追回了448.31美元）。"
+      "description_zh": "🚀通用 AI IDE编号管理工具：支持 Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor /Gemini-SYS/ CodeBuddy，多号切换，配额监控，自动按钮与多开实例管理。🚀适用于Antigravity / Codex / GitHub Copilot / Windsurf / Kiro / Cursor /Gemini-Buttons/ CodeBuddy的Universal AI IDE客户经理，具有多帐户切换、配额监控、唤醒自动化和多insta"
     },
     {
       "name": "CodexPlusPlus",

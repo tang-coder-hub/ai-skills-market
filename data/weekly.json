@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T14:38:33Z",
+  "updated": "2026-07-21T03:56:06Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -1150,7 +1150,7 @@
     {
       "name": "ORG2",
       "owner": "yorgai",
-      "description": "Coding agent orgs: built for reviewability and multi-device collaboration. Built-in rust harness & 30+ CLIs.",
+      "description": "Coding agent orgs: built for reviewability and team collaboration. Built-in rust harness & 20+ CLIs.",
       "language": "TypeScript",
       "total_stars": 5,
       "period_stars": 5,
@@ -1158,7 +1158,7 @@
       "category": "productivity",
       "rank": 89,
       "price": "free",
-      "description_zh": "编码代理组织：为可审查性和多设备协作而构建。内置防锈线束和30+ CLI。"
+      "description_zh": "编码代理组织：专为可审查性和团队协作而构建。内置防锈带和20+ CLI。"
     },
     {
       "name": "CodexBar",
