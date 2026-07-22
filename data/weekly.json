@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T14:35:09Z",
+  "updated": "2026-07-22T03:57:22Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -331,7 +331,7 @@
     {
       "name": "jcode",
       "owner": "1jehuang",
-      "description": "Coding Agent Harness",
+      "description": "The most intelligent agent harness for code",
       "language": "Rust",
       "total_stars": 9,
       "period_stars": 9,
@@ -339,12 +339,12 @@
       "category": "productivity",
       "rank": 26,
       "price": "free",
-      "description_zh": "编码代理收件箱"
+      "description_zh": "最智能的代码代理工具"
     },
     {
       "name": "awesome-zhuiju-free",
       "owner": "laoma2053",
-      "description": "人工精选的免费无广告追剧资源导航，每日自动检测可用性。收录在线影视、影视APP、网盘搜索、磁力 BT、字幕、TVBox / 影视仓配置地址、IPTV 订阅源。开源，社区共同维护。",
+      "description": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。",
       "language": "JavaScript",
       "total_stars": 10,
       "period_stars": 10,
@@ -352,7 +352,7 @@
       "category": "productivity",
       "rank": 27,
       "price": "free",
-      "description_zh": "人工精选的免费无广告追剧资源导航，每日自动检测可用性。收录在线影视，影视APP，网盘搜索，磁力 BT，字幕，TVBox / 影视剧配置地址，IPTV 订阅源。开源，社区共同维护。"
+      "description_zh": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视，影视APP，网盘搜索，磁力BT，字幕，TVBox / 影视空壳软件/配置地址，IPTV直播源，会员团，影视相关开源项目。开源，社区共同维护。"
     },
     {
       "name": "Bonsai-demo",

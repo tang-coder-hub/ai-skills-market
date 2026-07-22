@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T14:35:07Z",
+  "updated": "2026-07-22T03:57:21Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -201,7 +201,7 @@
     {
       "name": "jcode",
       "owner": "1jehuang",
-      "description": "Coding Agent Harness",
+      "description": "The most intelligent agent harness for code",
       "language": "Rust",
       "total_stars": 2,
       "period_stars": 2,
@@ -209,7 +209,7 @@
       "category": "productivity",
       "rank": 16,
       "price": "free",
-      "description_zh": "编码代理收件箱"
+      "description_zh": "最智能的代码代理工具"
     },
     {
       "name": "marketingskills",
@@ -1176,7 +1176,7 @@
     {
       "name": "agent-orchestrator",
       "owner": "AgentWrapper",
-      "description": "AO is an agent IDE, that helps developers manage fleets of coding agents to do your day to day tasks for parallel coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI    fixes, merge conflicts, and code reviews.",
+      "description": "Agent IDE that enables you to manage fleets of coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
       "language": "Go",
       "total_stars": 1,
       "period_stars": 1,
@@ -1184,7 +1184,7 @@
       "category": "productivity",
       "rank": 91,
       "price": "free",
-      "description_zh": "AO是一个代理IDE，可帮助开发人员管理编码代理队列，以执行并行编码代理的日常任务。它配备了一个代理编排器，可以规划任务、生成代理并自主处理CI    修复、合并冲突和代码审查。"
+      "description_zh": "代理IDE，使您能够管理编码代理队列。它配备了一个代理编排器，可以规划任务、生成代理并自主处理CI修复、合并冲突和代码审查。"
     },
     {
       "name": "tutti",

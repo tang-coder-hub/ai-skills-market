@@ -867,5 +867,9 @@
   "The easiest way to run multiple Claude Code sessions, each in its own container, with a dashboard to manage them all. Quick setup with battle-tested sensible defaults and skills.": "运行多个Claude Code会话的最简单方法，每个会话都在自己的容器中，并通过仪表板来管理所有会话。使用经过实战考验的合理默认设置和技能进行快速设置。",
   "Proof of Concept (PoC) demonstrating an out-of-bounds (OOB) write vulnerability in the DLX ELF backend of GNU binutils (specifically triggered via `objdump -g`)": "概念证明（NPS）演示了NU二元工具的DLX ELF后台中的越界（OSC）写入漏洞（专门通过“objdump -g”触发）",
   "photoo 是一款 Android 原生的极简照片整理工具。滑动卡片就能快速整理相册——左滑删除，右滑收藏，上滑保留。还有一系列\"该有的全都有\"的功能：相册分析生成专属摄影画像、沉浸式回顾喜爱照片、智能识别相似照片和低质量图片、视频和图片压缩......  但 photoo 不只是一个\"清理\"软件，它更是\"回忆\"。": "photoo 是一款 Android原创的极剪照片整理工具。滑动卡片可以快速整理相册--左滑删除，右滑收藏，上滑保留。还有一系列“应该的全国都有”的功能：相册分析生成专业摄影图片，沉淀式回顾爱照片，智能识别类似照片和低质量图片，视频和图片压缩.  但 photoo 不只是一个“清洁”软件，它更“恢复”。",
-  "One-click desktop GUI for the Aether censorship-circumvention tunnel — Tauri v2, React 19, Rust": "以太审查规避隧道的一键桌面图形用户界面- Tauri v2、React 19、Rust"
+  "One-click desktop GUI for the Aether censorship-circumvention tunnel — Tauri v2, React 19, Rust": "以太审查规避隧道的一键桌面图形用户界面- Tauri v2、React 19、Rust",
+  "The most intelligent agent harness for code": "最智能的代码代理工具",
+  "Agent IDE that enables you to manage fleets of coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.": "代理IDE，使您能够管理编码代理队列。它配备了一个代理编排器，可以规划任务、生成代理并自主处理CI修复、合并冲突和代码审查。",
+  "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视、影视APP、网盘搜索、磁力BT、字幕、TVBox / 影视仓空壳软件/配置地址、IPTV直播源、会员拼团、影视相关开源项目。开源，社区共同维护。": "免费无广告的追剧资源指南，人工精选资源、每天检测资源有效性。收录在线影视，影视APP，网盘搜索，磁力BT，字幕，TVBox / 影视空壳软件/配置地址，IPTV直播源，会员团，影视相关开源项目。开源，社区共同维护。",
+  "A Web3 wallet and agent platform for the Unicity network - crypto wallet, DMs, group chat, and marketplace.": "适用于Unicity网络的Web 3钱包和代理平台-加密货币钱包、DM、群聊和市场。"
 }

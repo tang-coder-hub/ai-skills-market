@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T14:35:09Z",
+  "updated": "2026-07-22T03:57:24Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -1163,7 +1163,7 @@
     {
       "name": "sphere",
       "owner": "unicity-sphere",
-      "description": "A Web3 wallet and agent platform for the Unicity network - dual-layer crypto wallet, DMs, group chat, and marketplace.",
+      "description": "A Web3 wallet and agent platform for the Unicity network - crypto wallet, DMs, group chat, and marketplace.",
       "language": "TypeScript",
       "total_stars": 44,
       "period_stars": 44,
@@ -1171,7 +1171,7 @@
       "category": "productivity",
       "rank": 90,
       "price": "free",
-      "description_zh": "适用于Unicity网络的Web 3钱包和代理平台-双层加密货币钱包、DM、群聊和市场。"
+      "description_zh": "适用于Unicity网络的Web 3钱包和代理平台-加密货币钱包、DM、群聊和市场。"
     },
     {
       "name": "CubeSandbox",
