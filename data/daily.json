@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T03:57:21Z",
+  "updated": "2026-07-22T04:10:38Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -771,19 +771,6 @@
       "description_zh": "隐私第一PDF工具包"
     },
     {
-      "name": "RambosPlayer",
-      "owner": "johnjiamzhong-project",
-      "description": "FFmpeg + Qt 多线程播放器，支持 RTMP/RTSP/SRT 拉流、视频剪切、音视频合并、低延迟推流与浏览器实时播放",
-      "language": "C++",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/johnjiamzhong-project/RambosPlayer",
-      "category": "productivity",
-      "rank": 60,
-      "price": "free",
-      "description_zh": "FFmpeg + Qt 多线程播放器，支持 RTMP/RTSP/SRT 拉流，视频切，音视频合并，低延期播放与播放器实时播放"
-    },
-    {
       "name": "jarvis",
       "owner": "ethanplusai",
       "description": "JARVIS — A voice-first AI assistant for macOS, inspired by the MCU. Talk to your computer, it talks back and gets things done.",
@@ -792,9 +779,22 @@
       "period_stars": 1,
       "url": "https://github.com/ethanplusai/jarvis",
       "category": "productivity",
-      "rank": 61,
+      "rank": 60,
       "price": "free",
       "description_zh": "JARRIS-macOS的语音优先人工智能助手，灵感来自MCU。与您的计算机交谈，它会回复并完成任务。"
+    },
+    {
+      "name": "RambosPlayer",
+      "owner": "johnjiamzhong-project",
+      "description": "FFmpeg + Qt 多线程播放器，支持 RTMP/RTSP/SRT 拉流、视频剪切、音视频合并、低延迟推流与浏览器实时播放",
+      "language": "C++",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/johnjiamzhong-project/RambosPlayer",
+      "category": "productivity",
+      "rank": 61,
+      "price": "free",
+      "description_zh": "FFmpeg + Qt 多线程播放器，支持 RTMP/RTSP/SRT 拉流，视频切，音视频合并，低延期播放与播放器实时播放"
     },
     {
       "name": "VLM-AutoYOLO",
