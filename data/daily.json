@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T03:54:15Z",
+  "updated": "2026-07-23T04:08:18Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -524,19 +524,6 @@
       "description_zh": "用于人工智能编码代理的持久存储系统。与代理无关的Go二进制文件，具有SQLite + FTS5、MAO服务器、HTTAPI、CLI和TUI。"
     },
     {
-      "name": "mattpocock-skills-zh-CN",
-      "owner": "vinvcn",
-      "description": "这是 mattpocock/skills 的简体中文本地化版本。",
-      "language": "Shell",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/vinvcn/mattpocock-skills-zh-CN",
-      "category": "productivity",
-      "rank": 41,
-      "price": "free",
-      "description_zh": "这是 mattpocock/skills 的简体中文本地化版本。"
-    },
-    {
       "name": "grok2api",
       "owner": "chenyme",
       "description": "Grok2API 是一个基于 FastAPI 构建的 Grok 网关，支持将 Grok Web 能力以 OpenAI 兼容 API 的方式转换。",
@@ -545,9 +532,22 @@
       "period_stars": 1,
       "url": "https://github.com/chenyme/grok2api",
       "category": "productivity",
-      "rank": 42,
+      "rank": 41,
       "price": "free",
       "description_zh": "Grok2API 是一个基于 FastAPI 构建的 Grok网络，支持将 Grok Web 能力以 OpenAI容API 的方式转换。"
+    },
+    {
+      "name": "mattpocock-skills-zh-CN",
+      "owner": "vinvcn",
+      "description": "这是 mattpocock/skills 的简体中文本地化版本。",
+      "language": "Shell",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/vinvcn/mattpocock-skills-zh-CN",
+      "category": "productivity",
+      "rank": 42,
+      "price": "free",
+      "description_zh": "这是 mattpocock/skills 的简体中文本地化版本。"
     },
     {
       "name": "humanizer",
