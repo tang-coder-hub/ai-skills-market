@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T14:35:02Z",
+  "updated": "2026-07-23T03:54:16Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -1124,7 +1124,7 @@
     {
       "name": "ossie",
       "owner": "apache",
-      "description": "",
+      "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
       "language": "Python",
       "total_stars": 5,
       "period_stars": 5,
@@ -1132,7 +1132,7 @@
       "category": "productivity",
       "rank": 87,
       "price": "free",
-      "description_zh": ""
+      "description_zh": "Apache Ossie，全行业规范努力标准化我们跨分析、AI和BI平台交换语义元数据的方式，为语义数据提供供应商中立的单一真相来源"
     },
     {
       "name": "deepsec",

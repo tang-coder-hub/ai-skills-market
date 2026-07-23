@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T14:34:59Z",
+  "updated": "2026-07-23T03:54:15Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -279,7 +279,7 @@
     {
       "name": "repowise",
       "owner": "repowise-dev",
-      "description": "Codebase intelligence for AI-assisted engineering teams — auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
+      "description": "Codebase intelligence for AI and humans: code health scores, auto-generated docs, git analytics, dead code detection, and architectural decisions via MCP.",
       "language": "Python",
       "total_stars": 2,
       "period_stars": 2,
@@ -287,7 +287,7 @@
       "category": "productivity",
       "rank": 22,
       "price": "free",
-      "description_zh": "适用于人工智能辅助工程团队的代码库智能-自动生成文档、Git分析、死代码检测和通过MCC的架构决策。"
+      "description_zh": "适用于人工智能和人类的代码库智能：代码健康评分、自动生成的文档、Git分析、死代码检测以及通过LCP的架构决策。"
     },
     {
       "name": "colibri",
@@ -1150,7 +1150,7 @@
     {
       "name": "ossie",
       "owner": "apache",
-      "description": "",
+      "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
       "language": "Python",
       "total_stars": 1,
       "period_stars": 1,
@@ -1158,7 +1158,7 @@
       "category": "productivity",
       "rank": 89,
       "price": "free",
-      "description_zh": ""
+      "description_zh": "Apache Ossie，全行业规范努力标准化我们跨分析、AI和BI平台交换语义元数据的方式，为语义数据提供供应商中立的单一真相来源"
     },
     {
       "name": "awesome-opencode",
