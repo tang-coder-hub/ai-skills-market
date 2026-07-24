@@ -964,5 +964,6 @@
   "Your Spotify + YouTube Music library & daily mixes. Stream or download in lossless FLAC. Free and open source forever.": "您的Spotify + YouTube音乐库和每日混音。以无损FLAC形式流媒体或下载。永远免费和开源。",
   "Windows 下双击即用的 Grok（xAI）账号自动注册面板 - 浏览器自动化注册、SSO→CPA 转换、多邮箱源支持、多格式导出": "Windows 下双击立即使用的 Grok（xAI）拼音自动注册面板 - 浏览器自动化注册，PSO →CPA 转换，多邮箱源支持，多格式引导",
   "Minimal CLI + web UI for OpenAI GPT Image 2 generation. Dual auth: API Key (paid) or OAuth via ChatGPT (free). Text-to-image, image-to-image, parallel gen, custom sizes.": "OpenAI GPT Image 2代的最低CLI + Web UI。双重身份验证：API Key（付费）或通过ChatGPT进行OAuth（免费）。文本到图像、图像到图像、平行世代、自定义大小。",
-  "👾 A sleek, zero-setup torrent finder and downloader that lives right in your terminal.": "👾一款时尚、零设置的Torrent查找器和下载器，就位于您的终端中。"
+  "👾 A sleek, zero-setup torrent finder and downloader that lives right in your terminal.": "👾一款时尚、零设置的Torrent查找器和下载器，就位于您的终端中。",
+  "Agent skill that removes signs of AI-generated writing from text": "从文本中删除AI生成的书写迹象的代理技能"
 }

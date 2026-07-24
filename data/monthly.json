@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T14:41:36Z",
+  "updated": "2026-07-24T03:53:37Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -1176,15 +1176,15 @@
     {
       "name": "humanizer",
       "owner": "blader",
-      "description": "Claude Code skill that removes signs of AI-generated writing from text",
-      "language": "",
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "language": "Python",
       "total_stars": 45,
       "period_stars": 45,
       "url": "https://github.com/blader/humanizer",
       "category": "productivity",
       "rank": 91,
       "price": "free",
-      "description_zh": "Claude Code技能，可从文本中删除人工智能生成的写作痕迹"
+      "description_zh": "从文本中删除AI生成的书写迹象的代理技能"
     },
     {
       "name": "TitanBot",
