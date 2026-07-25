@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T14:21:29Z",
+  "updated": "2026-07-25T03:48:48Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -136,7 +136,7 @@
     {
       "name": "OmniRoute",
       "owner": "diegosouzapw",
-      "description": "Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
       "language": "TypeScript",
       "total_stars": 144,
       "period_stars": 144,
@@ -144,7 +144,7 @@
       "category": "productivity",
       "rank": 11,
       "price": "free",
-      "description_zh": "永远不要停止编码。免费人工智能门户：一个端点、160+个提供商（50+个免费），将Claude Code、Codex、Cursor、Cline & Copilot连接到FREE Claude/GPT/Gemini。TEK +Caveman堆叠压缩可节省15-95%的令牌、智能自动回撤、HCP/A2 A、多模式API、桌面/PWA。"
+      "description_zh": "永远不要停止编码。免费的麻省理工学院人工智能网关：一个端点、290+提供商（90+免费）、500+模型- Kimi、Claude、GPT、OpenAI、Gemini、GLM、DeepSeek、MiniMax。与Claude Code、Codex、Cursor、OpenCode、Cline & Copilot合作。Quota感知自动回退，TEK +Caveman压缩可节省15-95%令牌，HCP/A2 A，桌面/PWA。由500多名贡献者构建"
     },
     {
       "name": "ai-berkshire",
