@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-25T03:56:15Z",
+  "updated": "2026-07-25T14:09:53Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -83,12 +83,12 @@
     },
     {
       "name": "img2threejs",
-      "owner": "hoainho",
+      "owner": "img2threejs",
       "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
       "language": "Python",
       "total_stars": 4,
       "period_stars": 4,
-      "url": "https://github.com/hoainho/img2threejs",
+      "url": "https://github.com/img2threejs/img2threejs",
       "category": "design",
       "rank": 7,
       "price": "free",
@@ -617,7 +617,7 @@
     {
       "name": "oh-story-claudecode",
       "owner": "worldwonderer",
-      "description": "网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程",
+      "description": "网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程 | An all-in-one skill pack for long- and short-form web fiction.",
       "language": "JavaScript",
       "total_stars": 1,
       "period_stars": 1,
@@ -625,7 +625,7 @@
       "category": "productivity",
       "rank": 48,
       "price": "free",
-      "description_zh": "网络/短篇写作技能包，涵盖长篇与短篇网络写作的写作，散文，写作，去AI味，封面图全流程"
+      "description_zh": "网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程 | An all-in-one skill pack for long- and short-form web fiction."
     },
     {
       "name": "Capsomnia",
