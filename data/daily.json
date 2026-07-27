@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T04:29:24Z",
+  "updated": "2026-07-27T05:10:47Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -862,19 +862,6 @@
       "description_zh": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活"
     },
     {
-      "name": "kooky",
-      "owner": "iAmCorey",
-      "description": "A minimal modern terminal for AI coding experience — Sidebar workspaces; horizontal / vertical split panes; one-click agent launch; per-agent activity readout; live workspace state with one-click Node and branch switching.",
-      "language": "Swift",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/iAmCorey/kooky",
-      "category": "productivity",
-      "rank": 67,
-      "price": "free",
-      "description_zh": "A minimal modern terminal for AI coding experience — Sidebar workspaces; horizontal / vertical split panes; one-click agent launch; per-agent activity readout; live workspace state with one-click Node and branch switching."
-    },
-    {
       "name": "ds4",
       "owner": "antirez",
       "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
@@ -883,9 +870,22 @@
       "period_stars": 1,
       "url": "https://github.com/antirez/ds4",
       "category": "productivity",
-      "rank": 68,
+      "rank": 67,
       "price": "free",
       "description_zh": "DeepSeek 4 Flash和PRO本地推理引擎，适用于Metal、CUDA和ROCom"
+    },
+    {
+      "name": "kooky",
+      "owner": "iAmCorey",
+      "description": "A minimal modern terminal for AI coding experience — Sidebar workspaces; horizontal / vertical split panes; one-click agent launch; per-agent activity readout; live workspace state with one-click Node and branch switching.",
+      "language": "Swift",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/iAmCorey/kooky",
+      "category": "productivity",
+      "rank": 68,
+      "price": "free",
+      "description_zh": "A minimal modern terminal for AI coding experience — Sidebar workspaces; horizontal / vertical split panes; one-click agent launch; per-agent activity readout; live workspace state with one-click Node and branch switching."
     },
     {
       "name": "BrainPilot",
