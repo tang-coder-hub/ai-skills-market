@@ -10,6 +10,17 @@
       "status": "approved",
       "submitted_at": "",
       "approved_at": "2026-07-08T06:04:02.368986Z"
+    },
+    {
+      "id": "sub_ms2ns6pws1mw",
+      "name": "sfds",
+      "repo_url": "https://github.com/dethan3/skillshub/tree/main/scripts",
+      "category": "engineering",
+      "description": "sdfsdf",
+      "contact": "",
+      "status": "approved",
+      "submitted_at": "",
+      "approved_at": "2026-07-27T03:48:40.711036Z"
     }
   ]
 }
