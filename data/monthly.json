@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-26T14:08:49Z",
+  "updated": "2026-07-27T04:12:53Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -591,7 +591,7 @@
     {
       "name": "free-claude-code",
       "owner": "Alishahryar1",
-      "description": "Use claude code, codex or pi for free from the terminal, IDE, or you phone like OpenClaw (voice supported)",
+      "description": "Use claude code, codex or pi for free from the terminal, IDE, or your phone like OpenClaw (voice supported)",
       "language": "Python",
       "total_stars": 58,
       "period_stars": 58,
@@ -599,7 +599,7 @@
       "category": "productivity",
       "rank": 46,
       "price": "free",
-      "description_zh": "从终端、IDE或OpenClaw（支持语音）等手机上免费使用claude代码、Codex或pi"
+      "description_zh": "Use claude code, codex or pi for free from the terminal, IDE, or your phone like OpenClaw (voice supported)"
     },
     {
       "name": "DeepSpec",
