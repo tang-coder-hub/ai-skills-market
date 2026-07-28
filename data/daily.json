@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-27T15:24:27Z",
+  "updated": "2026-07-28T03:46:21Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -524,19 +524,6 @@
       "description_zh": "为代理构建的幻灯片框架。"
     },
     {
-      "name": "wewrite",
-      "owner": "imraywang",
-      "description": "公众号内容全流程 Skill，从热点抓取到微信草稿箱，一句话跑完整条内容管道",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/imraywang/wewrite",
-      "category": "productivity",
-      "rank": 41,
-      "price": "free",
-      "description_zh": "公众号内容全流程 Skill，从热点抓取到微信草稿箱，一句话跑完整条内容管道"
-    },
-    {
       "name": "openhanako",
       "owner": "liliMozi",
       "description": "A personal AI agent with memory, personality, and autonomy.",
@@ -545,9 +532,22 @@
       "period_stars": 1,
       "url": "https://github.com/liliMozi/openhanako",
       "category": "productivity",
-      "rank": 42,
+      "rank": 41,
       "price": "free",
       "description_zh": "一个具有记忆、个性和自主性的个人AI代理。"
+    },
+    {
+      "name": "wewrite",
+      "owner": "imraywang",
+      "description": "公众号内容全流程 Skill，从热点抓取到微信草稿箱，一句话跑完整条内容管道",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/imraywang/wewrite",
+      "category": "productivity",
+      "rank": 42,
+      "price": "free",
+      "description_zh": "公众号内容全流程 Skill，从热点抓取到微信草稿箱，一句话跑完整条内容管道"
     },
     {
       "name": "outlookEmailPlus",
