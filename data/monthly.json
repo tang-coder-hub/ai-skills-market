@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T14:59:28Z",
+  "updated": "2026-07-29T03:49:35Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -331,7 +331,7 @@
     {
       "name": "pxpipe",
       "owner": "teamchong",
-      "description": "cut Fable 5 token usage by rendering text context as images",
+      "description": "cut Claude Code token usage by rendering text context as images",
       "language": "TypeScript",
       "total_stars": 80,
       "period_stars": 80,
@@ -339,7 +339,7 @@
       "category": "productivity",
       "rank": 26,
       "price": "free",
-      "description_zh": "通过将文本上下文渲染为图像来减少Fable 5代币的使用"
+      "description_zh": "cut Claude Code token usage by rendering text context as images"
     },
     {
       "name": "ai-berkshire",

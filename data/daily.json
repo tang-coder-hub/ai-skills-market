@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28T14:59:21Z",
+  "updated": "2026-07-29T03:49:29Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -435,7 +435,7 @@
     {
       "name": "novel-to-game",
       "owner": "worldwonderer",
-      "description": "将任何小说蒸馏为可玩的游戏 · Turn any novel into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex & Kimi Code(k3)",
+      "description": "将任何小说蒸馏为可玩的游戏 · Turn any novel/story into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex & Kimi Code(k3)",
       "language": "Python",
       "total_stars": 2,
       "period_stars": 2,
@@ -443,7 +443,7 @@
       "category": "productivity",
       "rank": 34,
       "price": "free",
-      "description_zh": "将任何小说蒸馏为可玩的游戏 · Turn any novel into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex & Kimi Code(k3)"
+      "description_zh": "将任何小说蒸馏为可玩的游戏 · Turn any novel/story into a playable game — a 7-skill adaptation pipeline for Claude Code, Codex & Kimi Code(k3)"
     },
     {
       "name": "pokemon-gen1-recomp-project",
@@ -979,19 +979,6 @@
       "description_zh": "Voice Operation and Design Engine with Reproduction capabilities"
     },
     {
-      "name": "awesome-agentic-ai-zh",
-      "owner": "WenyuChiou",
-      "description": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
-      "category": "productivity",
-      "rank": 76,
-      "price": "free",
-      "description_zh": "代理人工智能的三语（中 /英语/中）学习路线图：从LLM基础知识到多代理系统，拥有240多个精心策划的资源和实践示例。中文 AI代理大地。"
-    },
-    {
       "name": "Auto-claude-code-research-in-sleep",
       "owner": "wanshuiyin",
       "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
@@ -1000,9 +987,22 @@
       "period_stars": 1,
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
       "category": "productivity",
-      "rank": 77,
+      "rank": 76,
       "price": "free",
       "description_zh": "ARIS SEARCH（Auto-Research-In-Sleep）-用于自主ML研究的轻量级仅限Markdown技能：跨模型审查循环、想法发现和实验自动化。没有框架，没有与Claude Code、Codex、OpenClaw或任何LLM代理锁定工作。"
+    },
+    {
+      "name": "awesome-agentic-ai-zh",
+      "owner": "WenyuChiou",
+      "description": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+      "category": "productivity",
+      "rank": 77,
+      "price": "free",
+      "description_zh": "代理人工智能的三语（中 /英语/中）学习路线图：从LLM基础知识到多代理系统，拥有240多个精心策划的资源和实践示例。中文 AI代理大地。"
     },
     {
       "name": "no-mistakes",
@@ -1252,19 +1252,6 @@
       "description_zh": "SkillX: Automatically Constructing Skill Knowledge Bases for Agents"
     },
     {
-      "name": "awesome-vla-wam",
-      "owner": "DravenALG",
-      "description": "A Curated List of Vision-Language-Action (VLA) and World Action Models (WAM) Research and Beyond",
-      "language": "",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/DravenALG/awesome-vla-wam",
-      "category": "productivity",
-      "rank": 97,
-      "price": "free",
-      "description_zh": "A Curated List of Vision-Language-Action (VLA) and World Action Models (WAM) Research and Beyond"
-    },
-    {
       "name": "octane",
       "owner": "octanejs",
       "description": "Octane is an incredibly efficient React replacement UI library with improved developer ergonomics",
@@ -1273,9 +1260,22 @@
       "period_stars": 1,
       "url": "https://github.com/octanejs/octane",
       "category": "design",
-      "rank": 98,
+      "rank": 97,
       "price": "free",
       "description_zh": "Octane is an incredibly efficient React replacement UI library with improved developer ergonomics"
+    },
+    {
+      "name": "awesome-vla-wam",
+      "owner": "DravenALG",
+      "description": "A Curated List of Vision-Language-Action (VLA) and World Action Models (WAM) Research and Beyond",
+      "language": "",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/DravenALG/awesome-vla-wam",
+      "category": "productivity",
+      "rank": 98,
+      "price": "free",
+      "description_zh": "A Curated List of Vision-Language-Action (VLA) and World Action Models (WAM) Research and Beyond"
     },
     {
       "name": "claude-skills-collection",
