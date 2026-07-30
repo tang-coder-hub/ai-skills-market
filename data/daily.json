@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T14:41:52Z",
+  "updated": "2026-07-30T03:41:05Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -682,7 +682,7 @@
     {
       "name": "Tianshu-Tui",
       "owner": "huiliyi37",
-      "description": "天枢 (Tianshu) 是一个全功能、高性能的终端编程智能体运行时（TUI）。它跳出了传统 AI 编程助手把大模型仅当成“工具”的局限，基于认知虚拟机 (CVM)、自感知层和信息素（Stigmergy）自衰减记忆构建，让 AI 成为有独立判断与认知防护的“开发伙伴”。同时针对 DeepSeek V4 做了前缀缓存工程优化（长会话实测稳态命中率 95–99%）",
+      "description": "天枢 (Tianshu) 是一个基于harness工程的终端编程智能体运行时（TUI），针对DeepSeek V4 做了前缀缓存工程优化（长会话实测稳态命中率 95–99%）和深度适配。它跳出了传统 AI 编程助手把大模型仅当成“工具”的局限，基于认知虚拟机 (CVM)、自感知层和信息素（Stigmergy）自衰减记忆构建，让 AI 成为有独立判断与认知防护的“开发伙伴”。",
       "language": "TypeScript",
       "total_stars": 1,
       "period_stars": 1,
@@ -690,7 +690,7 @@
       "category": "productivity",
       "rank": 53,
       "price": "free",
-      "description_zh": "天枢 (Tianshu) 是一个全功能、高性能的终端编程智能体运行时（TUI）。它跳出了传统 AI 编程助手把大模型仅当成“工具”的局限，基于认知虚拟机 (CVM)、自感知层和信息素（Stigmergy）自衰减记忆构建，让 AI 成为有独立判断与认知防护的“开发伙伴”。同时针对 DeepSeek V4 做了前缀缓存工程优化（长会话实测稳态命中率 95–99%）"
+      "description_zh": "天枢 (Tianshu) 是一个基于harness工程的终端编程智能体运行时（TUI），针对DeepSeek V4 做了前缀缓存工程优化（长会话实测稳态命中率 95–99%）和深度适配。它跳出了传统 AI 编程助手把大模型仅当成“工具”的局限，基于认知虚拟机 (CVM)、自感知层和信息素（Stigmergy）自衰减记忆构建，让 AI 成为有独立判断与认知防护的“开发伙伴”。"
     },
     {
       "name": "Amicro--Micro-transitions-",
@@ -1044,19 +1044,6 @@
       "description_zh": "管理降价知识库的桌面应用程序"
     },
     {
-      "name": "multica",
-      "owner": "multica-ai",
-      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-      "language": "Go",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/multica-ai/multica",
-      "category": "productivity",
-      "rank": 81,
-      "price": "free",
-      "description_zh": "开源托管代理平台。将编码代理变成真正的队友-分配任务、跟踪进度、复合技能。"
-    },
-    {
       "name": "LTX-Desktop",
       "owner": "Lightricks",
       "description": "An open-source desktop app for generating videos with LTX models",
@@ -1065,9 +1052,22 @@
       "period_stars": 1,
       "url": "https://github.com/Lightricks/LTX-Desktop",
       "category": "productivity",
-      "rank": 82,
+      "rank": 81,
       "price": "free",
       "description_zh": "An open-source desktop app for generating videos with LTX models"
+    },
+    {
+      "name": "multica",
+      "owner": "multica-ai",
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "language": "Go",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/multica-ai/multica",
+      "category": "productivity",
+      "rank": 82,
+      "price": "free",
+      "description_zh": "开源托管代理平台。将编码代理变成真正的队友-分配任务、跟踪进度、复合技能。"
     },
     {
       "name": "TinyEngram",

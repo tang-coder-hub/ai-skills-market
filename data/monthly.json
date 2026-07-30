@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-29T14:41:55Z",
+  "updated": "2026-07-30T03:41:09Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -123,7 +123,7 @@
     {
       "name": "colibri",
       "owner": "JustVugg",
-      "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
       "total_stars": 90,
       "period_stars": 90,
@@ -131,7 +131,7 @@
       "category": "productivity",
       "rank": 10,
       "price": "free",
-      "description_zh": "在25 GB-RAM消费者计算机上运行GLM-5.2（744 B MoE）-纯C、零深度、从磁盘流式传输的专家。微型发动机，巨大的模型。🐦"
+      "description_zh": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦"
     },
     {
       "name": "astryx",
