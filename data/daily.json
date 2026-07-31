@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T04:00:08Z",
+  "updated": "2026-07-31T04:15:21Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1070,19 +1070,6 @@
       "description_zh": ""
     },
     {
-      "name": "DeskcommCRM",
-      "owner": "melgarafael",
-      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-      "language": "TypeScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/melgarafael/DeskcommCRM",
-      "category": "productivity",
-      "rank": 83,
-      "price": "free",
-      "description_zh": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD."
-    },
-    {
       "name": "LCE-Emerald-Launcher",
       "owner": "LCE-Hub",
       "description": "The LCE Emerald Launcher",
@@ -1091,9 +1078,22 @@
       "period_stars": 1,
       "url": "https://github.com/LCE-Hub/LCE-Emerald-Launcher",
       "category": "productivity",
-      "rank": 84,
+      "rank": 83,
       "price": "free",
       "description_zh": "The LCE Emerald Launcher"
+    },
+    {
+      "name": "DeskcommCRM",
+      "owner": "melgarafael",
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "language": "TypeScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/melgarafael/DeskcommCRM",
+      "category": "productivity",
+      "rank": 84,
+      "price": "free",
+      "description_zh": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD."
     },
     {
       "name": "OpenMontage",
@@ -1174,19 +1174,6 @@
       "description_zh": ""
     },
     {
-      "name": "EverOS",
-      "owner": "EverMind-AI",
-      "description": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/EverMind-AI/EverOS",
-      "category": "productivity",
-      "rank": 91,
-      "price": "free",
-      "description_zh": "为每个AI代理提供一个便携式内存层：本地优先，Markdown原生，用户拥有，并在应用程序，工具和工作流程中自我进化。"
-    },
-    {
       "name": "codex-autoresearch",
       "owner": "leo-lilinxiao",
       "description": "Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept.",
@@ -1195,9 +1182,22 @@
       "period_stars": 1,
       "url": "https://github.com/leo-lilinxiao/codex-autoresearch",
       "category": "productivity",
-      "rank": 92,
+      "rank": 91,
       "price": "free",
       "description_zh": "Codex Autoresearch Skill — A self-directed iterative system for Codex that continuously cycles through: modify, verify, retain or discard, and repeat indefinitely. Inspired by Karpathy’s autoresearch concept."
+    },
+    {
+      "name": "EverOS",
+      "owner": "EverMind-AI",
+      "description": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/EverMind-AI/EverOS",
+      "category": "productivity",
+      "rank": 92,
+      "price": "free",
+      "description_zh": "为每个AI代理提供一个便携式内存层：本地优先，Markdown原生，用户拥有，并在应用程序，工具和工作流程中自我进化。"
     },
     {
       "name": "Vibe-Trading",
@@ -1226,19 +1226,6 @@
       "description_zh": "345 Claude Code技能和代理技能和插件（30+个代理、70+个自定义命令、330+个技能、可定制参考、脚本），适用于Claude Code、Codex、Gemini CLI、Cursor和另外8个编码代理-工程、营销、产品、合规性、C级咨询、研究、业务运营、商业和金融以及您的日常生产力技能。"
     },
     {
-      "name": "mermaid-rs-renderer",
-      "owner": "1jehuang",
-      "description": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli.",
-      "language": "Rust",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/1jehuang/mermaid-rs-renderer",
-      "category": "productivity",
-      "rank": 95,
-      "price": "free",
-      "description_zh": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli."
-    },
-    {
       "name": "RedKnot",
       "owner": "rednote-machine-learning",
       "description": "Efficient Long-Context LLM Serving with Head-Aware KV Reuse and SegPagedAttention",
@@ -1247,9 +1234,22 @@
       "period_stars": 1,
       "url": "https://github.com/rednote-machine-learning/RedKnot",
       "category": "productivity",
-      "rank": 96,
+      "rank": 95,
       "price": "free",
       "description_zh": "高效的长上下文LLM服务，具有Head Aware KN Reuse和SegPagedAttention"
+    },
+    {
+      "name": "mermaid-rs-renderer",
+      "owner": "1jehuang",
+      "description": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli.",
+      "language": "Rust",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/1jehuang/mermaid-rs-renderer",
+      "category": "productivity",
+      "rank": 96,
+      "price": "free",
+      "description_zh": "A fast native Rust Mermaid diagram renderer. No browser required. 500-1000x faster than mermaid-cli."
     },
     {
       "name": "flint-chart",
