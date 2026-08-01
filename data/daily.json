@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T04:01:40Z",
+  "updated": "2026-08-01T04:14:51Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -563,19 +563,6 @@
       "description_zh": "iMessage个人代理：选择Claude Agent SDK（Claude Code）或Codex应用程序服务器运行时（Codex/ChatGPT），具有内存、子代理、自动化、集成。"
     },
     {
-      "name": "clawd-on-desk",
-      "owner": "rullerzhou-afk",
-      "description": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
-      "language": "JavaScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/rullerzhou-afk/clawd-on-desk",
-      "category": "productivity",
-      "rank": 44,
-      "price": "free",
-      "description_zh": "一款像素桌面宠物，可以观看Claude Code、Codex、Cursor和其他人工智能编码代理-所以您不必这样做。"
-    },
-    {
       "name": "deepseek-v4-for-copilot",
       "owner": "Vizards",
       "description": "Pick DeepSeek V4 from the Copilot Chat model picker — and keep everything else Copilot already gives you.",
@@ -584,9 +571,22 @@
       "period_stars": 1,
       "url": "https://github.com/Vizards/deepseek-v4-for-copilot",
       "category": "productivity",
-      "rank": 45,
+      "rank": 44,
       "price": "free",
       "description_zh": "Pick DeepSeek V4 from the Copilot Chat model picker — and keep everything else Copilot already gives you."
+    },
+    {
+      "name": "clawd-on-desk",
+      "owner": "rullerzhou-afk",
+      "description": "A pixel desktop pet that watches Claude Code, Codex, Cursor & other AI coding agents — so you don't have to.",
+      "language": "JavaScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/rullerzhou-afk/clawd-on-desk",
+      "category": "productivity",
+      "rank": 45,
+      "price": "free",
+      "description_zh": "一款像素桌面宠物，可以观看Claude Code、Codex、Cursor和其他人工智能编码代理-所以您不必这样做。"
     },
     {
       "name": "InferSim",
@@ -654,19 +654,6 @@
       "description_zh": "面向中文开发者的 Claude Code Skills / Agents / Plugins 精选与原创技能库｜按场景分类｜复制即装｜持续更新"
     },
     {
-      "name": "awesome-libghostty",
-      "owner": "Uzaaft",
-      "description": "",
-      "language": "",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/Uzaaft/awesome-libghostty",
-      "category": "productivity",
-      "rank": 51,
-      "price": "free",
-      "description_zh": ""
-    },
-    {
       "name": "OfficeCLI",
       "owner": "iOfficeAI",
       "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
@@ -675,9 +662,22 @@
       "period_stars": 1,
       "url": "https://github.com/iOfficeAI/OfficeCLI",
       "category": "productivity",
-      "rank": 52,
+      "rank": 51,
       "price": "free",
       "description_zh": "DeliverCLI是第一个也是最好的Office套件，专为人工智能代理读取、编辑和自动化Word、Excel和PowerPoint文件而构建。免费、开源、单一二进制，无需安装Office。"
+    },
+    {
+      "name": "awesome-libghostty",
+      "owner": "Uzaaft",
+      "description": "",
+      "language": "",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/Uzaaft/awesome-libghostty",
+      "category": "productivity",
+      "rank": 52,
+      "price": "free",
+      "description_zh": ""
     },
     {
       "name": "palmier-pro",
