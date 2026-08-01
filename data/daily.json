@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T14:58:51Z",
+  "updated": "2026-08-01T04:01:40Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -654,19 +654,6 @@
       "description_zh": "面向中文开发者的 Claude Code Skills / Agents / Plugins 精选与原创技能库｜按场景分类｜复制即装｜持续更新"
     },
     {
-      "name": "OfficeCLI",
-      "owner": "iOfficeAI",
-      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-      "language": "C#",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/iOfficeAI/OfficeCLI",
-      "category": "productivity",
-      "rank": 51,
-      "price": "free",
-      "description_zh": "DeliverCLI是第一个也是最好的Office套件，专为人工智能代理读取、编辑和自动化Word、Excel和PowerPoint文件而构建。免费、开源、单一二进制，无需安装Office。"
-    },
-    {
       "name": "awesome-libghostty",
       "owner": "Uzaaft",
       "description": "",
@@ -675,9 +662,22 @@
       "period_stars": 1,
       "url": "https://github.com/Uzaaft/awesome-libghostty",
       "category": "productivity",
-      "rank": 52,
+      "rank": 51,
       "price": "free",
       "description_zh": ""
+    },
+    {
+      "name": "OfficeCLI",
+      "owner": "iOfficeAI",
+      "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "language": "C#",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/iOfficeAI/OfficeCLI",
+      "category": "productivity",
+      "rank": 52,
+      "price": "free",
+      "description_zh": "DeliverCLI是第一个也是最好的Office套件，专为人工智能代理读取、编辑和自动化Word、Excel和PowerPoint文件而构建。免费、开源、单一二进制，无需安装Office。"
     },
     {
       "name": "palmier-pro",
@@ -876,16 +876,16 @@
     },
     {
       "name": "Thaw",
-      "owner": "stonerl",
-      "description": "Menu bar manager for macOS 26",
+      "owner": "thaw-app",
+      "description": "The menu bar manager for macOS",
       "language": "Swift",
       "total_stars": 1,
       "period_stars": 1,
-      "url": "https://github.com/stonerl/Thaw",
+      "url": "https://github.com/thaw-app/Thaw",
       "category": "productivity",
       "rank": 68,
       "price": "free",
-      "description_zh": "macOS 26的菜单栏管理器"
+      "description_zh": "The menu bar manager for macOS"
     },
     {
       "name": "llmfit",

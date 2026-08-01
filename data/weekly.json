@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-31T14:58:53Z",
+  "updated": "2026-08-01T04:01:43Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -149,7 +149,7 @@
     {
       "name": "Instatic",
       "owner": "CoreBunch",
-      "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute",
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there. ",
       "language": "TypeScript",
       "total_stars": 16,
       "period_stars": 16,
@@ -157,7 +157,7 @@
       "category": "productivity",
       "rank": 12,
       "price": "free",
-      "description_zh": "Instatic是一个现代化的自托管视觉CMS -1分钟即可运行"
+      "description_zh": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there. "
     },
     {
       "name": "open-code-review",
