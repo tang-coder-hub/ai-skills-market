@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T09:33:31Z",
+  "updated": "2026-08-01T14:06:59Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -1021,7 +1021,7 @@
       "name": "Mineradio",
       "owner": "XxHuberrr",
       "description": "一款以电影镜头、粒子视觉和歌词舞台为核心的沉浸式音乐播放器。",
-      "language": "HTML",
+      "language": "JavaScript",
       "total_stars": 33,
       "period_stars": 33,
       "url": "https://github.com/XxHuberrr/Mineradio",
@@ -1163,7 +1163,7 @@
     {
       "name": "gpt-5.6-instruct",
       "owner": "MDX-Tom",
-      "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。",
+      "description": "A Codex jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex 破甲提示词与测试包。",
       "language": "Python",
       "total_stars": 19,
       "period_stars": 19,
@@ -1171,7 +1171,7 @@
       "category": "productivity",
       "rank": 90,
       "price": "free",
-      "description_zh": "gpt-5.6-sol的Codex CLI越狱提示和测试包。针织gpt-5.6 系列的 Codex CLI防弹提示词与测试包。"
+      "description_zh": "A Codex jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex 破甲提示词与测试包。"
     },
     {
       "name": "TitanBot",

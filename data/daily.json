@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T09:33:21Z",
+  "updated": "2026-08-01T14:06:55Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -472,19 +472,6 @@
       "description_zh": "使用SVG标题、real proof和maintenance Markdown设计清晰、特定主题的GitHub README主页"
     },
     {
-      "name": "argent",
-      "owner": "software-mansion",
-      "description": "An agentic toolkit to control, debug, and profile iOS and Android apps. Made by Software Mansion.",
-      "language": "TypeScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/software-mansion/argent",
-      "category": "productivity",
-      "rank": 37,
-      "price": "free",
-      "description_zh": "An agentic toolkit to control, debug, and profile iOS and Android apps. Made by Software Mansion."
-    },
-    {
       "name": "exercises-dataset",
       "owner": "hasaneyldrm",
       "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
@@ -493,9 +480,22 @@
       "period_stars": 1,
       "url": "https://github.com/hasaneyldrm/exercises-dataset",
       "category": "productivity",
-      "rank": 38,
+      "rank": 37,
       "price": "free",
       "description_zh": "1，324-运动健身数据集-动画GIF、180 x 180缩略图、肌肉群和设备数据以及6种语言的分步说明。LogPress应用程序背后的锻炼数据层。"
+    },
+    {
+      "name": "argent",
+      "owner": "software-mansion",
+      "description": "An agentic toolkit to control, debug, and profile iOS and Android apps. Made by Software Mansion.",
+      "language": "TypeScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/software-mansion/argent",
+      "category": "productivity",
+      "rank": 38,
+      "price": "free",
+      "description_zh": "An agentic toolkit to control, debug, and profile iOS and Android apps. Made by Software Mansion."
     },
     {
       "name": "cli",
@@ -862,19 +862,6 @@
       "description_zh": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents."
     },
     {
-      "name": "disciplined-agentic-engineering",
-      "owner": "swingerman",
-      "description": "Acceptance Test Driven Development for Claude Code — inspired by Uncle Bob's approach from empire-2025",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/swingerman/disciplined-agentic-engineering",
-      "category": "productivity",
-      "rank": 67,
-      "price": "free",
-      "description_zh": "Acceptance Test Driven Development for Claude Code — inspired by Uncle Bob's approach from empire-2025"
-    },
-    {
       "name": "awesome-agentic-ai-zh",
       "owner": "WenyuChiou",
       "description": "A trilingual (繁中 / English / 简中) learning roadmap for agentic AI: from LLM basics to multi-agent systems, with 240+ curated resources and hands-on examples. 中文 AI agent 學習地圖。",
@@ -883,9 +870,22 @@
       "period_stars": 1,
       "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
       "category": "productivity",
-      "rank": 68,
+      "rank": 67,
       "price": "free",
       "description_zh": "代理人工智能的三语（中 /英语/中）学习路线图：从LLM基础知识到多代理系统，拥有240多个精心策划的资源和实践示例。中文 AI代理大地。"
+    },
+    {
+      "name": "disciplined-agentic-engineering",
+      "owner": "swingerman",
+      "description": "Acceptance Test Driven Development for Claude Code — inspired by Uncle Bob's approach from empire-2025",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/swingerman/disciplined-agentic-engineering",
+      "category": "productivity",
+      "rank": 68,
+      "price": "free",
+      "description_zh": "Acceptance Test Driven Development for Claude Code — inspired by Uncle Bob's approach from empire-2025"
     },
     {
       "name": "android-titanium-browser",
@@ -1190,7 +1190,7 @@
       "name": "deepwiki-open",
       "owner": "AsyncFuncAI",
       "description": "Open Source DeepWiki: AI-Powered Wiki Generator for GitHub/Gitlab/Bitbucket Repositories. Join the discord: https://discord.gg/gMwThUMeme",
-      "language": "Python",
+      "language": "TypeScript",
       "total_stars": 1,
       "period_stars": 1,
       "url": "https://github.com/AsyncFuncAI/deepwiki-open",
