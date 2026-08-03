@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T04:22:46Z",
+  "updated": "2026-08-03T05:03:27Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -394,19 +394,6 @@
       "description_zh": "Claude Code + OpenClaw + Codex 中文教程 | 39篇完整教程 + 1张速查卡 | 80万+内容量 | 1500+实操示例 | AI Coding / Agent 三线学习路径"
     },
     {
-      "name": "SkillOpt",
-      "owner": "microsoft",
-      "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/microsoft/SkillOpt",
-      "category": "productivity",
-      "rank": 31,
-      "price": "free",
-      "description_zh": "SkillOpt是一个文本空间优化器，通过智能驱动的编辑、验证门控更新和可部署的best_skill.mdartifact为冻结的LLM代理培训可重复使用的自然语言技能。"
-    },
-    {
       "name": "claude-video",
       "owner": "bradautomates",
       "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
@@ -415,9 +402,22 @@
       "period_stars": 1,
       "url": "https://github.com/bradautomates/claude-video",
       "category": "productivity",
-      "rank": 32,
+      "rank": 31,
       "price": "free",
       "description_zh": "让克劳德能够观看任何视频。/观看下载、提取帧、转录，然后将一切交给Claude。"
+    },
+    {
+      "name": "SkillOpt",
+      "owner": "microsoft",
+      "description": "SkillOpt is a text-space optimizer that trains reusable natural-language skills for frozen LLM agents through trajectory-driven edits, validation-gated updates, and deployable best_skill.md artifacts.",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/microsoft/SkillOpt",
+      "category": "productivity",
+      "rank": 32,
+      "price": "free",
+      "description_zh": "SkillOpt是一个文本空间优化器，通过智能驱动的编辑、验证门控更新和可部署的best_skill.mdartifact为冻结的LLM代理培训可重复使用的自然语言技能。"
     },
     {
       "name": "neo",
@@ -758,19 +758,6 @@
       "description_zh": "原型图像官方 Codex 桌面应用：每 15 分钟探测，SHA256 可校准，国内直接下载，Mac 可增量更新|官方Codex桌面应用程序的逐字逐句、可验证镜像-每15分钟探测一次，并提供Sparkle Delta更新源。"
     },
     {
-      "name": "creatorhub",
-      "owner": "3441293738",
-      "description": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/3441293738/creatorhub",
-      "category": "productivity",
-      "rank": 59,
-      "price": "free",
-      "description_zh": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手"
-    },
-    {
       "name": "mocker",
       "owner": "us",
       "description": "Docker-compatible container CLI built on Apple's Containerization framework. Same commands, same flags — mocker run, ps, stop, build, compose, stats — all working on macOS 26.",
@@ -779,9 +766,22 @@
       "period_stars": 1,
       "url": "https://github.com/us/mocker",
       "category": "productivity",
-      "rank": 60,
+      "rank": 59,
       "price": "free",
       "description_zh": "Docker-compatible container CLI built on Apple's Containerization framework. Same commands, same flags — mocker run, ps, stop, build, compose, stats — all working on macOS 26."
+    },
+    {
+      "name": "creatorhub",
+      "owner": "3441293738",
+      "description": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/3441293738/creatorhub",
+      "category": "productivity",
+      "rank": 60,
+      "price": "free",
+      "description_zh": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手"
     },
     {
       "name": "editor",
