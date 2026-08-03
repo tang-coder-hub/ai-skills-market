@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T04:06:27Z",
+  "updated": "2026-08-03T04:22:46Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -758,19 +758,6 @@
       "description_zh": "原型图像官方 Codex 桌面应用：每 15 分钟探测，SHA256 可校准，国内直接下载，Mac 可增量更新|官方Codex桌面应用程序的逐字逐句、可验证镜像-每15分钟探测一次，并提供Sparkle Delta更新源。"
     },
     {
-      "name": "mocker",
-      "owner": "us",
-      "description": "Docker-compatible container CLI built on Apple's Containerization framework. Same commands, same flags — mocker run, ps, stop, build, compose, stats — all working on macOS 26.",
-      "language": "Swift",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/us/mocker",
-      "category": "productivity",
-      "rank": 59,
-      "price": "free",
-      "description_zh": "Docker-compatible container CLI built on Apple's Containerization framework. Same commands, same flags — mocker run, ps, stop, build, compose, stats — all working on macOS 26."
-    },
-    {
       "name": "creatorhub",
       "owner": "3441293738",
       "description": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手",
@@ -779,9 +766,22 @@
       "period_stars": 1,
       "url": "https://github.com/3441293738/creatorhub",
       "category": "productivity",
-      "rank": 60,
+      "rank": 59,
       "price": "free",
       "description_zh": "多平台内容监控·采集·搬运 一个 Web 面板管起抖音 / 小红书 / 快手"
+    },
+    {
+      "name": "mocker",
+      "owner": "us",
+      "description": "Docker-compatible container CLI built on Apple's Containerization framework. Same commands, same flags — mocker run, ps, stop, build, compose, stats — all working on macOS 26.",
+      "language": "Swift",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/us/mocker",
+      "category": "productivity",
+      "rank": 60,
+      "price": "free",
+      "description_zh": "Docker-compatible container CLI built on Apple's Containerization framework. Same commands, same flags — mocker run, ps, stop, build, compose, stats — all working on macOS 26."
     },
     {
       "name": "editor",
