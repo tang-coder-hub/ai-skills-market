@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02T14:08:32Z",
+  "updated": "2026-08-03T04:06:31Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -747,7 +747,7 @@
     {
       "name": "text-to-cad",
       "owner": "earthtojake",
-      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "description": "A library of agent skills for CAD, CAE and CAM",
       "language": "JavaScript",
       "total_stars": 5,
       "period_stars": 5,
@@ -755,7 +755,7 @@
       "category": "productivity",
       "rank": 58,
       "price": "free",
-      "description_zh": "一系列针对CAD、机器人和硬件设计的代理技能"
+      "description_zh": "A library of agent skills for CAD, CAE and CAM"
     },
     {
       "name": "visa-vulnerability-agentic-harness",
@@ -1046,7 +1046,7 @@
     {
       "name": "Eta",
       "owner": "Mangi-11",
-      "description": "在 ColorOS 上实现类似豆包手机的系统级 GUI Agent，同时提供结构化设备工具，让模型无需依赖 GUI 即可直达系统能力。凭借支持 Root Shell 与 Linux 环境的终端能力，进一步覆盖 Android 世界中更广泛的任务，并解锁 Gemini 与一圈即搜。",
+      "description": "在 ColorOS 与 HyperOS 上实现系统级 Android AI Agent。通过类似豆包手机的 GUI Agent 实现跨应用操作，同时提供结构化设备工具，让模型无需依赖 GUI 即可直达系统能力。凭借支持 Root Shell 与 Linux 环境的终端能力，进一步覆盖 Android 世界中更广泛的任务，并解锁 Gemini 与一圈即搜",
       "language": "Kotlin",
       "total_stars": 3,
       "period_stars": 3,
@@ -1054,7 +1054,7 @@
       "category": "productivity",
       "rank": 81,
       "price": "free",
-      "description_zh": "在 ColorOS 上实现类似豆包手机的系统级 GUI Agent，同时提供结构化设备工具，让模型无需依赖 GUI 即可直达系统能力。凭借支持 Root Shell 与 Linux 环境的终端能力，进一步覆盖 Android 世界中更广泛的任务，并解锁 Gemini 与一圈即搜。"
+      "description_zh": "在 ColorOS 与 HyperOS 上实现系统级 Android AI Agent。通过类似豆包手机的 GUI Agent 实现跨应用操作，同时提供结构化设备工具，让模型无需依赖 GUI 即可直达系统能力。凭借支持 Root Shell 与 Linux 环境的终端能力，进一步覆盖 Android 世界中更广泛的任务，并解锁 Gemini 与一圈即搜"
     },
     {
       "name": "numbat",
