@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T15:25:05Z",
+  "updated": "2026-08-04T03:48:33Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -370,15 +370,15 @@
     {
       "name": "HMA-OSS",
       "owner": "frknkrc44",
-      "description": "A ROOT REQUIRED LSPosed/Zygisk module to hide your app list, settings, package installers and more. It is a fork of Hide My Applist project.",
+      "description": "A Zygisk module to hide your app list, settings, package installers and more. It is a fork of Hide My Applist project, but LSPosed dependency is replaced with Zygisk.",
       "language": "Kotlin",
       "total_stars": 1,
       "period_stars": 1,
       "url": "https://github.com/frknkrc44/HMA-OSS",
-      "category": "design",
+      "category": "productivity",
       "rank": 29,
       "price": "free",
-      "description_zh": "A ROOT REQUIRED LSPosed/Zygisk module to hide your app list, settings, package installers and more. It is a fork of Hide My Applist project."
+      "description_zh": "A Zygisk module to hide your app list, settings, package installers and more. It is a fork of Hide My Applist project, but LSPosed dependency is replaced with Zygisk."
     },
     {
       "name": "xquant-learning",

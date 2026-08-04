@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-03T15:25:19Z",
+  "updated": "2026-08-04T03:48:40Z",
   "since": "hot",
   "count": 25,
   "repos": [
@@ -149,7 +149,7 @@
     {
       "name": "jcode",
       "owner": "1jehuang",
-      "description": "The most RAM effiecent harness",
+      "description": "The most RAM efficient harness",
       "language": "Rust",
       "total_stars": 11,
       "period_stars": 11,
@@ -157,7 +157,7 @@
       "category": "productivity",
       "rank": 12,
       "price": "free",
-      "description_zh": "The most RAM effiecent harness"
+      "description_zh": "The most RAM efficient harness"
     },
     {
       "name": "GeoLibre",
