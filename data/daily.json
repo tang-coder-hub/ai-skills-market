@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-04T03:48:33Z",
+  "updated": "2026-08-04T03:56:51Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -459,19 +459,6 @@
       "description_zh": "DeliverCLI是第一个也是最好的Office套件，专为人工智能代理读取、编辑和自动化Word、Excel和PowerPoint文件而构建。免费、开源、单一二进制，无需安装Office。"
     },
     {
-      "name": "TREK",
-      "owner": "mauriceboe",
-      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
-      "language": "TypeScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/mauriceboe/TREK",
-      "category": "productivity",
-      "rank": 36,
-      "price": "free",
-      "description_zh": "一个自托管的旅行/行程规划器，具有实时协作、交互式地图、PWA支持、PSO、预算、装箱清单等。"
-    },
-    {
       "name": "skills",
       "owner": "openai",
       "description": "Skills Catalog for Codex",
@@ -480,9 +467,22 @@
       "period_stars": 1,
       "url": "https://github.com/openai/skills",
       "category": "productivity",
-      "rank": 37,
+      "rank": 36,
       "price": "free",
       "description_zh": "Codex技能目录"
+    },
+    {
+      "name": "TREK",
+      "owner": "mauriceboe",
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "language": "TypeScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/mauriceboe/TREK",
+      "category": "productivity",
+      "rank": 37,
+      "price": "free",
+      "description_zh": "一个自托管的旅行/行程规划器，具有实时协作、交互式地图、PWA支持、PSO、预算、装箱清单等。"
     },
     {
       "name": "skills-npm",
