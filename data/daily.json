@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05T03:43:17Z",
+  "updated": "2026-08-05T03:52:16Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1109,19 +1109,6 @@
       "description_zh": "一个可以帮你快速反推出网页上图片的提示词，并快速生图测试提示词效果的插件。A Chrome extension to reverse-engineer prompts from web images and instantly validate them via live generation."
     },
     {
-      "name": "navop",
-      "owner": "feigeCode",
-      "description": "Navop combines Navigate and Operation—a unified workspace that helps developers navigate and operate databases, servers, terminals, and AI tools from one place.",
-      "language": "Rust",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/feigeCode/navop",
-      "category": "productivity",
-      "rank": 86,
-      "price": "free",
-      "description_zh": "Navop combines Navigate and Operation—a unified workspace that helps developers navigate and operate databases, servers, terminals, and AI tools from one place."
-    },
-    {
       "name": "parrot",
       "owner": "digimata",
       "description": "Ultra-minimalist macOS dictation.",
@@ -1130,9 +1117,22 @@
       "period_stars": 1,
       "url": "https://github.com/digimata/parrot",
       "category": "productivity",
-      "rank": 87,
+      "rank": 86,
       "price": "free",
       "description_zh": "Ultra-minimalist macOS dictation."
+    },
+    {
+      "name": "navop",
+      "owner": "feigeCode",
+      "description": "Navop combines Navigate and Operation—a unified workspace that helps developers navigate and operate databases, servers, terminals, and AI tools from one place.",
+      "language": "Rust",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/feigeCode/navop",
+      "category": "productivity",
+      "rank": 87,
+      "price": "free",
+      "description_zh": "Navop combines Navigate and Operation—a unified workspace that helps developers navigate and operate databases, servers, terminals, and AI tools from one place."
     },
     {
       "name": "skills",
