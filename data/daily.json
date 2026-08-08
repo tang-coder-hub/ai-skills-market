@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07T13:49:26Z",
+  "updated": "2026-08-08T02:28:14Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -589,19 +589,6 @@
       "description_zh": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images."
     },
     {
-      "name": "llm-for-zotero",
-      "owner": "yilewang",
-      "description": "An open-sourced research agent system deeply rooted in your Zotero library.",
-      "language": "TypeScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/yilewang/llm-for-zotero",
-      "category": "productivity",
-      "rank": 46,
-      "price": "free",
-      "description_zh": "An open-sourced research agent system deeply rooted in your Zotero library."
-    },
-    {
       "name": "decimen-optical-transfer",
       "owner": "bashalarmistalt",
       "description": "",
@@ -610,7 +597,7 @@
       "period_stars": 1,
       "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
       "category": "productivity",
-      "rank": 47,
+      "rank": 46,
       "price": "free",
       "description_zh": ""
     },
@@ -623,7 +610,7 @@
       "period_stars": 1,
       "url": "https://github.com/vercel-labs/skills",
       "category": "productivity",
-      "rank": 48,
+      "rank": 47,
       "price": "free",
       "description_zh": "开放代理技能工具- npx技能"
     },
@@ -636,9 +623,22 @@
       "period_stars": 1,
       "url": "https://github.com/tl2012tl/TE_MAN",
       "category": "design",
-      "rank": 49,
+      "rank": 48,
       "price": "free",
       "description_zh": "首个为ComfyUI打造的漫剧/增强生图/生视频插件"
+    },
+    {
+      "name": "llm-for-zotero",
+      "owner": "yilewang",
+      "description": "An open-sourced research agent system deeply rooted in your Zotero library.",
+      "language": "TypeScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/yilewang/llm-for-zotero",
+      "category": "productivity",
+      "rank": 49,
+      "price": "free",
+      "description_zh": "An open-sourced research agent system deeply rooted in your Zotero library."
     },
     {
       "name": "plus-extractor",
