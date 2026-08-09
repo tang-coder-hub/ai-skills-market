@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-08T13:27:02Z",
+  "updated": "2026-08-09T02:35:31Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -487,7 +487,7 @@
     {
       "name": "OpenMontage",
       "owner": "calesthio",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
       "language": "Python",
       "total_stars": 47,
       "period_stars": 47,
@@ -495,7 +495,7 @@
       "category": "productivity",
       "rank": 38,
       "price": "free",
-      "description_zh": "世界上第一个开源、代理视频制作系统。12条管道、52种工具、500+名代理技能。将您的人工智能编码助理变成完整的视频制作工作室。"
+      "description_zh": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio."
     },
     {
       "name": "ppt-master",
