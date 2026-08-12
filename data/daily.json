@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-11T13:54:22Z",
+  "updated": "2026-08-12T03:04:53Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1176,7 +1176,7 @@
     {
       "name": "higgsfield-ai-prompt-skill",
       "owner": "OSideMedia",
-      "description": "Claude AI skill for cinematic Higgsfield AI prompts — 20 sub-skills covering Cinema Studio 2.5/3.0/3.5, MCSLA formula, Soul ID character consistency, Seedance 2.0 prompt modes, Kling 3.0 Motion Control, Elements system, DISCIPLINE framework, production benchmarks, and 17 templates across 3 categories.",
+      "description": "Claude AI skill for cinematic Higgsfield AI prompts — 32 sub-skills covering Seedance 2.5 (omni-reference, video edit + extend) and 2.0, the Hell Grind feature-film pipeline, an acting system, Cinema Studio 2.5/3.0/3.5, MCSLA, Soul ID consistency, Kling 3.0 Motion Control, the DISCIPLINE framework, and 18 templates.",
       "language": "Python",
       "total_stars": 1,
       "period_stars": 1,
@@ -1184,7 +1184,7 @@
       "category": "productivity",
       "rank": 91,
       "price": "free",
-      "description_zh": "Claude AI skill for cinematic Higgsfield AI prompts — 20 sub-skills covering Cinema Studio 2.5/3.0/3.5, MCSLA formula, Soul ID character consistency, Seedance 2.0 prompt modes, Kling 3.0 Motion Control, Elements system, DISCIPLINE framework, production benchmarks, and 17 templates across 3 categories."
+      "description_zh": "Claude AI skill for cinematic Higgsfield AI prompts — 32 sub-skills covering Seedance 2.5 (omni-reference, video edit + extend) and 2.0, the Hell Grind feature-film pipeline, an acting system, Cinema Studio 2.5/3.0/3.5, MCSLA, Soul ID consistency, Kling 3.0 Motion Control, the DISCIPLINE framework, and 18 templates."
     },
     {
       "name": "pptx-viewer",
@@ -1202,7 +1202,7 @@
     {
       "name": "video-shotcraft",
       "owner": "Vincentwei1021",
-      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
       "language": "TypeScript",
       "total_stars": 1,
       "period_stars": 1,
@@ -1210,7 +1210,7 @@
       "category": "productivity",
       "rank": 93,
       "price": "free",
-      "description_zh": "Claude Code和Codex的人工智能视频技能-带Remote的电影产品视频：106张食谱卡、161个动作预览、可制作的模板"
+      "description_zh": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template"
     },
     {
       "name": "damru",
