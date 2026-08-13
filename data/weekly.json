@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T13:57:06Z",
+  "updated": "2026-08-13T03:08:04Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -136,7 +136,7 @@
     {
       "name": "diagram-design",
       "owner": "cathrynlavery",
-      "description": "Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
       "language": "HTML",
       "total_stars": 36,
       "period_stars": 36,
@@ -144,7 +144,7 @@
       "category": "productivity",
       "rank": 11,
       "price": "free",
-      "description_zh": "Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop."
+      "description_zh": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop."
     },
     {
       "name": "witr",

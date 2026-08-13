@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-12T13:57:02Z",
+  "updated": "2026-08-13T03:08:02Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -19,7 +19,7 @@
     {
       "name": "diagram-design",
       "owner": "cathrynlavery",
-      "description": "Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
       "language": "HTML",
       "total_stars": 19,
       "period_stars": 19,
@@ -27,7 +27,7 @@
       "category": "productivity",
       "rank": 2,
       "price": "free",
-      "description_zh": "Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop."
+      "description_zh": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop."
     },
     {
       "name": "orca",
@@ -303,17 +303,17 @@
       "description_zh": "Claude Code和人工智能代理的营销技能。首席执行官、文案写作、SEO、分析和成长工程。"
     },
     {
-      "name": "tools-registry",
+      "name": "treg",
       "owner": "superdesigndev",
-      "description": "Shared Skill & Secret vault for your team and agents, without leaking keys. Join community here: https://discord.gg/6mQYYfFMAn",
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
       "language": "Python",
       "total_stars": 3,
       "period_stars": 3,
-      "url": "https://github.com/superdesigndev/tools-registry",
+      "url": "https://github.com/superdesigndev/treg",
       "category": "productivity",
       "rank": 24,
       "price": "free",
-      "description_zh": "Shared Skill & Secret vault for your team and agents, without leaking keys. Join community here: https://discord.gg/6mQYYfFMAn"
+      "description_zh": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn"
     },
     {
       "name": "vorssaint-utils",
