@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T03:08:02Z",
+  "updated": "2026-08-13T03:21:19Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1099,7 +1099,7 @@
       "name": "future-agi",
       "owner": "future-agi",
       "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
-      "language": "JavaScript",
+      "language": "Python",
       "total_stars": 1,
       "period_stars": 1,
       "url": "https://github.com/future-agi/future-agi",
@@ -1107,19 +1107,6 @@
       "rank": 85,
       "price": "free",
       "description_zh": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0."
-    },
-    {
-      "name": "sub2api",
-      "owner": "Wei-Shaw",
-      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
-      "language": "Go",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/Wei-Shaw/sub2api",
-      "category": "productivity",
-      "rank": 86,
-      "price": "free",
-      "description_zh": "Sub2API单一式开源中游服务，让 Claude，Openai，Gemini，Grok订购统一加入，支持赛车共享，更高效分割本，原生工具无缝使用。"
     },
     {
       "name": "oh-my-codex",
@@ -1130,9 +1117,22 @@
       "period_stars": 1,
       "url": "https://github.com/Yeachan-Heo/oh-my-codex",
       "category": "productivity",
-      "rank": 87,
+      "rank": 86,
       "price": "free",
       "description_zh": "OmX -哦，我的代码X：您的代码并不孤单。添加挂钩、代理团队、HUD等。"
+    },
+    {
+      "name": "sub2api",
+      "owner": "Wei-Shaw",
+      "description": "Sub2API 一站式开源中转服务，让 Claude、Openai 、Gemini、Grok订阅统一接入，支持拼车共享，更高效分摊成本，原生工具无缝使用。",
+      "language": "Go",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/Wei-Shaw/sub2api",
+      "category": "productivity",
+      "rank": 87,
+      "price": "free",
+      "description_zh": "Sub2API单一式开源中游服务，让 Claude，Openai，Gemini，Grok订购统一加入，支持赛车共享，更高效分割本，原生工具无缝使用。"
     },
     {
       "name": "NOWEN",
