@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T15:08:54Z",
+  "updated": "2026-08-14T03:06:58Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -773,7 +773,7 @@
     {
       "name": "pgrust",
       "owner": "malisper",
-      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "description": "Postgres rewritten in Rust, now faster than Postgres and Clickhouse",
       "language": "Rust",
       "total_stars": 20,
       "period_stars": 20,
@@ -781,7 +781,7 @@
       "category": "productivity",
       "rank": 60,
       "price": "free",
-      "description_zh": "在Rust中重写了Postgs，现已通过100%的Postgs回归测试"
+      "description_zh": "Postgres rewritten in Rust, now faster than Postgres and Clickhouse"
     },
     {
       "name": "claude-video",

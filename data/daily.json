@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13T14:38:45Z",
+  "updated": "2026-08-14T03:06:47Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1174,19 +1174,6 @@
       "description_zh": "67个令人敬畏的DESIGN.md和SKILL.md设计技能文件列表，用于Claude Design、Google Stitch、Codex、Cursor和其他人工智能工具等代理工具"
     },
     {
-      "name": "agent-manager",
-      "owner": "YoanWai",
-      "description": "Terminal UI to manage AI coding-agent sessions (Claude Code, OpenCode, Codex, Grok, Gemini CLI) in tmux: live status, group tree, quick prompts, diff review. macOS, Linux, Windows via WSL2.",
-      "language": "Go",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/YoanWai/agent-manager",
-      "category": "productivity",
-      "rank": 91,
-      "price": "free",
-      "description_zh": "Terminal UI to manage AI coding-agent sessions (Claude Code, OpenCode, Codex, Grok, Gemini CLI) in tmux: live status, group tree, quick prompts, diff review. macOS, Linux, Windows via WSL2."
-    },
-    {
       "name": "codex-keysmith",
       "owner": "Jia-Ethan",
       "description": "Version-independent Codex instruction deployment with dry-run, backups, hook isolation, and recovery.",
@@ -1195,9 +1182,22 @@
       "period_stars": 1,
       "url": "https://github.com/Jia-Ethan/codex-keysmith",
       "category": "productivity",
-      "rank": 92,
+      "rank": 91,
       "price": "free",
       "description_zh": "Version-independent Codex instruction deployment with dry-run, backups, hook isolation, and recovery."
+    },
+    {
+      "name": "agent-manager",
+      "owner": "YoanWai",
+      "description": "Terminal UI to manage AI coding-agent sessions (Claude Code, OpenCode, Codex, Grok, Gemini CLI) in tmux: live status, group tree, quick prompts, diff review. macOS, Linux, Windows via WSL2.",
+      "language": "Go",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/YoanWai/agent-manager",
+      "category": "productivity",
+      "rank": 92,
+      "price": "free",
+      "description_zh": "Terminal UI to manage AI coding-agent sessions (Claude Code, OpenCode, Codex, Grok, Gemini CLI) in tmux: live status, group tree, quick prompts, diff review. macOS, Linux, Windows via WSL2."
     },
     {
       "name": "langchainjs-for-beginners",
