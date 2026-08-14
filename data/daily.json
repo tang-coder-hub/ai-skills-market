@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14T03:06:47Z",
+  "updated": "2026-08-14T03:18:31Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -862,19 +862,6 @@
       "description_zh": "WAI Play - AI web game testing and quality evaluation platform"
     },
     {
-      "name": "Avalonia.Controls.WebView",
-      "owner": "AvaloniaUI",
-      "description": "NativeWebView, NativeWebDialog and WebAuthenticationBroker",
-      "language": "C#",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/AvaloniaUI/Avalonia.Controls.WebView",
-      "category": "productivity",
-      "rank": 67,
-      "price": "free",
-      "description_zh": "NativeWebView, NativeWebDialog and WebAuthenticationBroker"
-    },
-    {
       "name": "i-have-adhd",
       "owner": "ayghri",
       "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
@@ -883,9 +870,22 @@
       "period_stars": 1,
       "url": "https://github.com/ayghri/i-have-adhd",
       "category": "productivity",
-      "rank": 68,
+      "rank": 67,
       "price": "free",
       "description_zh": "A skill to stop your coding agent from burying the answer. ADHD-friendly output."
+    },
+    {
+      "name": "Avalonia.Controls.WebView",
+      "owner": "AvaloniaUI",
+      "description": "NativeWebView, NativeWebDialog and WebAuthenticationBroker",
+      "language": "C#",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/AvaloniaUI/Avalonia.Controls.WebView",
+      "category": "productivity",
+      "rank": 68,
+      "price": "free",
+      "description_zh": "NativeWebView, NativeWebDialog and WebAuthenticationBroker"
     },
     {
       "name": "HugAgentOS",
@@ -1096,19 +1096,6 @@
       "description_zh": "开源后台即服务。Postgres、auth、存储、功能、AI网关、HCP。"
     },
     {
-      "name": "MangoDisk",
-      "owner": "harry0703",
-      "description": "Safety-first disk cleaner and disk space analyzer for macOS and Windows, with a duplicate file finder, large file cleanup, and app uninstaller.",
-      "language": "Rust",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/harry0703/MangoDisk",
-      "category": "productivity",
-      "rank": 85,
-      "price": "free",
-      "description_zh": "Safety-first disk cleaner and disk space analyzer for macOS and Windows, with a duplicate file finder, large file cleanup, and app uninstaller."
-    },
-    {
       "name": "ABot-World",
       "owner": "amap-cvlab",
       "description": "Infinite Interactive World Rollout on a Single Desktop GPU",
@@ -1117,9 +1104,22 @@
       "period_stars": 1,
       "url": "https://github.com/amap-cvlab/ABot-World",
       "category": "productivity",
-      "rank": 86,
+      "rank": 85,
       "price": "free",
       "description_zh": "Infinite Interactive World Rollout on a Single Desktop GPU"
+    },
+    {
+      "name": "MangoDisk",
+      "owner": "harry0703",
+      "description": "Safety-first disk cleaner and disk space analyzer for macOS and Windows, with a duplicate file finder, large file cleanup, and app uninstaller.",
+      "language": "Rust",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/harry0703/MangoDisk",
+      "category": "productivity",
+      "rank": 86,
+      "price": "free",
+      "description_zh": "Safety-first disk cleaner and disk space analyzer for macOS and Windows, with a duplicate file finder, large file cleanup, and app uninstaller."
     },
     {
       "name": "ignis",
@@ -1161,6 +1161,19 @@
       "description_zh": "MShell 是一款现代化、功能丰富的 SSH 客户端，基于 Electron、Vue 3 和 TypeScript 构建。"
     },
     {
+      "name": "agent-manager",
+      "owner": "YoanWai",
+      "description": "Terminal UI to manage AI coding-agent sessions (Claude Code, OpenCode, Codex, Grok, Gemini CLI) in tmux: live status, group tree, quick prompts, diff review. macOS, Linux, Windows via WSL2.",
+      "language": "Go",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/YoanWai/agent-manager",
+      "category": "productivity",
+      "rank": 90,
+      "price": "free",
+      "description_zh": "Terminal UI to manage AI coding-agent sessions (Claude Code, OpenCode, Codex, Grok, Gemini CLI) in tmux: live status, group tree, quick prompts, diff review. macOS, Linux, Windows via WSL2."
+    },
+    {
       "name": "awesome-design-skills",
       "owner": "bergside",
       "description": "List of 67 awesome DESIGN.md and SKILL.md design skill files for agentic tools like Claude Design, Google Stitch, Codex, Cursor, and other AI tools",
@@ -1169,7 +1182,7 @@
       "period_stars": 1,
       "url": "https://github.com/bergside/awesome-design-skills",
       "category": "productivity",
-      "rank": 90,
+      "rank": 91,
       "price": "free",
       "description_zh": "67个令人敬畏的DESIGN.md和SKILL.md设计技能文件列表，用于Claude Design、Google Stitch、Codex、Cursor和其他人工智能工具等代理工具"
     },
@@ -1182,22 +1195,9 @@
       "period_stars": 1,
       "url": "https://github.com/Jia-Ethan/codex-keysmith",
       "category": "productivity",
-      "rank": 91,
-      "price": "free",
-      "description_zh": "Version-independent Codex instruction deployment with dry-run, backups, hook isolation, and recovery."
-    },
-    {
-      "name": "agent-manager",
-      "owner": "YoanWai",
-      "description": "Terminal UI to manage AI coding-agent sessions (Claude Code, OpenCode, Codex, Grok, Gemini CLI) in tmux: live status, group tree, quick prompts, diff review. macOS, Linux, Windows via WSL2.",
-      "language": "Go",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/YoanWai/agent-manager",
-      "category": "productivity",
       "rank": 92,
       "price": "free",
-      "description_zh": "Terminal UI to manage AI coding-agent sessions (Claude Code, OpenCode, Codex, Grok, Gemini CLI) in tmux: live status, group tree, quick prompts, diff review. macOS, Linux, Windows via WSL2."
+      "description_zh": "Version-independent Codex instruction deployment with dry-run, backups, hook isolation, and recovery."
     },
     {
       "name": "langchainjs-for-beginners",
