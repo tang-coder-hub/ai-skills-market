@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T01:56:50Z",
+  "updated": "2026-08-15T02:06:39Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1122,19 +1122,6 @@
       "description_zh": "Continuous background code review database for agents, work faster and smarter with accountability for every line of generated code."
     },
     {
-      "name": "follow-builders",
-      "owner": "zarazhangrui",
-      "description": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
-      "language": "JavaScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/zarazhangrui/follow-builders",
-      "category": "productivity",
-      "rank": 87,
-      "price": "free",
-      "description_zh": "人工智能构建者摘要-监控X和YouTube播客上的顶级人工智能构建者，将他们的内容重新混合为可消化的摘要。关注建设者，而不是影响者。"
-    },
-    {
       "name": "wai-play",
       "owner": "waiterve",
       "description": "WAI Play - AI web game testing and quality evaluation platform",
@@ -1143,9 +1130,22 @@
       "period_stars": 1,
       "url": "https://github.com/waiterve/wai-play",
       "category": "productivity",
-      "rank": 88,
+      "rank": 87,
       "price": "free",
       "description_zh": "WAI Play - AI web game testing and quality evaluation platform"
+    },
+    {
+      "name": "follow-builders",
+      "owner": "zarazhangrui",
+      "description": "AI builders digest — monitors top AI builders on X and YouTube podcasts, remixes their content into digestible summaries. Follow builders, not influencers.",
+      "language": "JavaScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/zarazhangrui/follow-builders",
+      "category": "productivity",
+      "rank": 88,
+      "price": "free",
+      "description_zh": "人工智能构建者摘要-监控X和YouTube播客上的顶级人工智能构建者，将他们的内容重新混合为可消化的摘要。关注建设者，而不是影响者。"
     },
     {
       "name": "dockhand",
