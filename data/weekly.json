@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T13:08:42Z",
+  "updated": "2026-08-16T02:06:12Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -1228,15 +1228,15 @@
     {
       "name": "atlas",
       "owner": "pacifio",
-      "description": "Open source software factory for teams",
-      "language": "Rust",
+      "description": "Source control for agents. Use multiple coding agents, track they change, and query them in one place",
+      "language": "TypeScript",
       "total_stars": 4,
       "period_stars": 4,
       "url": "https://github.com/pacifio/atlas",
       "category": "productivity",
       "rank": 95,
       "price": "free",
-      "description_zh": "Open source software factory for teams"
+      "description_zh": "Source control for agents. Use multiple coding agents, track they change, and query them in one place"
     },
     {
       "name": "Unikey-Wayland",

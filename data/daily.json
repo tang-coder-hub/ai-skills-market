@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T13:08:31Z",
+  "updated": "2026-08-16T02:06:03Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -693,19 +693,6 @@
       "description_zh": ""
     },
     {
-      "name": "marketingskills",
-      "owner": "coreyhaines31",
-      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-      "language": "JavaScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/coreyhaines31/marketingskills",
-      "category": "productivity",
-      "rank": 54,
-      "price": "free",
-      "description_zh": "Claude Code和人工智能代理的营销技能。首席执行官、文案写作、SEO、分析和成长工程。"
-    },
-    {
       "name": "anydoc",
       "owner": "firecrawl",
       "description": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
@@ -714,9 +701,22 @@
       "period_stars": 1,
       "url": "https://github.com/firecrawl/anydoc",
       "category": "design",
-      "rank": 55,
+      "rank": 54,
       "price": "free",
       "description_zh": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings."
+    },
+    {
+      "name": "marketingskills",
+      "owner": "coreyhaines31",
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "language": "JavaScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/coreyhaines31/marketingskills",
+      "category": "productivity",
+      "rank": 55,
+      "price": "free",
+      "description_zh": "Claude Code和人工智能代理的营销技能。首席执行官、文案写作、SEO、分析和成长工程。"
     },
     {
       "name": "claude-skills",
