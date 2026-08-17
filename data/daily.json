@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T02:04:27Z",
+  "updated": "2026-08-17T02:12:03Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -407,19 +407,6 @@
       "description_zh": "漂亮的地图组件。100%免费，零配置，一个命令设置。"
     },
     {
-      "name": "BBZQ",
-      "owner": "HSSkyBoy",
-      "description": "由 Kotlin 全量编写的哔哩哔哩增强 Xposed 模组",
-      "language": "Kotlin",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/HSSkyBoy/BBZQ",
-      "category": "productivity",
-      "rank": 32,
-      "price": "free",
-      "description_zh": "由 Kotlin 全量编写的哔哩哔哩增强 Xposed 模组"
-    },
-    {
       "name": "honeypot",
       "owner": "RiskyMH",
       "description": "🍯 A Discord bot to automatically catch and ban spam bots by monitoring a dedicated \"honeypot\" channel.",
@@ -428,35 +415,22 @@
       "period_stars": 1,
       "url": "https://github.com/RiskyMH/honeypot",
       "category": "productivity",
-      "rank": 33,
+      "rank": 32,
       "price": "free",
       "description_zh": "🍯 A Discord bot to automatically catch and ban spam bots by monitoring a dedicated \"honeypot\" channel."
     },
     {
-      "name": "fanqiang",
-      "owner": "Alvin9999-newpac",
-      "description": "免费翻墙、免费科学上网、翻墙翻墙、科学上网、Mac/iOS/安卓翻墙、翻墙翻墙、自由上网、 一键翻墙浏览器、免费shadowsocks/ss/ssr/v2ray/hysteria/hysteria2/vmess/vless/reality/goflyway账号/节点、fanqiang、翻墙翻墙、科学上网、翻墙翻墙翻墙翻墙翻墙翻墙翻墙、 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙翻墙翻墙翻墙",
-      "language": "Shell",
+      "name": "BBZQ",
+      "owner": "HSSkyBoy",
+      "description": "由 Kotlin 全量编写的哔哩哔哩增强 Xposed 模组",
+      "language": "Kotlin",
       "total_stars": 1,
       "period_stars": 1,
-      "url": "https://github.com/Alvin9999-newpac/fanqiang",
+      "url": "https://github.com/HSSkyBoy/BBZQ",
       "category": "productivity",
-      "rank": 34,
+      "rank": 33,
       "price": "free",
-      "description_zh": "免费翻墙、免费科学上网、翻墙翻墙、科学上网、Mac/iOS/安卓翻墙、翻墙翻墙、自由上网、 一键翻墙浏览器、免费shadowsocks/ss/ssr/v2ray/hysteria/hysteria2/vmess/vless/reality/goflyway账号/节点、fanqiang、翻墙翻墙、科学上网、翻墙翻墙翻墙翻墙翻墙翻墙翻墙、 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙翻墙翻墙翻墙"
-    },
-    {
-      "name": "doctor-plus",
-      "owner": "robonuggets",
-      "description": "Extended health check for Claude Code - runs /doctor, then audits your workspace against Anthropic's 6 then & now context-engineering shifts",
-      "language": "",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/robonuggets/doctor-plus",
-      "category": "productivity",
-      "rank": 35,
-      "price": "free",
-      "description_zh": "Extended health check for Claude Code - runs /doctor, then audits your workspace against Anthropic's 6 then & now context-engineering shifts"
+      "description_zh": "由 Kotlin 全量编写的哔哩哔哩增强 Xposed 模组"
     },
     {
       "name": "ABot-World",
@@ -467,7 +441,7 @@
       "period_stars": 1,
       "url": "https://github.com/amap-cvlab/ABot-World",
       "category": "productivity",
-      "rank": 36,
+      "rank": 34,
       "price": "free",
       "description_zh": "Infinite Interactive World Rollout on a Single Desktop GPU"
     },
@@ -480,22 +454,35 @@
       "period_stars": 1,
       "url": "https://github.com/aden-hive/hive",
       "category": "productivity",
-      "rank": 37,
+      "rank": 35,
       "price": "free",
       "description_zh": "Multi-Agent Harness for Production AI"
     },
     {
-      "name": "snow-app",
-      "owner": "MayDay-wpf",
-      "description": "snow-app",
-      "language": "TypeScript",
+      "name": "fanqiang",
+      "owner": "Alvin9999-newpac",
+      "description": "免费翻墙、免费科学上网、翻墙翻墙、科学上网、Mac/iOS/安卓翻墙、翻墙翻墙、自由上网、 一键翻墙浏览器、免费shadowsocks/ss/ssr/v2ray/hysteria/hysteria2/vmess/vless/reality/goflyway账号/节点、fanqiang、翻墙翻墙、科学上网、翻墙翻墙翻墙翻墙翻墙翻墙翻墙、 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙翻墙翻墙翻墙",
+      "language": "Shell",
       "total_stars": 1,
       "period_stars": 1,
-      "url": "https://github.com/MayDay-wpf/snow-app",
+      "url": "https://github.com/Alvin9999-newpac/fanqiang",
       "category": "productivity",
-      "rank": 38,
+      "rank": 36,
       "price": "free",
-      "description_zh": "snow-app"
+      "description_zh": "免费翻墙、免费科学上网、翻墙翻墙、科学上网、Mac/iOS/安卓翻墙、翻墙翻墙、自由上网、 一键翻墙浏览器、免费shadowsocks/ss/ssr/v2ray/hysteria/hysteria2/vmess/vless/reality/goflyway账号/节点、fanqiang、翻墙翻墙、科学上网、翻墙翻墙翻墙翻墙翻墙翻墙翻墙、 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙翻墙翻墙翻墙"
+    },
+    {
+      "name": "doctor-plus",
+      "owner": "robonuggets",
+      "description": "Extended health check for Claude Code - runs /doctor, then audits your workspace against Anthropic's 6 then & now context-engineering shifts",
+      "language": "",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/robonuggets/doctor-plus",
+      "category": "productivity",
+      "rank": 37,
+      "price": "free",
+      "description_zh": "Extended health check for Claude Code - runs /doctor, then audits your workspace against Anthropic's 6 then & now context-engineering shifts"
     },
     {
       "name": "rabbit",
@@ -506,7 +493,7 @@
       "period_stars": 1,
       "url": "https://github.com/ferrumox/rabbit",
       "category": "productivity",
-      "rank": 39,
+      "rank": 38,
       "price": "free",
       "description_zh": "Run Qwen 3.8 MAX (2.4T MoE) on a 50GB-RAM consumer machine in pure Rust, experts streamed from disk. Tiny engine, immense model."
     },
@@ -519,9 +506,22 @@
       "period_stars": 1,
       "url": "https://github.com/Contrary7nit/SteamDaddy",
       "category": "productivity",
-      "rank": 40,
+      "rank": 39,
       "price": "free",
       "description_zh": "The ultimate SteamTools & GreenLuma alternative. Auto-unlock DLCs, fix connection & purchase errors, manage Steam manifests, and apply online fixes with Millennium plugin support."
+    },
+    {
+      "name": "snow-app",
+      "owner": "MayDay-wpf",
+      "description": "snow-app",
+      "language": "TypeScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/MayDay-wpf/snow-app",
+      "category": "productivity",
+      "rank": 40,
+      "price": "free",
+      "description_zh": "snow-app"
     },
     {
       "name": "pi-go",
