@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T13:09:25Z",
+  "updated": "2026-08-17T02:04:27Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -266,15 +266,15 @@
     {
       "name": "agterm",
       "owner": "umputun",
-      "description": "Terminal for agentic flow",
+      "description": "A genuinely good terminal",
       "language": "Swift",
       "total_stars": 1,
       "period_stars": 1,
       "url": "https://github.com/umputun/agterm",
-      "category": "productivity",
+      "category": "design",
       "rank": 21,
       "price": "free",
-      "description_zh": "Terminal for agentic flow"
+      "description_zh": "A genuinely good terminal"
     },
     {
       "name": "SmolVM",
@@ -407,19 +407,6 @@
       "description_zh": "漂亮的地图组件。100%免费，零配置，一个命令设置。"
     },
     {
-      "name": "honeypot",
-      "owner": "RiskyMH",
-      "description": "🍯 A Discord bot to automatically catch and ban spam bots by monitoring a dedicated \"honeypot\" channel.",
-      "language": "TypeScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/RiskyMH/honeypot",
-      "category": "productivity",
-      "rank": 32,
-      "price": "free",
-      "description_zh": "🍯 A Discord bot to automatically catch and ban spam bots by monitoring a dedicated \"honeypot\" channel."
-    },
-    {
       "name": "BBZQ",
       "owner": "HSSkyBoy",
       "description": "由 Kotlin 全量编写的哔哩哔哩增强 Xposed 模组",
@@ -428,22 +415,22 @@
       "period_stars": 1,
       "url": "https://github.com/HSSkyBoy/BBZQ",
       "category": "productivity",
-      "rank": 33,
+      "rank": 32,
       "price": "free",
       "description_zh": "由 Kotlin 全量编写的哔哩哔哩增强 Xposed 模组"
     },
     {
-      "name": "doctor-plus",
-      "owner": "robonuggets",
-      "description": "Extended health check for Claude Code - runs /doctor, then audits your workspace against Anthropic's 6 then & now context-engineering shifts",
-      "language": "",
+      "name": "honeypot",
+      "owner": "RiskyMH",
+      "description": "🍯 A Discord bot to automatically catch and ban spam bots by monitoring a dedicated \"honeypot\" channel.",
+      "language": "TypeScript",
       "total_stars": 1,
       "period_stars": 1,
-      "url": "https://github.com/robonuggets/doctor-plus",
+      "url": "https://github.com/RiskyMH/honeypot",
       "category": "productivity",
-      "rank": 34,
+      "rank": 33,
       "price": "free",
-      "description_zh": "Extended health check for Claude Code - runs /doctor, then audits your workspace against Anthropic's 6 then & now context-engineering shifts"
+      "description_zh": "🍯 A Discord bot to automatically catch and ban spam bots by monitoring a dedicated \"honeypot\" channel."
     },
     {
       "name": "fanqiang",
@@ -454,22 +441,22 @@
       "period_stars": 1,
       "url": "https://github.com/Alvin9999-newpac/fanqiang",
       "category": "productivity",
-      "rank": 35,
+      "rank": 34,
       "price": "free",
       "description_zh": "免费翻墙、免费科学上网、翻墙翻墙、科学上网、Mac/iOS/安卓翻墙、翻墙翻墙、自由上网、 一键翻墙浏览器、免费shadowsocks/ss/ssr/v2ray/hysteria/hysteria2/vmess/vless/reality/goflyway账号/节点、fanqiang、翻墙翻墙、科学上网、翻墙翻墙翻墙翻墙翻墙翻墙翻墙、 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网 翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙科学上网翻墙翻墙翻墙翻墙"
     },
     {
-      "name": "hive",
-      "owner": "aden-hive",
-      "description": "Multi-Agent Harness for Production AI",
-      "language": "Python",
+      "name": "doctor-plus",
+      "owner": "robonuggets",
+      "description": "Extended health check for Claude Code - runs /doctor, then audits your workspace against Anthropic's 6 then & now context-engineering shifts",
+      "language": "",
       "total_stars": 1,
       "period_stars": 1,
-      "url": "https://github.com/aden-hive/hive",
+      "url": "https://github.com/robonuggets/doctor-plus",
       "category": "productivity",
-      "rank": 36,
+      "rank": 35,
       "price": "free",
-      "description_zh": "Multi-Agent Harness for Production AI"
+      "description_zh": "Extended health check for Claude Code - runs /doctor, then audits your workspace against Anthropic's 6 then & now context-engineering shifts"
     },
     {
       "name": "ABot-World",
@@ -480,9 +467,22 @@
       "period_stars": 1,
       "url": "https://github.com/amap-cvlab/ABot-World",
       "category": "productivity",
-      "rank": 37,
+      "rank": 36,
       "price": "free",
       "description_zh": "Infinite Interactive World Rollout on a Single Desktop GPU"
+    },
+    {
+      "name": "hive",
+      "owner": "aden-hive",
+      "description": "Multi-Agent Harness for Production AI",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/aden-hive/hive",
+      "category": "productivity",
+      "rank": 37,
+      "price": "free",
+      "description_zh": "Multi-Agent Harness for Production AI"
     },
     {
       "name": "snow-app",
@@ -498,19 +498,6 @@
       "description_zh": "snow-app"
     },
     {
-      "name": "SteamDaddy",
-      "owner": "Contrary7nit",
-      "description": "The ultimate SteamTools & GreenLuma alternative. Auto-unlock DLCs, fix connection & purchase errors, manage Steam manifests, and apply online fixes with Millennium plugin support.",
-      "language": "PowerShell",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/Contrary7nit/SteamDaddy",
-      "category": "productivity",
-      "rank": 39,
-      "price": "free",
-      "description_zh": "The ultimate SteamTools & GreenLuma alternative. Auto-unlock DLCs, fix connection & purchase errors, manage Steam manifests, and apply online fixes with Millennium plugin support."
-    },
-    {
       "name": "rabbit",
       "owner": "ferrumox",
       "description": "Run Qwen 3.8 MAX (2.4T MoE) on a 50GB-RAM consumer machine in pure Rust, experts streamed from disk. Tiny engine, immense model.",
@@ -519,9 +506,22 @@
       "period_stars": 1,
       "url": "https://github.com/ferrumox/rabbit",
       "category": "productivity",
-      "rank": 40,
+      "rank": 39,
       "price": "free",
       "description_zh": "Run Qwen 3.8 MAX (2.4T MoE) on a 50GB-RAM consumer machine in pure Rust, experts streamed from disk. Tiny engine, immense model."
+    },
+    {
+      "name": "SteamDaddy",
+      "owner": "Contrary7nit",
+      "description": "The ultimate SteamTools & GreenLuma alternative. Auto-unlock DLCs, fix connection & purchase errors, manage Steam manifests, and apply online fixes with Millennium plugin support.",
+      "language": "PowerShell",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/Contrary7nit/SteamDaddy",
+      "category": "productivity",
+      "rank": 40,
+      "price": "free",
+      "description_zh": "The ultimate SteamTools & GreenLuma alternative. Auto-unlock DLCs, fix connection & purchase errors, manage Steam manifests, and apply online fixes with Millennium plugin support."
     },
     {
       "name": "pi-go",
