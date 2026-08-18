@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17T13:21:31Z",
+  "updated": "2026-08-18T01:57:28Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1280,7 +1280,7 @@
     {
       "name": "CozyClay",
       "owner": "HaD0Yun",
-      "description": "Browser-based 3D staging studio: scene blocking, character posing, camera moves and cuts, prompt-block sequencing, and ARDY motion preview.",
+      "description": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
       "language": "JavaScript",
       "total_stars": 1,
       "period_stars": 1,
@@ -1288,7 +1288,7 @@
       "category": "productivity",
       "rank": 99,
       "price": "free",
-      "description_zh": "Browser-based 3D staging studio: scene blocking, character posing, camera moves and cuts, prompt-block sequencing, and ARDY motion preview."
+      "description_zh": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model."
     },
     {
       "name": "perseus-vault",
