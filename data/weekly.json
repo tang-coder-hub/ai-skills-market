@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T13:25:25Z",
+  "updated": "2026-08-20T01:59:13Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -292,7 +292,7 @@
     {
       "name": "modly",
       "owner": "lightningpixel",
-      "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
+      "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
       "language": "TypeScript",
       "total_stars": 11,
       "period_stars": 11,
@@ -300,7 +300,7 @@
       "category": "productivity",
       "rank": 23,
       "price": "free",
-      "description_zh": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU"
+      "description_zh": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU"
     },
     {
       "name": "DeepTutor",
@@ -1098,7 +1098,7 @@
     {
       "name": "free-claude-code",
       "owner": "Alishahryar1",
-      "description": "Use Claude Code, Codex, Pi, and OpenCode for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)",
+      "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
       "language": "Python",
       "total_stars": 4,
       "period_stars": 4,
@@ -1106,7 +1106,7 @@
       "category": "productivity",
       "rank": 85,
       "price": "free",
-      "description_zh": "Use Claude Code, Codex, Pi, and OpenCode for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)"
+      "description_zh": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)"
     },
     {
       "name": "hydradb",

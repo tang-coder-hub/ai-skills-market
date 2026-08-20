@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T13:25:29Z",
+  "updated": "2026-08-20T01:59:18Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -1124,7 +1124,7 @@
     {
       "name": "free-claude-code",
       "owner": "Alishahryar1",
-      "description": "Use Claude Code, Codex, Pi, and OpenCode for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)",
+      "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
       "language": "Python",
       "total_stars": 19,
       "period_stars": 19,
@@ -1132,7 +1132,7 @@
       "category": "productivity",
       "rank": 87,
       "price": "free",
-      "description_zh": "Use Claude Code, Codex, Pi, and OpenCode for free from your terminal, app, IDE, or phone like OpenClaw (voice supported)"
+      "description_zh": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)"
     },
     {
       "name": "agent-plugins-spec",
