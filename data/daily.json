@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T01:57:31Z",
+  "updated": "2026-08-22T02:07:40Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -784,19 +784,6 @@
       "description_zh": "智能体 = 大模型 + Harness。深入剖析 Harness 工程原理、设计、实现与实践！"
     },
     {
-      "name": "ai-image-prompts-skill",
-      "owner": "YouMind-OpenLab",
-      "description": "AI Image Prompts — 10,000+ curated prompts for any model. Works with Nano Banana Pro, Nano Banana 2, Seedream 5.0, GPT Image 1.5, Midjourney, DALL-E, Flux, Stable Diffusion, and more.",
-      "language": "TypeScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill",
-      "category": "productivity",
-      "rank": 61,
-      "price": "free",
-      "description_zh": "AI Image Prompts — 10,000+ curated prompts for any model. Works with Nano Banana Pro, Nano Banana 2, Seedream 5.0, GPT Image 1.5, Midjourney, DALL-E, Flux, Stable Diffusion, and more."
-    },
-    {
       "name": "LaTeXSnipper",
       "owner": "SakuraMathcraft",
       "description": "A math workspace for screenshot OCR，Handwriting/PDF-to-LaTeX/Markdown，and Office-plugin editing，powered by MathCraft OCR and MathLive.",
@@ -805,9 +792,22 @@
       "period_stars": 1,
       "url": "https://github.com/SakuraMathcraft/LaTeXSnipper",
       "category": "productivity",
-      "rank": 62,
+      "rank": 61,
       "price": "free",
       "description_zh": "A math workspace for screenshot OCR，Handwriting/PDF-to-LaTeX/Markdown，and Office-plugin editing，powered by MathCraft OCR and MathLive."
+    },
+    {
+      "name": "ai-image-prompts-skill",
+      "owner": "YouMind-OpenLab",
+      "description": "AI Image Prompts — 10,000+ curated prompts for any model. Works with Nano Banana Pro, Nano Banana 2, Seedream 5.0, GPT Image 1.5, Midjourney, DALL-E, Flux, Stable Diffusion, and more.",
+      "language": "TypeScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/YouMind-OpenLab/ai-image-prompts-skill",
+      "category": "productivity",
+      "rank": 62,
+      "price": "free",
+      "description_zh": "AI Image Prompts — 10,000+ curated prompts for any model. Works with Nano Banana Pro, Nano Banana 2, Seedream 5.0, GPT Image 1.5, Midjourney, DALL-E, Flux, Stable Diffusion, and more."
     },
     {
       "name": "open-code-review",
