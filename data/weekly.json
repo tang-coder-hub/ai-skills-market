@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T13:26:50Z",
+  "updated": "2026-08-22T01:57:40Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -747,7 +747,7 @@
     {
       "name": "magnitude",
       "owner": "magnitudedev",
-      "description": "Your fully local, private agent. Runs models on your machine with its built-in inference engine. Works out of the box, on any hardware.",
+      "description": "Open source agent with local models built in. Fully private and offline. Works out of the box on any hardware.",
       "language": "TypeScript",
       "total_stars": 5,
       "period_stars": 5,
@@ -755,7 +755,7 @@
       "category": "productivity",
       "rank": 58,
       "price": "free",
-      "description_zh": "Your fully local, private agent. Runs models on your machine with its built-in inference engine. Works out of the box, on any hardware."
+      "description_zh": "Open source agent with local models built in. Fully private and offline. Works out of the box on any hardware."
     },
     {
       "name": "dashi-ppt-skill",
