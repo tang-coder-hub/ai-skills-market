@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T13:10:00Z",
+  "updated": "2026-08-23T02:09:30Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -747,7 +747,7 @@
     {
       "name": "multica",
       "owner": "multica-ai",
-      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
       "language": "Go",
       "total_stars": 33,
       "period_stars": 33,
@@ -755,7 +755,7 @@
       "category": "productivity",
       "rank": 58,
       "price": "free",
-      "description_zh": "开源托管代理平台。将编码代理变成真正的队友-分配任务、跟踪进度、复合技能。"
+      "description_zh": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable."
     },
     {
       "name": "marketingskills",
@@ -1164,7 +1164,7 @@
       "name": "nasiko",
       "owner": "Nasiko-Labs",
       "description": "Developer Control Plane for your AI Agents",
-      "language": "Python",
+      "language": "Rust",
       "total_stars": 14,
       "period_stars": 14,
       "url": "https://github.com/Nasiko-Labs/nasiko",

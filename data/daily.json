@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T13:09:35Z",
+  "updated": "2026-08-23T02:09:25Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -293,7 +293,7 @@
       "name": "munder-difflin",
       "owner": "chaitanyagiri",
       "description": "local multi-agent harness",
-      "language": "TypeScript",
+      "language": "JavaScript",
       "total_stars": 4,
       "period_stars": 4,
       "url": "https://github.com/chaitanyagiri/munder-difflin",
@@ -301,19 +301,6 @@
       "rank": 23,
       "price": "free",
       "description_zh": "local multi-agent harness"
-    },
-    {
-      "name": "llm-as-a-verifier",
-      "owner": "llm-as-a-verifier",
-      "description": "LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training. It achieves SOTA performance across coding, robotics, and medical agentic benchmarks.",
-      "language": "Python",
-      "total_stars": 3,
-      "period_stars": 3,
-      "url": "https://github.com/llm-as-a-verifier/llm-as-a-verifier",
-      "category": "productivity",
-      "rank": 24,
-      "price": "free",
-      "description_zh": "LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training. It achieves SOTA performance across coding, robotics, and medical agentic benchmarks."
     },
     {
       "name": "humanizer",
@@ -324,9 +311,22 @@
       "period_stars": 5,
       "url": "https://github.com/blader/humanizer",
       "category": "productivity",
-      "rank": 25,
+      "rank": 24,
       "price": "free",
       "description_zh": "从文本中删除AI生成的书写迹象的代理技能"
+    },
+    {
+      "name": "llm-as-a-verifier",
+      "owner": "llm-as-a-verifier",
+      "description": "LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training. It achieves SOTA performance across coding, robotics, and medical agentic benchmarks.",
+      "language": "Python",
+      "total_stars": 3,
+      "period_stars": 3,
+      "url": "https://github.com/llm-as-a-verifier/llm-as-a-verifier",
+      "category": "productivity",
+      "rank": 25,
+      "price": "free",
+      "description_zh": "LLM-as-a-Verifier is a general-purpose framework that provides fine-grained feedback for any agent without requiring additional training. It achieves SOTA performance across coding, robotics, and medical agentic benchmarks."
     },
     {
       "name": "memmy-agent",

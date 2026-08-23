@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T13:09:48Z",
+  "updated": "2026-08-23T02:09:28Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -293,7 +293,7 @@
       "name": "munder-difflin",
       "owner": "chaitanyagiri",
       "description": "local multi-agent harness",
-      "language": "TypeScript",
+      "language": "JavaScript",
       "total_stars": 12,
       "period_stars": 12,
       "url": "https://github.com/chaitanyagiri/munder-difflin",
@@ -786,7 +786,7 @@
     {
       "name": "terminal-browser",
       "owner": "zenbu-labs",
-      "description": "A browser that runs directly inside your existing terminal",
+      "description": "A browser inside your terminal",
       "language": "Rust",
       "total_stars": 7,
       "period_stars": 7,
@@ -794,7 +794,7 @@
       "category": "productivity",
       "rank": 61,
       "price": "free",
-      "description_zh": "A browser that runs directly inside your existing terminal"
+      "description_zh": "A browser inside your terminal"
     },
     {
       "name": "flyingmouse-format",
@@ -851,15 +851,15 @@
     {
       "name": "VoiceStudio",
       "owner": "debpalash",
-      "description": "The Open-Source Elevenlabs alternative AI Voice Clone, Dub, Dictate, Transcribe, Audiobook creator and Voice workflow studio.",
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "language": "Python",
       "total_stars": 6,
       "period_stars": 6,
       "url": "https://github.com/debpalash/VoiceStudio",
-      "category": "productivity",
+      "category": "design",
       "rank": 66,
       "price": "free",
-      "description_zh": "The Open-Source Elevenlabs alternative AI Voice Clone, Dub, Dictate, Transcribe, Audiobook creator and Voice workflow studio."
+      "description_zh": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
     },
     {
       "name": "ironpress",
@@ -968,7 +968,7 @@
     {
       "name": "multica",
       "owner": "multica-ai",
-      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "description": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable.",
       "language": "Go",
       "total_stars": 6,
       "period_stars": 6,
@@ -976,7 +976,7 @@
       "category": "productivity",
       "rank": 75,
       "price": "free",
-      "description_zh": "开源托管代理平台。将编码代理变成真正的队友-分配任务、跟踪进度、复合技能。"
+      "description_zh": "Assign issues to Claude Code, Codex, Cursor, and 17 more coding agents like teammates — open-source and self-hostable."
     },
     {
       "name": "claude-video",
