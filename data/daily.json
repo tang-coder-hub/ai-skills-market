@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T02:07:42Z",
+  "updated": "2026-08-24T02:15:40Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1122,6 +1122,19 @@
       "description_zh": "Garry的观点OpenClaw/Hermes Agent Brain"
     },
     {
+      "name": "Danus",
+      "owner": "frenzymath",
+      "description": "Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/frenzymath/Danus",
+      "category": "productivity",
+      "rank": 87,
+      "price": "free",
+      "description_zh": "Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory"
+    },
+    {
       "name": "Qwen3.8",
       "owner": "QwenLM",
       "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
@@ -1130,7 +1143,7 @@
       "period_stars": 1,
       "url": "https://github.com/QwenLM/Qwen3.8",
       "category": "productivity",
-      "rank": 87,
+      "rank": 88,
       "price": "free",
       "description_zh": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group."
     },
@@ -1143,22 +1156,9 @@
       "period_stars": 1,
       "url": "https://github.com/stablyai/orca",
       "category": "productivity",
-      "rank": 88,
-      "price": "free",
-      "description_zh": "Orca是与平行代理舰队合作的ADE。使用您自己的订阅运行任何编码代理。可在台式机和移动设备上提供。"
-    },
-    {
-      "name": "Danus",
-      "owner": "frenzymath",
-      "description": "Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/frenzymath/Danus",
-      "category": "productivity",
       "rank": 89,
       "price": "free",
-      "description_zh": "Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory"
+      "description_zh": "Orca是与平行代理舰队合作的ADE。使用您自己的订阅运行任何编码代理。可在台式机和移动设备上提供。"
     },
     {
       "name": "codex-provider-sync",
