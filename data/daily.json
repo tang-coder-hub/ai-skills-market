@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T02:15:40Z",
+  "updated": "2026-08-24T02:44:55Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1135,19 +1135,6 @@
       "description_zh": "Orchestrating Mathematical Reasoning Agents with Fact-Graph Memory"
     },
     {
-      "name": "Qwen3.8",
-      "owner": "QwenLM",
-      "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
-      "language": "",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/QwenLM/Qwen3.8",
-      "category": "productivity",
-      "rank": 88,
-      "price": "free",
-      "description_zh": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group."
-    },
-    {
       "name": "orca",
       "owner": "stablyai",
       "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
@@ -1156,9 +1143,22 @@
       "period_stars": 1,
       "url": "https://github.com/stablyai/orca",
       "category": "productivity",
-      "rank": 89,
+      "rank": 88,
       "price": "free",
       "description_zh": "Orca是与平行代理舰队合作的ADE。使用您自己的订阅运行任何编码代理。可在台式机和移动设备上提供。"
+    },
+    {
+      "name": "Qwen3.8",
+      "owner": "QwenLM",
+      "description": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group.",
+      "language": "",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/QwenLM/Qwen3.8",
+      "category": "productivity",
+      "rank": 89,
+      "price": "free",
+      "description_zh": "Qwen3.8 is the large language model series developed by Qwen team, Alibaba Group."
     },
     {
       "name": "codex-provider-sync",
