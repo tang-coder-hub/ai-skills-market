@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T13:10:55Z",
+  "updated": "2026-08-24T02:08:00Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -396,7 +396,7 @@
     {
       "name": "oh-my-pi",
       "owner": "can1357",
-      "description": "⌥  AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "description": "⌥ Coding agent with the IDE wired in",
       "language": "TypeScript",
       "total_stars": 45,
       "period_stars": 45,
@@ -404,7 +404,7 @@
       "category": "productivity",
       "rank": 31,
       "price": "free",
-      "description_zh": "CLARAI终端编码代理-哈希锚定编辑、优化的工具配置、STP、Python、浏览器、子代理等"
+      "description_zh": "⌥ Coding agent with the IDE wired in"
     },
     {
       "name": "t3code",
