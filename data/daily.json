@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T13:30:44Z",
+  "updated": "2026-08-25T02:01:55Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -253,7 +253,7 @@
     {
       "name": "ArcReel",
       "owner": "ArcReel",
-      "description": "AI Agent 驱动的开源视频生成工作台 — 小说→角色/场景/道具设计→剧本→分镜图→视频，跨镜头角色与场景一致 | Open-source AI video workspace powered by AI Agents, Nano Banana 2 & Veo 3.1 / Grok / Seedance / OpenAI",
+      "description": "AI Agent 驱动的开源可自部署视频工作台：将小说与剧本转为角色、场景、道具资产、分镜、视频和剪映草稿，支持跨镜头一致性、多供应商与费用追踪 | Self-hosted AI video workspace for stories, storyboards and short-form video production",
       "language": "Python",
       "total_stars": 1,
       "period_stars": 1,
@@ -261,7 +261,7 @@
       "category": "productivity",
       "rank": 20,
       "price": "free",
-      "description_zh": "AI Agent 驱动的开源视频生成工作台 -小故事|角色/场景/工具设计|书本|分镜图|视频，小丑头角色与场景一致|由AI Agents、Nano Banana 2和Veo 3.1 / Grok / Seedance / OpenAI支持的开源AI视频工作空间"
+      "description_zh": "AI Agent 驱动的开源可自部署视频工作台：将小说与剧本转为角色、场景、道具资产、分镜、视频和剪映草稿，支持跨镜头一致性、多供应商与费用追踪 | Self-hosted AI video workspace for stories, storyboards and short-form video production"
     },
     {
       "name": "SendspinZero",
@@ -316,19 +316,6 @@
       "description_zh": "收录最全、更新最快的技能Skills 商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的 416 精选技能包。所有技能已打包完成，可直接安装使用！ 该商店中自动抓取了 Github 上的所有的 Skills 项目，并按照分类、更新时间、Star 数量等标签进行整理。"
     },
     {
-      "name": "cfnew",
-      "owner": "byJoey",
-      "description": "",
-      "language": "",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/byJoey/cfnew",
-      "category": "productivity",
-      "rank": 25,
-      "price": "free",
-      "description_zh": ""
-    },
-    {
       "name": "Claude-Skills-Governance-Risk-and-Compliance",
       "owner": "Sushegaad",
       "description": "Claude Skills for Governance, Risk, & Compliance (GRC): Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, EU AI Act, ISO 42001, ISO 27701, DORA, CSRD, India's DPDPA, CMMC 2.0, NIST AI Risk, SWIFT, CCPA/CPRA, and others. Benchmark 93% (with skills) vs 79% (without skills). Updated Monthly.",
@@ -337,9 +324,22 @@
       "period_stars": 1,
       "url": "https://github.com/Sushegaad/Claude-Skills-Governance-Risk-and-Compliance",
       "category": "productivity",
-      "rank": 26,
+      "rank": 25,
       "price": "free",
       "description_zh": "Claude Skills for Governance, Risk, & Compliance (GRC): Expert-level compliance guidance for ISO 27001, SOC 2, FedRAMP, GDPR, HIPAA, NIST CSF, PCI DSS, EU AI Act, ISO 42001, ISO 27701, DORA, CSRD, India's DPDPA, CMMC 2.0, NIST AI Risk, SWIFT, CCPA/CPRA, and others. Benchmark 93% (with skills) vs 79% (without skills). Updated Monthly."
+    },
+    {
+      "name": "cfnew",
+      "owner": "byJoey",
+      "description": "",
+      "language": "",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/byJoey/cfnew",
+      "category": "productivity",
+      "rank": 26,
+      "price": "free",
+      "description_zh": ""
     },
     {
       "name": "gtm-coding-agent",
@@ -420,17 +420,17 @@
       "description_zh": "Visual LaTeX formula editor for macOS and Windows"
     },
     {
-      "name": "colleague-skill",
+      "name": "distilly",
       "owner": "titanwings",
-      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+      "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
       "language": "Python",
       "total_stars": 1,
       "period_stars": 1,
-      "url": "https://github.com/titanwings/colleague-skill",
+      "url": "https://github.com/titanwings/distilly",
       "category": "productivity",
       "rank": 33,
       "price": "free",
-      "description_zh": "将寒冷的离开变成寒冷的技能，欢乐加入数字生命1.0！将寒冷的告别转化为温暖的技能？它正在赋予重生时代。欢迎来到数字生活1.0。🫶"
+      "description_zh": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）."
     },
     {
       "name": "hyperframes",
@@ -498,19 +498,6 @@
       "description_zh": "记忆和学习的代理人。"
     },
     {
-      "name": "GreenhubToClash",
-      "owner": "daijunhaoMinecraft",
-      "description": "将Greenhub节点转换成Clash节点",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/daijunhaoMinecraft/GreenhubToClash",
-      "category": "productivity",
-      "rank": 39,
-      "price": "free",
-      "description_zh": "将Greenhub节点转换成Clash节点"
-    },
-    {
       "name": "shannon",
       "owner": "KeygraphHQ",
       "description": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production.",
@@ -519,9 +506,22 @@
       "period_stars": 1,
       "url": "https://github.com/KeygraphHQ/shannon",
       "category": "productivity",
-      "rank": 40,
+      "rank": 39,
       "price": "free",
       "description_zh": "Shannon is an AI pentester for web applications and APIs. It analyzes your source code, identifies attack vectors, and executes real exploits to prove vulnerabilities before they reach production."
+    },
+    {
+      "name": "GreenhubToClash",
+      "owner": "daijunhaoMinecraft",
+      "description": "将Greenhub节点转换成Clash节点",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/daijunhaoMinecraft/GreenhubToClash",
+      "category": "productivity",
+      "rank": 40,
+      "price": "free",
+      "description_zh": "将Greenhub节点转换成Clash节点"
     },
     {
       "name": "codex-plugin-cc",
@@ -550,19 +550,6 @@
       "description_zh": "the runtime your coding agents live on"
     },
     {
-      "name": "awesome-architecture",
-      "owner": "study8677",
-      "description": "🧭 Architecture-first system design: 26 bilingual tutorials, 25 architecture templates, and 6 end-to-end cases covering distributed systems, AI-native systems, RAG, coding Agents, and production trade-offs.",
-      "language": "Vue",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/study8677/awesome-architecture",
-      "category": "productivity",
-      "rank": 43,
-      "price": "free",
-      "description_zh": "🧭 Architecture-first system design: 26 bilingual tutorials, 25 architecture templates, and 6 end-to-end cases covering distributed systems, AI-native systems, RAG, coding Agents, and production trade-offs."
-    },
-    {
       "name": "Robotics_Tutorial",
       "owner": "Michael-Jetson",
       "description": "体系化的机器人教学文档，涵盖数学基础、C++进阶、规划控制、SLAM等",
@@ -571,9 +558,22 @@
       "period_stars": 1,
       "url": "https://github.com/Michael-Jetson/Robotics_Tutorial",
       "category": "productivity",
-      "rank": 44,
+      "rank": 43,
       "price": "free",
       "description_zh": "体系化的机器人教学文档，涵盖数学基础、C++进阶、规划控制、SLAM等"
+    },
+    {
+      "name": "awesome-architecture",
+      "owner": "study8677",
+      "description": "🧭 Architecture-first system design: 26 bilingual tutorials, 25 architecture templates, and 6 end-to-end cases covering distributed systems, AI-native systems, RAG, coding Agents, and production trade-offs.",
+      "language": "Vue",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/study8677/awesome-architecture",
+      "category": "productivity",
+      "rank": 44,
+      "price": "free",
+      "description_zh": "🧭 Architecture-first system design: 26 bilingual tutorials, 25 architecture templates, and 6 end-to-end cases covering distributed systems, AI-native systems, RAG, coding Agents, and production trade-offs."
     },
     {
       "name": "vox-director",
@@ -745,19 +745,6 @@
       "description_zh": "Run Obsidian as a self-hosted web app. Not remote desktop, an actual web app."
     },
     {
-      "name": "CozyClay",
-      "owner": "HaD0Yun",
-      "description": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
-      "language": "JavaScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/HaD0Yun/CozyClay",
-      "category": "productivity",
-      "rank": 58,
-      "price": "free",
-      "description_zh": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model."
-    },
-    {
       "name": "knowhere",
       "owner": "Ontos-AI",
       "description": "Knowhere extracts, parses, and outputs structured chunks ready for AI Agents and RAG.",
@@ -766,9 +753,22 @@
       "period_stars": 1,
       "url": "https://github.com/Ontos-AI/knowhere",
       "category": "productivity",
-      "rank": 59,
+      "rank": 58,
       "price": "free",
       "description_zh": "Knowhere extracts, parses, and outputs structured chunks ready for AI Agents and RAG."
+    },
+    {
+      "name": "CozyClay",
+      "owner": "HaD0Yun",
+      "description": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
+      "language": "JavaScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/HaD0Yun/CozyClay",
+      "category": "productivity",
+      "rank": 59,
+      "price": "free",
+      "description_zh": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model."
     },
     {
       "name": "xyops",

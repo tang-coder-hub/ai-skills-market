@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T13:31:05Z",
+  "updated": "2026-08-25T02:02:22Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -201,15 +201,15 @@
     {
       "name": "skills",
       "owner": "emilkowalski",
-      "description": "Skills for Design Engineers.",
-      "language": "",
+      "description": "Skills for Designers and Engineers.",
+      "language": "Markdown",
       "total_stars": 71,
       "period_stars": 71,
       "url": "https://github.com/emilkowalski/skills",
       "category": "design",
       "rank": 16,
       "price": "free",
-      "description_zh": "设计工程师的技能。"
+      "description_zh": "Skills for Designers and Engineers."
     },
     {
       "name": "awesome-dsh-plugin",
@@ -371,7 +371,7 @@
       "name": "ai-job-search",
       "owner": "MadsLorentzen",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "language": "TypeScript",
+      "language": "Python",
       "total_stars": 43,
       "period_stars": 43,
       "url": "https://github.com/MadsLorentzen/ai-job-search",

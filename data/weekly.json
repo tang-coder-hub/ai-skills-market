@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24T13:30:55Z",
+  "updated": "2026-08-25T02:02:09Z",
   "since": "weekly",
   "count": 100,
   "repos": [
@@ -643,15 +643,15 @@
     {
       "name": "skills",
       "owner": "emilkowalski",
-      "description": "Skills for Design Engineers.",
-      "language": "",
+      "description": "Skills for Designers and Engineers.",
+      "language": "Markdown",
       "total_stars": 10,
       "period_stars": 10,
       "url": "https://github.com/emilkowalski/skills",
       "category": "design",
       "rank": 50,
       "price": "free",
-      "description_zh": "设计工程师的技能。"
+      "description_zh": "Skills for Designers and Engineers."
     },
     {
       "name": "internet-court-skill",
@@ -774,7 +774,7 @@
       "name": "ai-job-search",
       "owner": "MadsLorentzen",
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-      "language": "TypeScript",
+      "language": "Python",
       "total_stars": 6,
       "period_stars": 6,
       "url": "https://github.com/MadsLorentzen/ai-job-search",
@@ -940,17 +940,17 @@
       "description_zh": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions."
     },
     {
-      "name": "colleague-skill",
+      "name": "distilly",
       "owner": "titanwings",
-      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+      "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
       "language": "Python",
       "total_stars": 7,
       "period_stars": 7,
-      "url": "https://github.com/titanwings/colleague-skill",
+      "url": "https://github.com/titanwings/distilly",
       "category": "productivity",
       "rank": 73,
       "price": "free",
-      "description_zh": "将寒冷的离开变成寒冷的技能，欢乐加入数字生命1.0！将寒冷的告别转化为温暖的技能？它正在赋予重生时代。欢迎来到数字生活1.0。🫶"
+      "description_zh": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）."
     },
     {
       "name": "VoiceStudio",
