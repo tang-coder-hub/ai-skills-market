@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T02:01:55Z",
+  "updated": "2026-08-25T02:11:25Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -563,19 +563,6 @@
       "description_zh": "体系化的机器人教学文档，涵盖数学基础、C++进阶、规划控制、SLAM等"
     },
     {
-      "name": "awesome-architecture",
-      "owner": "study8677",
-      "description": "🧭 Architecture-first system design: 26 bilingual tutorials, 25 architecture templates, and 6 end-to-end cases covering distributed systems, AI-native systems, RAG, coding Agents, and production trade-offs.",
-      "language": "Vue",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/study8677/awesome-architecture",
-      "category": "productivity",
-      "rank": 44,
-      "price": "free",
-      "description_zh": "🧭 Architecture-first system design: 26 bilingual tutorials, 25 architecture templates, and 6 end-to-end cases covering distributed systems, AI-native systems, RAG, coding Agents, and production trade-offs."
-    },
-    {
       "name": "vox-director",
       "owner": "Alisa0808",
       "description": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
@@ -584,9 +571,22 @@
       "period_stars": 1,
       "url": "https://github.com/Alisa0808/vox-director",
       "category": "productivity",
-      "rank": 45,
+      "rank": 44,
       "price": "free",
       "description_zh": "将一个主题变成完成的Vox风格纸质拼贴解释器/广告视频-在Atlas Cloud + ffmpeg上自动端到端。特工技能。"
+    },
+    {
+      "name": "awesome-architecture",
+      "owner": "study8677",
+      "description": "🧭 Architecture-first system design: 26 bilingual tutorials, 25 architecture templates, and 6 end-to-end cases covering distributed systems, AI-native systems, RAG, coding Agents, and production trade-offs.",
+      "language": "Vue",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/study8677/awesome-architecture",
+      "category": "productivity",
+      "rank": 45,
+      "price": "free",
+      "description_zh": "🧭 Architecture-first system design: 26 bilingual tutorials, 25 architecture templates, and 6 end-to-end cases covering distributed systems, AI-native systems, RAG, coding Agents, and production trade-offs."
     },
     {
       "name": "fluent-korean",
@@ -745,19 +745,6 @@
       "description_zh": "Run Obsidian as a self-hosted web app. Not remote desktop, an actual web app."
     },
     {
-      "name": "knowhere",
-      "owner": "Ontos-AI",
-      "description": "Knowhere extracts, parses, and outputs structured chunks ready for AI Agents and RAG.",
-      "language": "Python",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/Ontos-AI/knowhere",
-      "category": "productivity",
-      "rank": 58,
-      "price": "free",
-      "description_zh": "Knowhere extracts, parses, and outputs structured chunks ready for AI Agents and RAG."
-    },
-    {
       "name": "CozyClay",
       "owner": "HaD0Yun",
       "description": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model.",
@@ -766,9 +753,22 @@
       "period_stars": 1,
       "url": "https://github.com/HaD0Yun/CozyClay",
       "category": "productivity",
-      "rank": 59,
+      "rank": 58,
       "price": "free",
       "description_zh": "Open source previs software in the browser: block a scene, pose characters, author camera moves and cuts, then take the same shots to an AI video model."
+    },
+    {
+      "name": "knowhere",
+      "owner": "Ontos-AI",
+      "description": "Knowhere extracts, parses, and outputs structured chunks ready for AI Agents and RAG.",
+      "language": "Python",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/Ontos-AI/knowhere",
+      "category": "productivity",
+      "rank": 59,
+      "price": "free",
+      "description_zh": "Knowhere extracts, parses, and outputs structured chunks ready for AI Agents and RAG."
     },
     {
       "name": "xyops",
