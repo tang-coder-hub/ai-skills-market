@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25T13:28:41Z",
+  "updated": "2026-08-26T02:09:02Z",
   "since": "monthly",
   "count": 100,
   "repos": [
@@ -706,17 +706,17 @@
       "description_zh": "DeliverCLI是第一个也是最好的Office套件，专为人工智能代理读取、编辑和自动化Word、Excel和PowerPoint文件而构建。免费、开源、单一二进制，无需安装Office。"
     },
     {
-      "name": "dsh-web-ui",
+      "name": "dsh-web",
       "owner": "zhu1090093659",
-      "description": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+      "description": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发",
       "language": "TypeScript",
       "total_stars": 29,
       "period_stars": 29,
-      "url": "https://github.com/zhu1090093659/dsh-web-ui",
-      "category": "design",
+      "url": "https://github.com/zhu1090093659/dsh-web",
+      "category": "productivity",
       "rank": 55,
       "price": "free",
-      "description_zh": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center."
+      "description_zh": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发"
     },
     {
       "name": "nature-skills",
