@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T10:43:29Z",
+  "updated": "2026-08-27T22:29:19Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1187,19 +1187,6 @@
       "description_zh": "A NetEase Cloud Music Player for Multi-Platform, Powered With QML4J Engine."
     },
     {
-      "name": "maka-agent",
-      "owner": "maka-agent",
-      "description": "Maka — local-first AI desktop assistant",
-      "language": "TypeScript",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/maka-agent/maka-agent",
-      "category": "productivity",
-      "rank": 92,
-      "price": "free",
-      "description_zh": "Maka — local-first AI desktop assistant"
-    },
-    {
       "name": "livecontext-ce",
       "owner": "livecontext-ai",
       "description": "The AI automation platform, self-hosted. Describe the job in chat and LiveContext builds it: readable workflows, scoped AI agents, and small apps your team uses. Chat, Workflow, Agent and App on one canvas.",
@@ -1208,7 +1195,7 @@
       "period_stars": 1,
       "url": "https://github.com/livecontext-ai/livecontext-ce",
       "category": "productivity",
-      "rank": 93,
+      "rank": 92,
       "price": "free",
       "description_zh": "The AI automation platform, self-hosted. Describe the job in chat and LiveContext builds it: readable workflows, scoped AI agents, and small apps your team uses. Chat, Workflow, Agent and App on one canvas."
     },
@@ -1221,9 +1208,22 @@
       "period_stars": 1,
       "url": "https://github.com/zhishile/codex-auth-helper",
       "category": "productivity",
-      "rank": 94,
+      "rank": 93,
       "price": "free",
       "description_zh": "Codex登录助手：安全地在本地引导您的已登录 ChatGPT 会话配置，生成符合 Codex 规范的aut.json本地备份文件。"
+    },
+    {
+      "name": "maka-agent",
+      "owner": "maka-agent",
+      "description": "Maka — local-first AI desktop assistant",
+      "language": "TypeScript",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/maka-agent/maka-agent",
+      "category": "productivity",
+      "rank": 94,
+      "price": "free",
+      "description_zh": "Maka — local-first AI desktop assistant"
     },
     {
       "name": "anakin",
