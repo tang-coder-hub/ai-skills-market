@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T11:39:17Z",
+  "updated": "2026-08-28T12:21:12Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -1070,19 +1070,6 @@
       "description_zh": "A lightweight interface for accessing and integrating LLM metadata, enabling applications to seamlessly discover, query, and integrate large language model information."
     },
     {
-      "name": "cloudflare-error-page",
-      "owner": "donlon",
-      "description": "✅Browser ❌Cloudflare ✅Host — Customized Cloudflare error page generator. (unofficial)",
-      "language": "HTML",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/donlon/cloudflare-error-page",
-      "category": "productivity",
-      "rank": 83,
-      "price": "free",
-      "description_zh": "✅Browser ❌Cloudflare ✅Host — Customized Cloudflare error page generator. (unofficial)"
-    },
-    {
       "name": "compound-engineering-plugin",
       "owner": "EveryInc",
       "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
@@ -1091,9 +1078,22 @@
       "period_stars": 1,
       "url": "https://github.com/EveryInc/compound-engineering-plugin",
       "category": "engineering",
-      "rank": 84,
+      "rank": 83,
       "price": "free",
       "description_zh": "Claude Code、Codex、Cursor等官方复合工程插件"
+    },
+    {
+      "name": "cloudflare-error-page",
+      "owner": "donlon",
+      "description": "✅Browser ❌Cloudflare ✅Host — Customized Cloudflare error page generator. (unofficial)",
+      "language": "HTML",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/donlon/cloudflare-error-page",
+      "category": "productivity",
+      "rank": 84,
+      "price": "free",
+      "description_zh": "✅Browser ❌Cloudflare ✅Host — Customized Cloudflare error page generator. (unofficial)"
     },
     {
       "name": "umbriel",
@@ -1122,19 +1122,6 @@
       "description_zh": "C语言多架构版天翼校园认证客户端"
     },
     {
-      "name": "HeartRateMonitor-composeui",
-      "owner": "XiaochangXu",
-      "description": "这是一款心率监测应用，支持Android和Windows，基于蓝牙心率广播实时显示心率，支持悬浮窗、状态栏显示、触摸穿透、网络传输",
-      "language": "Kotlin",
-      "total_stars": 1,
-      "period_stars": 1,
-      "url": "https://github.com/XiaochangXu/HeartRateMonitor-composeui",
-      "category": "productivity",
-      "rank": 87,
-      "price": "free",
-      "description_zh": "这是一款心率监测应用，支持Android和Windows，基于蓝牙心率广播实时显示心率，支持悬浮窗、状态栏显示、触摸穿透、网络传输"
-    },
-    {
       "name": "multitown",
       "owner": "w1u2d3i4",
       "description": "Code-only runtime toolkit for cost-aware multi-agent organization and control",
@@ -1143,9 +1130,22 @@
       "period_stars": 1,
       "url": "https://github.com/w1u2d3i4/multitown",
       "category": "productivity",
-      "rank": 88,
+      "rank": 87,
       "price": "free",
       "description_zh": "Code-only runtime toolkit for cost-aware multi-agent organization and control"
+    },
+    {
+      "name": "HeartRateMonitor-composeui",
+      "owner": "XiaochangXu",
+      "description": "这是一款心率监测应用，支持Android和Windows，基于蓝牙心率广播实时显示心率，支持悬浮窗、状态栏显示、触摸穿透、网络传输",
+      "language": "Kotlin",
+      "total_stars": 1,
+      "period_stars": 1,
+      "url": "https://github.com/XiaochangXu/HeartRateMonitor-composeui",
+      "category": "productivity",
+      "rank": 88,
+      "price": "free",
+      "description_zh": "这是一款心率监测应用，支持Android和Windows，基于蓝牙心率广播实时显示心率，支持悬浮窗、状态栏显示、触摸穿透、网络传输"
     },
     {
       "name": "marketingskills",
