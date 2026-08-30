@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T16:50:20Z",
+  "updated": "2026-08-30T05:40:14Z",
   "since": "daily",
   "count": 100,
   "repos": [
@@ -552,15 +552,15 @@
     {
       "name": "FreeToken",
       "owner": "FlashML-org",
-      "description": "",
+      "description": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
       "language": "Python",
       "total_stars": 2,
       "period_stars": 2,
       "url": "https://github.com/FlashML-org/FreeToken",
-      "category": "productivity",
+      "category": "data",
       "rank": 43,
       "price": "free",
-      "description_zh": ""
+      "description_zh": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently."
     },
     {
       "name": "OpenKB",
